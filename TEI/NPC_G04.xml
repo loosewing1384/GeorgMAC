@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geórgicas, l. 4</title>
+        <author>Virgilio</author>
+        <editor role="translator" xml:id="NPC">
+          Norberto Pérez de Camino
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+          Editado por 
+          <persName xml:id="AUT">
+            AUTOR
+          </persName>
+          para edición electrónica
+          <date>2025</date>.
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="MACOV2ed">
+          <monogr>
+            <author>
+              Virgilio
+            </author>
+            <author role="traductor">
+              Norberto Pérez de Camino
+            </author>
+            <title xml:lang="es">
+              Las Geórgicas de Virgilio,
+              traducidas en octavas reales por
+              Don Norberto Pérez de Camino,
+              y seguidas de un 
+              Arte poética
+              original del mismo autor.
+              Ilustradas ambas con numerosas
+              y eruditas notas
+              y precedidas de un prólogo
+              escrito por el excmo. señor
+              D. Manuel Alonzo Martínez
+            </title>
+            <imprint>
+              <pubPlace>Santander (España)</pubPlace>
+              <publisher>
+                Imprenta de J. M. Martínez
+              </publisher>
+              <date>1876</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <!--  <StandOff> -->
+  <!--  <xi:include href="atributos.xml" parse="xml" />-->
+  <!--  </StandOff> --> 
+  <text xml:lang="es">
+    <body>
+      <div>
+        <pb ed="#NPCGV" n="212"/>
+        
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.281-4.294 -->
+        
+        <lg>
+          <l resp="#NPC" xml:id="jqk_mq4_q2c" source="#d1e956" corresp="281" cert="high">
+            <seg cert="high" source="#hj4_rcv_p2c #ir4_qqw_q2c">
+              Si, con todo, tu
+            </seg> 
+            <seg ana="#semd" cert="medium">
+              enjambre
+            </seg> 
+            <seg cert="high" source="#nmm_4qd_q2c">
+              muere entero,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="blm_mq4_q2c" source="#d1e959" corresp="282" cert="medium">
+            <seg ana="#sem" cert="medium" source="#m3k_crd_q2c">
+              Y viudo ves y yermo su aposento,
+            </seg>
+          <gap source="#m4v_xqd_q2c" ana="#om" orig="genus" cert="high"/>
+            </l>
+          
+          
+          <l resp="#NPC" xml:id="ojm_nq4_q2c" source="#d1e962 #d1e965" corresp="283 284" cert="low">
+            <seg ana="#sem" select="tempus et ... pandere" source="#b1p_1vy_q2c #gvt_grd_q2c #zhn_bvy_q2c" cert="low">
+              Decirte debo aquí,
+            </seg>
+            <seg ana="#semd" cert="medium" source="#sq1_yrd_q2c">
+              del ganadero
+            </seg>
+          </l>
+          
+          <l resp="#NPC" xml:id="j1y_nq4_q2c" source="#d1e962" corresp="283" cert="medium">
+            <seg ana="#add" subana="#AdjP" cert="low">
+              Que honró
+            </seg> 
+            <seg cert="high">
+              la Arcadia,
+            </seg>
+            <seg ana="#sint" cert="medium" source="#psg_p3x_q2c">
+              el memorable 
+              <choice>
+                <orig>invénto</orig>
+                <reg>invento</reg>
+              </choice>;
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="wkc_4q4_q2c" source="#d1e965" corresp="284" cert="high">
+            <seg cert="high" source="#bnw_zp5_r2c">
+              Y cómo, del
+            </seg> 
+            <seg ana="#sint" cert="high" source="#s4l_dsd_q2c">
+              cadáver de un ternero,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="qsf_4q4_q2c" source="#d1e968" corresp="285" cert="medium">
+            <gap quantity="2" ana="#om" subana="#NP" source="#gnd_j54_q2c #jfk_j54_q2c" orig="insincerus... cruor" cert="low"/> 
+            <seg cert="medium" source="#zyd_nkd_q2c">
+              <choice>
+                <orig>Vénse</orig>
+                <reg>Vense</reg>
+              </choice>
+            </seg> 
+            <seg ana="#met" cert="medium">
+              enjambres
+            </seg> 
+            <seg cert="high">
+              nacer.
+            </seg> 
+            <seg xml:id="mvz_x54_q2c" ana="#add" subana="#AdjP" synch="#mpk_1v4_q2c" cert="low" source="#kwm_lkd_q2c">
+              De este portento,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="vz3_4q4_q2c" source="#d1e971" corresp="286" cert="medium">
+            <seg ana="#sem" cert="medium" source="#esj_gld_q2c">
+              Recordando su origen y su historia,
+            </seg>
+          <gap source="#swy_mq5_r2c" ana="#om" orig="famam" cert="high"/>
+            </l>
+          
+          
+          <l resp="#NPC" xml:id="ukm_4q4_q2c" source="#d1e971" corresp="286" cert="high">
+            <seg cert="high" source="#xrn_lmf_r2c">
+              Celebrarán
+            </seg> 
+            <seg ana="#sem" cert="medium" source="#nyg_pkd_q2c">
+              mis versos la alta gloria.
+            </seg>
+          </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="wqq_4q4_q2c" source="#d1e975" corresp="287" cert="high">
+            <gap source="#szn_vrw_q2c" ana="#om" subana="#C" quantity="1" orig="nam" cert="high"/> 
+            <seg cert="high">
+              Las gentes de Canope bienhadadas,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="ikv_4q4_q2c" source="#d1e978" corresp="288" cert="medium">
+            <seg cert="high" source="#vby_2cx_q2c">
+              Que habitan entre el Nilo desbordado
+            </seg>
+            <gap quantity="1" source="#nmn_1q3_q2c" ana="#om" subana="#AdjP" orig="stagnantem" cert="low"/> 
+          <gap source="#ll3_wp3_q2c" ana="#om" orig="effuso" cert="high"/>
+            </l>
+          
+          
+          <l resp="#NPC" xml:id="rw1_pq4_q2c" source="#d1e981" corresp="289" cert="high">
+            <seg ana="#sint" cert="high" source="#srp_cq3_q2c">
+              Y hacen 
+              <choice>
+                <orig>vogar</orig>
+                <reg>bogar</reg>
+              </choice>
+              sobre él 
+            </seg> 
+            <seg cert="high">
+              naves pintadas,
+            </seg>
+          </l>
+          
+          <!--
+            290: quaque pharetratae...
+            291: et viridem...
+            292: et diversa...
+            293: usque..
+            294: omnis in hac...
+            
+            Orden de NP: 290, 291, 293, 292
+          -->
+          
+          <l resp="#NPC" xml:id="ecf_pq4_q2c" source="#d1e984" corresp="290" cert="high">
+            <seg ana="#sem" cert="high" source="#dzf_hnd_q2c">
+              Tocando
+            </seg>
+            <seg ana="#sint" cert="high" source="#vmt_ynd_q2c">
+              al Persa
+            </seg>
+            <seg ana="#sem" cert="high">
+              de 
+              <choice>
+                <orig>carcax</orig>
+                <reg>carcaj</reg>
+              </choice> 
+              armado;
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="mkk_pq4_q2c" source="#d1e987" corresp="291" cert="medium">
+            <gap quantity="3" source="#alm_rxy_q2c" orig="et viridem Aegyptum" ana="#om" subana="#NP" cert="low"/> 
+            <seg cert="medium">
+              Que ven
+            </seg> 
+            <seg cert="high">
+              por las arenas atezadas
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="inq_pq4_q2c" source="#d1e987" corresp="291" cert="high">
+            <seg cert="high">
+              De este 
+              <choice>
+                <orig>rio</orig>
+                <reg>río</reg>
+              </choice> 
+              su suelo fecundado;
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="uk5_pq4_q2c" source="#d1e1000" corresp="293" cert="low">
+            <seg ana="#sem" orig="usque coloratis amnis devexus ab Indis" source="#d1e1000" cert="low">
+              De este 
+              <choice>
+                <orig>rio</orig>
+                <reg>río</reg>
+              </choice> 
+              que 
+              <choice>
+                <orig>á</orig>
+                <reg>a</reg>
+              </choice> 
+              <choice>
+                <orig>Etiópia</orig>
+                <reg>Etiopía</reg>
+              </choice> 
+              debe el 
+              <choice>
+                <orig>dia</orig>
+                <reg>día</reg>
+              </choice>,
+            </seg>
+          <gap source="#lhh_bqd_q2c" ana="#om" orig="devexus" cert="high"/>
+            <gap source="#wrs_54d_q2c" ana="#om" orig="amnis" cert="high"/>
+            </l>
+          
+          
+          <l resp="#NPC" xml:id="sqx_pq4_q2c" source="#d1e993" corresp="292" cert="high">
+            <seg cert="high" source="#d45_bnk_q2c">
+              Y al mar por siete bocas 
+              su agua envía:
+            </seg>
+          <gap source="#myd_m4d_q2c" ana="#om" orig="ruens" cert="high"/>
+            <gap source="#r43_qcx_q2c" ana="#om" orig="ora" cert="high"/>
+            </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="pmb_qq4_q2c" source="#d1e1006" corresp="294" cert="medium">
+            <seg cert="medium" source="#s1z_qnk_q2c">
+              Todas
+            </seg> 
+            <seg cert="medium">
+              dicen de este arte la potencia.
+            </seg>
+          </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="etk_sqg_s2c" source="#d1e1009" corresp="295" cert="medium">  
+            <gap quantity="1" source="#zhr_hqg_s2c" ana="#om" subana="#AdvP" orig="primum" cert="low"/>
+            <!-- de pronto "primum" 
+              está incluido en "usus"??? -->
+            <seg ana="#sem" cert="high">
+              Toma 
+            </seg>
+            <seg cert="high">
+              estrecho lugar para este
+            </seg> 
+            <seg ana="#sem" source="#hwn_bdl_t2c" orig="usus" cert="medium">
+              intento
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="cg2_tqg_s2c" source="#d1e1012" corresp="296" cert="medium">
+            <seg cert="high">
+              Dó, só un techo
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="low">
+              que evite la inclemencia,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="z5n_tqg_s2c" source="#d1e1012" corresp="296" cert="medium">
+            <seg cert="high">
+              Angosto
+            </seg> 
+            <seg ana="#add" subana="#S" cert="low">
+              elevarás un aposento.
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="nz5_tqg_s2c" source="#d1e1015" corresp="297" cert="high">
+            <seg cert="high" source="#gc3_vzf_s2c">
+              Cuatro puertas,
+            </seg> 
+            <seg ana="#sem" cert="medium">
+              que habrán correspondencia
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="jcc_5qg_s2c" source="#d1e1015" corresp="297" cert="low">
+            <seg ana="#add" subana="#AdvP" cert="low">
+              Con los puntos dó nace el raudo viento,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="hsf_5qg_s2c" source="#d1e1015 d1e1018" corresp="297 298" cert="high">
+            <seg cert="high" source="#ekp_wxf_s2c">
+              Abrirás
+            </seg> 
+            <seg ana="#sem" cert="high">
+              en la cuádruple fachada,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="x4l_5qg_s2c" source="#d1e1018" corresp="298" cert="high">
+            <seg cert="high">
+              Y darán á la luz oblícua entrada,
+            </seg>
+          </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="kzp_5qg_s2c" source="#d1e1022" corresp="299" cert="high">
+            <gap source="#o4m_xzf_s2c" ana="#om" subana="#C" quantity="1" orig="tum" cert="high"/> 
+            <seg source="#sem" cert="high">
+              Lleva allí
+            </seg> 
+            <seg cert="high">
+              de dos años un ternero;
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="hnv_5qg_s2c" source="#d1e1022" corresp="299" cert="high">
+            <seg cert="high">
+              Ya retorcidos cuernos
+            </seg>
+            <seg ana="#sem" cert="high">
+              ostentando;
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="m1b_vqg_s2c" source="#d1e1028" corresp="301" cert="high">
+            <seg ana="#sem" cert="medium">
+              Ahógale al punto,
+            </seg> 
+            <seg cert="high">
+              aunque resista fiero,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="rkf_vqg_s2c" source="#d1e1025" corresp="300" cert="medium">
+            <seg cert="high">
+              La boca
+            </seg> 
+            <gap source="#d4s_msg_s2c" ana="#om" subana="#NP" quantity="1" orig="spiritus" cert="low"/> 
+            <seg cert="high">
+              y las narices le cerrando.
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="szl_vqg_s2c" source="#d1e1025" corresp="300" cert="low">
+            <seg ana="#add" subana="#AdvP" cert="low">
+              Cuando exhale su aliento postrimero,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="jvq_vqg_s2c" source="#d1e1031" corresp="302" cert="medium">
+            <seg cert="high">
+              Bate su piel,
+            </seg> 
+            <gap source="#h23_xsg_s2c" ana="#om" subana="#AdjP" quantity="1" orig="integram" cert="low"/> 
+            <seg ana="#sema" orig="viscera" source="#gqq_ctg_s2c" cert="medium">
+              sus carnes
+            </seg>
+            <seg cert="high">
+              macerando,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="bjv_vqg_s2c" source="#d1e1034 #d1e1037" corresp="303 304" cert="high">
+            <seg cert="high">
+              Y déjale
+            </seg> 
+            <seg ana="#sema" cert="high">
+              cubierto de verdura,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="ub1_wqg_s2c" source="#d1e1037" corresp="304" cert="high">
+            <seg cert="high" source="#dyq_z2g_s2c">
+              de casia y de tomillo en su clausura.
+            </seg>
+          </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="u3f_wqg_s2c" source="#d1e1041" corresp="305" cert="medium">
+            <seg ana="#sem" cert="high">
+              Esto harás
+            </seg>
+            <gap source="#dh4_3lb_s2c" ana="#om" subana="#AdvP" quantity="1" orig="primum" cert="low"/> 
+            <seg cert="high">
+              cuando
+            </seg>
+            <seg ana="#add" subana="#NP" cert="low">
+              el aura placentera
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="vzk_wqg_s2c" source="#d1e1041" corresp="305" cert="high">
+            <seg cert="high">
+              Del céfiro
+            </seg>
+            <seg ana="#sem" subana="#VP" cert="medium">
+              desata la corriente;
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="h44_wqg_s2c" source="#d1e1044" corresp="306" cert="high">
+            <seg cert="high">
+              Antes que brille roja la pradera,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="ujs_wqg_s2c" source="#d1e1044 d1e1047" corresp="306 307" cert="medium">
+            <seg cert="high">
+              Y que suspenda el nido
+            </seg>
+            <seg ana="#add" subana="#PP" cert="low">
+              al eminente
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="hxw_wqg_s2c" source="#d1e1047" corresp="307" cert="high">
+            <seg cert="high">
+              Techo la golondrina picotera.
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="aw1_xqg_s2c" source="#d1e1050" corresp="308" cert="low">
+            <seg ana="#add" subana="#NP" cert="low">
+              El cadáver
+            </seg>
+            <seg ana="#sem" source="#vt5_gvg_s2c" orig="interea" cert="medium">
+              al fin
+            </seg> 
+            <seg ana="#sem" orig="aestuat" source="#xz4_sgg_s2c" cert="medium">
+              fermentó 
+              ardiente
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="off_xqg_s2c" source="#d1e1031" corresp="302" cert="medium">
+            <seg cert="high">
+              Y rotas sus entrañas
+            </seg> 
+            <seg ana="#add" subana="#I" cert="low">
+              ¡oh portento!
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="ugj_xqg_s2c" source="#d1e1053 #d1e1060" corresp="309 311" cert="high">
+            <seg cert="high" source="#emz_kmb_s2c">
+              Te ofrecen 
+            </seg>
+            <seg cert="high">
+              de un enjambre el nacimiento.
+            </seg>
+          <gap source="#wwg_llg_s2c" ana="#om" orig="que magis magis" cert="high"/>
+            </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="oqn_xqg_s2c" source="#d1e1056" corresp="310" cert="medium">
+            <seg cert="high">
+              Al principio sin 
+              <choice>
+                <orig>piés</orig>
+                <reg>pies</reg>
+              </choice>
+            </seg> 
+            <seg ana="#add" subana="#AdjP" cert="low">
+              torpe
+            </seg> 
+            <seg cert="high">
+              se agita,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="fhr_xqg_s2c" source="#d1e1056" corresp="310" cert="medium">
+            <seg cert="high">
+              Mas pronto
+            </seg> 
+            <seg ana="#sem" orig="stridentia" source="#idv_nwg_s2c" cert="medium">
+              susurrante 
+            </seg>
+            <seg ana="#met" cert="high">
+              el ala 
+            </seg>
+            <seg ana="#add" subana="#VP" cert="low">
+              mueve,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="ctw_xqg_s2c" source="#d1e1056" corresp="310" cert="low">
+            <seg ana="#add" subana="#S" cert="low">
+              Cruza entre sí, sus fuerzas ejercita,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="dd1_yqg_s2c" source="#d1e1060" corresp="311" cert="high">
+            <seg ana="#sem" cert="high">
+              Y á medir el espacio al fin se atreve,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="kcf_yqg_s2c" source="#d1e1063 #d1e1066" corresp="312 313" cert="medium">
+            <gap source="#d1e1063" ana="#om" subana="#S" quantity="6" orig="donec, ut aestivis effusus nubibus imber" cert="low"/>
+            <seg ana="#add" subana="#AdjP" cert="low" source="#a41_11d_t2c">
+              Espeso
+            </seg> 
+            <seg cert="high">
+              cual los dardos que
+            </seg> 
+            <seg ana="#sem" orig="Parthi" source="#scw_myg_s2c" cert="high">
+              el Escita
+            </seg>
+            <note>
+              Falta todo el v.312.
+            </note>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="wq3_yqg_s2c" source="#d1e1069" corresp="314" cert="high">
+            <seg cert="high" source="#q3n_p4b_s2c">
+              En su primer ataque lanza leve,
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="edn_yqg_s2c" source="#d1e1063" corresp="312" cert="high">
+            <seg ana="#met" cert="high">
+              O como gotas de agua que
+            </seg>
+            <seg source="#zn1_gb3_s2c" orig="aestivis" cert="medium">
+              inflamada
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="bkr_yqg_s2c" source="#d1e1063" corresp="312" cert="medium">
+            <gap quantity="1" orig="donec" ana="#om" subana="#AdvP" cert="medium"/>
+            <seg cert="medium" ana="#sint">
+              Nube despide en lluvia desgajada.
+            </seg>
+          </l>
+        </lg>
+        
+        
+        <lg>
+          <l resp="#NPC" xml:id="n2w_pq3_s2c" source="#d1e1074" corresp="315" cert="high">
+            <seg ana="#sint" cert="high">
+              Musa, 
+            </seg>
+            <seg ana="#add" subana="#VP" cert="high">
+              <choice>
+                <orig>díme</orig>
+                <reg>dime</reg>
+              </choice> 
+            </seg>
+            <seg cert="high">
+              qué 
+            </seg>
+            <seg cert="high" ana="#sem">
+              <choice>
+                <orig>númen</orig>
+                <reg>numen</reg>
+              </choice> 
+            </seg>
+            <seg cert="high">
+              esta
+            </seg> 
+            <seg cert="medium" ana="#sem">
+              ciencia
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="f3l_4z3_s2c" source="#d1e1074" corresp="315" cert="low">
+            <seg ana="#sem" cert="low" source="#r31_lgs_v3c">
+              Al mundo reveló, 
+            </seg>
+            <seg cert="low" ana="#add" subana="#AP">
+              y á sus serenas
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="on4_4k3_s2c" source="#d1e1078" corresp="316" cert="low">
+              <seg cert="low" ana="#add" subana="#NP" source="#hhn_1hs_v3c">
+                Dichas
+              </seg>
+            <seg ana="#sem" cert="low" source="#pxx_c3s_v3c #vsw_yhs_v3c">
+              quién nos guió
+            </seg>
+            <gap quantity="1" cert="low" ana="#om" subana="#AP" source="#q4h_5gs_v3c" orig="nova"/>
+            <seg source="#vsw_yhs_v3c" ana="#sint" cert="high">
+              con su experiencia?
+            </seg>
+          </l>
+        </lg>
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.511-515 -->
+        
+        <lg>
+          <!-- . . . -->
+          <l resp="#NPC" xml:id="dlm_yzy_q2c" source="#d1e1706" corresp="511" cert="high">
+            <seg cert="high" source="#dds_sjf_p2c">
+              Tal llora
+            </seg> 
+            <gap orig="maerens" quantity="1" source="#dds_sjf_p2c" ana="#om" subana="#AdjP" cert="low"/>
+            <seg ana="#sem" cert="high">
+              el ruiseñor
+            </seg> 
+            <seg ana="#sem" cert="medium">
+              en
+            </seg>
+            <seg cert="high">
+              selva umbría
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="n2b_b1z_q2c" source="#r4f_zjf_p2c" corresp="512" cert="high">
+            <seg cert="high" source="#r4f_zjf_p2c">
+              Los perdidos hijuelos,
+            </seg>
+            <seg cert="high">
+              que del nido
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="osl_zzy_q2c" source="#d1e1709" corresp="512" cert="high">
+            <seg cert="high" source="#szr_2pf_p2c">
+              Duro 
+              <choice>
+                <orig>gañan</orig>
+                <reg>gañán</reg>
+              </choice>
+            </seg> 
+            <seg cert="high">
+              implumes
+            </seg> 
+            <seg ana="#add" subana="#AdvP" cert="medium">
+              <choice>
+                <orig>todavia</orig>
+                <reg>todavía</reg>
+              </choice>
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="nfd_11z_q2c" source="#d1e1712" corresp="513" cert="high">
+            <seg cert="high">
+              Le arrebató.
+            </seg> 
+            <seg ana="#sem" orig="sedens" source="#jl3_g4f_p2c" cert="high">
+              En la rama suspendido
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="wfj_11z_q2c" source="#d1e1715" corresp="514" cert="high">
+            <seg ana="#sem" cert="medium">
+              Canta 
+            </seg>
+            <seg cert="high">
+              la noche
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="medium">
+              entera,
+            </seg>
+            <seg ana="#sem" cert="high" source="#u3j_bpf_p2c">
+              y de su pena
+            </seg>
+          </l>
+          
+          
+          <l resp="#NPC" xml:id="gc4_11z_q2c" source="#d1e1719" corresp="515" cert="high">
+            <seg ana="#semd" orig="late loca" cert="medium" source="#uxb_ykf_p2c #prg_w4f_p2c">
+              Los montes y los valles
+            </seg> 
+            <seg ana="#sint" cert="high">
+              triste
+            </seg>
+            <seg cert="high" source="#qd2_wkf_p2c">
+              llena.
+            </seg>
+            <note>
+              V: "maestis quaestibus implet
+              (con sus tristes quejidos llena)"
+              → 
+              NP: "triste llena de su pena"
+            </note>
+          </l>
+        </lg>
+        <!-- fin fragmento  vv. 4.511-515 -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+      </div>
+    </body>
+  </text>
+</TEI>

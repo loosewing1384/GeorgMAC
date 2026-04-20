@@ -1,0 +1,7133 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geórgicas, l. 4</title>
+        <author>Virgilio</author>
+        <editor role="translator" xml:id="MAC">
+          Miguel Antonio Caro
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+          Editado por 
+          <persName xml:id="AUT">
+            AUTOR
+          </persName>
+          para edición electrónica
+          <date>2025</date>.
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="MACOV2ed">
+          <monogr>
+            <author>
+              Virgilio
+            </author>
+            <author role="traductor">
+              Miguel Antonio Caro
+            </author>
+            <title>
+              Obras de Virgilio. 
+              Traducidas en versos castellanos, 
+              con introducción y comentario crítico 
+              y explicativo por Miguel Antonio Caro
+            </title>
+            <edition>2.ª</edition>
+            <imprint>
+              <pubPlace>Bogotá</pubPlace>
+              <publisher>
+                Editorial de la Librería Voluntad
+              </publisher>
+              <date>1943</date>
+            </imprint>
+          </monogr>
+          <citedRange>pp. 160-187</citedRange>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <!--  <StandOff> -->
+  <!-- <xi:include href="atributos.xml" parse="xml" />-->
+  <!--  </StandOff> -->
+  <text xml:lang="es">
+    <body>
+      <div>
+        <pb ed="#MACOV2ed" n="160"/>
+        <head>Libro cuarto</head>
+        
+        <!--        
+          <lg n="1">
+          <l resp="#MAC" xml:id="bbs_vys_m2c">
+          De la miel
+          <seg cert="5">
+          celestial
+          </seg>
+          <seg cert="5">
+          el don divino
+          </seg>
+          </l>
+          <!-\-
+          <span target="#bbs_vys_m2c">
+          <app>
+          <lem xml:lang="lat">
+          aërii mellis caelestia dona
+          </lem>
+          <rdg>
+          de la miel del aire / etérea
+          los dones celestiales
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="mpv_21t_m2c">
+          <seg cert="5">
+          Ya me cumple
+          </seg>.
+          <seg cert="9">
+          cantar
+          </seg>.
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          Noble
+          </seg>
+          <seg cert="9">
+          Mecenas
+          </seg>,
+          </l>
+          <!-\-
+          <span target="#mpv_21t_m2c">
+          <app>
+          <lem xml:lang="lat" source="#1, 2, 5">
+          Protinus... exsequar... Maecenas... dicam
+          </lem>
+          <rdg>
+          A continuación procederé/continuaré,
+          Mecenas,... cantaré
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="zhp_s1t_m2c">
+          <seg cert="9">
+          A esta parte también
+          </seg>
+          <seg cert="5">
+          tus ojos vuelve
+          </seg>,
+          </l>
+          <!-\-
+          <span target="#zhp_s1t_m2c">
+          <app>
+          <lem xml:lang="lat" source="#2">
+          hanc etiam... aspice partem
+          </lem>
+          <rdg>
+          contempla también esta parte
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="lsv_z1t_m2c">
+          <seg cert="0" 
+          ana="#add" 
+          source="#" >Y</seg>,
+          <seg cert="5">
+          en pequeño
+          </seg>,
+          <seg cert="9">
+          espectáculos
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          grandiosos
+          </seg>
+          </l>
+          <!-\-
+          <span target="#lsv_z1t_m2c">
+          <app>
+          <lem xml:lang="lat" source="#3">
+          levium spectacula rerum
+          </lem>
+          <rdg>
+          los espectáculos de
+          las cosas livianas (sc. las abejas)
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="r25_wbt_m2c">
+          <seg cert="9">
+          Gozarán
+          </seg>:
+          <seg cert="9">
+          los magnánimos caudillos
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#r25_wbt_m2c">
+          <app>
+          <lem xml:lang="lat" 
+          corresp="3, 4">
+          admiranda tibi...
+          magnanimosque duces
+          </lem>
+          <rdg>
+          habrás de ver...
+          y a los magnánimos jefes
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="etn_1dt_m2c">
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          Las leyes
+          </seg>
+          <seg cert="9">
+          y costumbres
+          </seg>
+          <seg cert="9">
+          voy por orden
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#etn_1dt_m2c">
+          <app>
+          <lem xml:lang="lat" source="#4, 5">
+          ordine...mores
+          </lem>
+          <rdg>
+          por orden... las costumbres
+          </rdg>
+          </app>
+          <note 
+          corresp="#etn_1dt_m2c">
+          Quizás MAC vierta en dos términos
+          (leyes" y "costumbres")
+          el término latino "mores".
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="akc_qdt_m2c">
+          <seg cert="5">
+          De un pueblo entero
+          </seg>
+          <seg cert="5">
+          a describir
+          </seg>,
+          <seg cert="9">
+          sus
+          </seg>
+          <seg cert="5">tribus</seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#akc_qdt_m2c">
+          <app>
+          <lem xml:lang="lat" source="#4, 5">
+          totius...gentis...populos...dicam
+          </lem>
+          <rdg>
+          de toda una gente
+          voy a decir sus pueblos
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="s3p_22t_m2c">
+          <seg cert="9">
+          Y sus batallas
+          </seg>,
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          en el canto mío
+          </seg>.
+          </l>
+          <!-\-
+          <span 
+          corresp="#s3p_22t_m2c">
+          <app>
+          <lem xml:lang="lat" source="#5">
+          et proelia
+          </lem>
+          <rdg>
+          y sus batallas
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="rk3_m2t_m2c">
+          <seg cert="9">Pequeño asunto</seg>,
+          <seg ana="#add"
+          cert="0"
+          source="#">sí</seg>;
+          <seg cert="9">mas no pequeña</seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#rk3_m2t_m2c">
+          <app>
+          <lem xml:lang="lat" source="#6">
+          in tenui labor; at tenuis non
+          </lem>
+          <rdg>
+          labor [realizada] en lo pequeño;
+          mas no pequeña
+          </rdg>
+          </app>
+          <note 
+          corresp="#rk3_m2t_m2c">
+          El "sí" lo requiere para completar el verso.
+          Cf. Cuervo, "Apuntaciones", 407 (bis):
+          "Hola, poetilla, ¿le falta á usted una silaba
+          para completar alguno de esos que llama versos?
+          pues encaje donde pueda un "sí" ó un "no",
+          y sale del apuro;..."
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="cmg_x2t_m2c">
+          <seg cert="5" ana="#add">
+          De trabajar en él será
+          </seg>
+          <seg cert="9">la gloria</seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#cmg_x2t_m2c">
+          <app>
+          <lem xml:lang="lat" source="#6">
+          gloria
+          </lem>
+          <rdg>
+          gloria
+          </rdg>
+          </app>
+          <note 
+          corresp="#cmg_x2t_m2c">
+          "De trabajar en él será" lo sobreentiende MAC,
+          por reiteración del anterior "labor".
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="ufc_ght_m2c">
+          <seg cert="9">
+          Si númenes adversos
+          </seg>
+          <seg cert="5">
+          no lo impiden
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#ufc_ght_m2c">
+          <app>
+          <lem xml:lang="lat" source="#6-7">
+          si quem numina laeva sinunt
+          </lem>
+          <rdg>
+          si los númenes malvados
+          lo permiten
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="xt4_jht_m2c">
+          <seg cert="9">
+          E invocado
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          al cantor
+          </seg>
+          <seg cert="9">
+          atiende Apolo
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#xt4_jht_m2c">
+          <app>
+          <lem xml:lang="lat" source="#7">
+          auditque uocatus Apollo
+          </lem>
+          <rdg>
+          y Apolo invocado atiende/oye
+          </rdg>
+          </app>
+          </span>
+          -\->
+          </lg>
+          <lg n="2">
+          
+          <l resp="#MAC" xml:id="xbm_4by_m2c">
+          <seg cert="9">El asiento</seg>,
+          <seg cert="5">ante todo</seg>,
+          <seg cert="9">y la morada</seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#xbm_4by_m2c">
+          <app>
+          <lem xml:lang="lat" source="#8">
+          Principio sedes... statioque...
+          </lem>
+          <rdg>
+          En primer lugar,
+          el asiento y la residencia...
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="xb1_pby_m2c">
+          <seg cert="9">
+          Que a las abejas
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          oficioso
+          </seg>
+          <seg cert="9">
+          elijas
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#xb1_pby_m2c">
+          <app>
+          <lem xml:lang="lat" source="#8-9">
+          apibus... petenda
+          </lem>
+          <rdg>
+          para las abejas ha de buscarse
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="j1h_pby_m2c" met="7">
+          <seg cert="5">
+          Al abrigo
+          </seg>
+          <seg cert="9">
+          de vientos
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#j1h_pby_m2c">
+          <app>
+          <lem xml:lang="lat" source="#9">
+          quo neque sit uentis aditus
+          </lem>
+          <rdg>
+          en el que ni haya acceso
+          para los vientos
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="sqm_qvy_m2c">
+          <seg cert="9">Estén</seg>,
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          que con sus soplos importunos
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#sqm_qvy_m2c">
+          <app>
+          <lem xml:lang="lat" source="#9">
+          nam... uenti
+          </lem>
+          <rdg>
+          pues los vientos
+          </rdg>
+          </app>
+          <note 
+          corresp="#j1h_pby_m2c #sqm_qvy_m2c">
+          MAC vierte "nec sit aditus" como
+          "al abrigo | estén", separando la frase
+          en dos versos,
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="wv3_rdz_m2c">
+          <seg cert="9">Acarrear impiden</seg>
+          <gap source="#ebb_1fz_m2c" 
+          quantity="1"
+          orig="domum"
+          cert="0"/>
+          <seg cert="5">materiales</seg>;
+          </l>
+          <!-\-
+          <span 
+          corresp="#wv3_rdz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#9-10">
+          pabula ferre
+          <seg xml:id="ebb_1fz_m2c">domum</seg>
+          prohibent
+          </lem>
+          <rdg>
+          impiden llevar a casa los alimentos
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="rfq_jfz_m2c">
+          <seg cert="9">Allí donde</seg>
+          <seg cert="9">ni ovejas ni</seg>
+          <seg cert="5">traviesos</seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#rfq_jfz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#10">
+          [quo]... neque oves ...-que petulci
+          </lem>
+          <rdg>
+          [en donde]... ni ovejas...
+          ni embestidores/corneadores/juguetones
+          </rdg>
+          </app>
+          <note 
+          corresp="#rfq_jfz_m2c">
+          "petulcus" ("embestidores, corneadores")
+          se usa como epíteto para los cabros.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="eks_ngz_m2c">
+          <seg cert="9">Cabritos a las flores</seg>
+          <seg cert="5">hagan daño</seg>;
+          </l>
+          <!-\-
+          <span 
+          corresp="#eks_ngz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#10, 11">
+          haidi-... floribus insultent...
+          </lem>
+          <rdg>
+          los cabritos salten sobre las flores
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="idx_zgz_m2c" met="7">
+          <seg cert="9">
+          Allí do la becerra
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#idx_zgz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#11">
+          aut... bacula
+          </lem>
+          <rdg>
+          ni... la becerra
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <!-\- -\->
+          
+          <l resp="#MAC" xml:id="hdt_mhz_m2c">
+          <seg cert="9">
+          Que por el campo yerra
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#hdt_mhz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#11, 12">
+          errans... campo
+          </lem>
+          <rdg>
+          que yerra por el campo
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="gck_fjz_m2c">
+          <seg cert="9">
+          No sacuda el
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          prolífico
+          </seg>
+          <seg cert="9">
+          rocío
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#gck_fjz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#12">
+          decutiat rorem
+          </lem>
+          <rdg>
+          [ni] sacuda el rocío
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="mc5_ljz_m2c">
+          <gap source="#tn1_kkz_m2c" 
+          quantity="1"
+          orig="et"
+          cert="9"/>
+          <seg cert="9">
+          Nacientes hierbas
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          con el pie
+          </seg>
+          <seg cert="5" source="#jjp_xjz_m2c">
+          tronchando
+          </seg>.
+          </l>
+          <!-\-
+          <span 
+          corresp="#mc5_ljz_m2c">
+          <app>
+          <lem xml:lang="lat" source="#12">
+          <seg xml:id="tn1_kkz_m2c">et</seg>
+          surgentis
+          <seg xml:id="jjp_xjz_m2c">
+          atterat
+          </seg>
+          herbas
+          </lem>
+          <rdg>
+          ni destruye/desgasta
+          las hierbas nacientes
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="o1f_vm1_n2c">
+          <gap  source="#uwd_sn2_n2c" quantity="1"
+          orig="et"
+          cert="9"/>
+          <seg cert="9">
+          De
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          la miel y
+          </seg>
+          <seg cert="9">
+          sus ricos almacenes
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#o1f_vm1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#14">
+          pinguibus a stabulis
+          </lem>
+          <rdg>
+          de las ricas colmenas
+          </rdg>
+          </app>
+          <note 
+          corresp="#o1f_vm1_n2c">
+          MAC explaya el concepto de colmena
+          en los conceptos de miel y almacén.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="ibx_vm1_n2c">
+          <seg cert="9">
+          Lejos
+          </seg>
+          <seg cert="0"
+          source="#">
+          demore
+          </seg>
+          <seg cert="5">
+          el de escabrosa espalda
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#ibx_vm1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#13">
+          absint
+          <seg xml:id="uwd_sn2_n2c">et</seg>
+          squalentia terga
+          </lem>
+          <rdg>
+          y lejos estén los escamosos lomos
+          </rdg>
+          </app>
+          <note 
+          corresp="#ibx_vm1_n2c">
+          MAC ignora la sinécdoque:
+          en lugar de
+          "lejos demoren las espaldas escabrosas
+          del lagarto pintado",
+          dice
+          "lejos demore el adornado lagarto
+          de escamoso lomo".
+          Para Virg., "squalentia terga lacerti picti"
+          parece ser equivalente a
+          "lacertus tergi squalentis pictus"
+          ("el adornado lagarto de escamoso lomo").
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="k3p_wm1_n2c">
+          <seg cert="5">
+          Dibujado lagarto;
+          </seg>
+          <seg cert="5">
+          lejos anden
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#k3p_wm1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#13">
+          picti ... | lacerti
+          </lem>
+          <rdg>
+          del adornado/colorido lagarto
+          </rdg>
+          </app>
+          <note 
+          corresp="#k3p_wm1_n2c">
+          MAC reitera "lejos anden" a partir
+          del "absint" del v.13.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="o4x_wm1_n2c">
+          El
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          <sic>impio</sic>
+          </seg>
+          <seg cert="9">
+          abejaruco, y
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          los dañinos
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#o4x_wm1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#14">
+          ...meropesque...
+          </lem>
+          <rdg>
+          y los abejarucos
+          </rdg>
+          </app>
+          <note 
+          corresp="#o4x_wm1_n2c">
+          Los adjetivos negativos "impío" y "dañinos"
+          son cortesía de MAC.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="g1k_xm1_n2c">
+          <seg cert="9">
+          Pájaros
+          </seg>
+          <seg cert="5">
+          sus cognados
+          </seg>:
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          sobre todo
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#g1k_xm1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#14">
+          aliaeque uolucres | et
+          </lem>
+          <rdg>
+          y los otros pájaros | y
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="qx1_ym1_n2c">
+          <seg cert="9">
+          Procne
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          fugaz
+          </seg>,
+          <seg cert="5">
+          la que manchado
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          ostenta
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#qx1_ym1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#15">
+          et... Procne... signata
+          </lem>
+          <rdg>
+          y Procne, marcada
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="uxl_ym1_n2c">
+          <seg cert="5">
+          El pecho
+          </seg>
+          <seg cert="5">
+          con la sangre de sus manos
+          </seg>;
+          </l>
+          <!-\-
+          <span 
+          corresp="#15">
+          <app>
+          <lem xml:lang="lat" source="#15">
+          manibus... pectus... cruentis
+          </lem>
+          <rdg>
+          en su pecho con
+          sus sangrientas/cruentas manos
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="uhl_1n1_n2c">
+          <seg cert="9">
+          Que ellos
+          </seg>
+          <seg cert="5">
+          en largo espacio a la redonda
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#uhl_1n1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#16">
+          nam late
+          </lem>
+          <rdg>
+          pues a lo ancho
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="qnv_1n1_n2c">
+          <seg cert="9">
+          Hacen tala
+          </seg>
+          <seg cert="5">
+          implacable, y
+          </seg>,
+          <seg cert="9" 
+          corresp="#dbn_bzf_n2c">
+          de revuelo
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#qnv_1n1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#16">
+          omnia... vastant...-que
+          <seg xml:id="dbn_bzf_n2c">
+          volantis
+          </seg>
+          </lem>
+          <rdg>
+          devastan todas las cosas,
+          y al volar/volando
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="ybl_bn1_n2c">
+          <seg cert="9">
+          Se llevan en el pico a las
+          </seg>
+          <seg cert="5">
+          abejas
+          </seg>,
+          </l>
+          <pb ed="#MACOV2ed" n="161"/>
+          <!-\-
+          <span 
+          corresp="#ybl_bn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#16-17">
+          ipsas... | ore ferunt
+          </lem>
+          <rdg>
+          se las llevan en el pico
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="pjx_11g_n2c">
+          <seg cert="5">
+          Sabrosas presas
+          </seg>
+          <seg cert="5">
+          a
+          </seg>
+          <seg cert="0"
+          source="#">
+          inclementes
+          </seg>
+          <seg cert="9">
+          nidos
+          </seg>.
+          </l>
+          <!-\-
+          <span 
+          corresp="#pjx_11g_n2c">
+          <app>
+          <lem xml:lang="lat" source="#17">
+          dulcem nidis immitibus escam
+          </lem>
+          <rdg>
+          dulce alimento para
+          las crueles crías
+          </rdg>
+          </app>
+          <note 
+          corresp="#pjx_11g_n2c">
+          "nidus" se refiere no al nido
+          sino a las crías que viven en él.
+          Pero MAC juega con la misma figura
+          que V.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="urw_cn1_n2c">
+          <seg cert="9">
+          Haya
+          </seg>,
+          <seg cert="9">
+          eso sí
+          </seg>,
+          <seg cert="9">
+          líquidas fuentes
+          </seg>;
+          <seg cert="5">
+          haya
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#urw_cn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#18">
+          at liquidi fontes .... | adsint
+          </lem>
+          <rdg>
+          pero que haya fuentes líquidas
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="rql_dn1_n2c">
+          <gap  source="#rqm_bbg_n2c" unit="1"/>
+          <seg cert="9">
+          Remansos
+          </seg>
+          <seg cert="5">
+          con tapiz de verde
+          </seg>
+          musgo,
+          </l>
+          <!-\-
+          <span 
+          corresp="#rql_dn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#18">
+          <seg xml:id="rqm_bbg_n2c">
+          et
+          </seg> stagna uirentia musco
+          </lem>
+          <rdg>
+          y estanques reverdecientes
+          de/por el musgo
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="pb2_dbg_n2c" met="7">
+          <seg cert="9">
+          Y un arroyuelo
+          </seg>
+          <seg cert="0" source="#add">
+          puro
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#pb2_dbg_n2c">
+          <app>
+          <lem xml:lang="lat" source="#19">
+          ...et tenuis... riuus
+          </lem>
+          <rdg>
+          y un río fino/delgado
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="f1w_dn1_n2c">
+          <seg cert="9">
+          Corra
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          ledo y
+          </seg>
+          <seg cert="5">
+          sutil
+          </seg>
+          <seg cert="9">
+          entre la grama
+          </seg>;
+          </l>
+          <!-\-
+          <span 
+          corresp="#f1w_dn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#19">
+          ...fugiens per gramina
+          </lem>
+          <rdg>
+          que corra por los pastos
+          </rdg>
+          </app>
+          <note 
+          corresp="#f1w_dn1_n2c">
+          Quizás el adjetivo "sutil"
+          provenga, para MAC,
+          del "tenuis".
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="uf3_2n1_n2c">
+          <seg cert="9">
+          Y
+          </seg>
+          <seg cert="5">
+          alguna
+          </seg>
+          <seg cert="9">
+          palma
+          </seg>
+          <seg xml:id="a5g_wkt_n2c" 
+          source="#ody_1lt_n2c" 
+          cert="5">
+          o
+          </seg>
+          <seg cert="9">
+          acebuche ingente
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#uf3_2n1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#20">
+          palmaque...
+          <seg xml:id="ody_1lt_n2c">
+          aut
+          </seg>
+          ingens oleaster
+          </lem>
+          <rdg>
+          y una palma o ingente acebuche/olivo
+          </rdg>
+          </app>
+          <note 
+          corresp="#uf3_2n1_n2c">
+          MAC <ref target="#a5g_wkt_n2c">escoge</ref>
+          lectura
+          <ref target="#ody_1lt_n2c">"aut"</ref>
+          en lugar de "atque",
+          siguiendo a Conington et al.
+          Nada controversial.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="rg1_fn1_n2c">
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          Del colmenar
+          </seg>
+          <seg cert="5">
+          la frente
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#rg1_fn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#20">
+          vestibulum
+          </lem>
+          <rdg>
+          la entrada
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="gxg_qcg_n2c">
+          <seg cert="9">
+          Con la sombra proteja
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          de su rama
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#gxg_qcg_n2c">
+          <app>
+          <lem xml:lang="lat" source="#20">
+          inumbret
+          </lem>
+          <rdg>
+          sombree / cubra de sombra
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="mjs_fn1_n2c">
+          <seg cert="0"
+          source="#">
+          Porque
+          </seg>,
+          <seg cert="5">
+          llegando la estación propicia
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#mjs_fn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#21, 22">
+          ut... | vere suo
+          </lem>
+          <rdg>
+          para que, ... en su propia primavera
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="atc_gn1_n2c">
+          <seg cert="9">
+          Cuando a
+          </seg>
+          <seg cert="5">
+          nuevos
+          </seg>
+          <seg cert="9">
+          enjambres
+          nuevos reyes
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#atc_gn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#21">
+          cum prima novi... examina reges
+          </lem>
+          <rdg>
+          cuando a los primeros enjambres
+          los nuevos reyes
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="ezc_3n1_n2c">
+          <seg cert="9">
+          Guían
+          </seg>,
+          <seg cert="9">
+          y fuera del panal
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          nativo
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#ezc_3n1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#21, 22">
+          ...ducent... |
+          ...-que favis emissa
+          </lem>
+          <rdg>
+          conducen,
+          y arrojada de los panales
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="zs4_3n1_n2c">
+          <seg cert="5">
+          Ociosa gira
+          </seg>
+          <seg cert="5">
+          la novel colonia
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#zs4_3n1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#22">
+          ... ludet-...  iuuentus,
+          </lem>
+          <rdg>
+          jugará la juventud
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="omc_jn1_n2c">
+          <seg cert="9">
+          Haya allí junto una ribera
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          umbría
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#omc_jn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#23">
+          vicina... ripa
+          </lem>
+          <rdg>
+          una ribera
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="b2n_jn1_n2c">
+          <seg cert="9">
+          Que del calor a
+          descansar
+          </seg>
+          <seg cert="5">
+          les llame
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#b2n_jn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#23">
+          ...invitet decedere... calori
+          </lem>
+          <rdg>
+          las invite a alejarse del calor
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="ldd_kn1_n2c">
+          <seg cert="9">
+          Y un árbol que,
+          saliéndoles al paso,
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#ldd_kn1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#24">
+          Obviaque... arbos
+          </lem>
+          <rdg>
+          Y un árbol
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="nst_ln1_n2c">
+          Con frondoso hospedaje los detenga.
+          </l>
+          <!-\-
+          <span 
+          corresp="#nst_ln1_n2c">
+          <app>
+          <lem xml:lang="lat" source="#24">
+          <seg cert="9">
+          hospitiis teneat frondentibus
+          </seg>
+          </lem>
+          <rdg>
+          los detenga con sus
+          frondosas cobijas/albergas
+          </rdg>
+          </app>
+          </span>
+          -\->
+          </lg>
+          <lg n="3">
+          
+          <l resp="#MAC" xml:id="q4z_j5h_n2c">
+          <seg cert="9">
+          En medio
+          </seg>
+          <seg cert="9" ana="#add">
+          al agua
+          </seg>,
+          <seg cert="9">
+          ora
+          </seg>
+          <seg cert="5">
+          apacible duerma
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#q4z_j5h_n2c">
+          <app>
+          <lem xml:lang="lat" source="#25">
+          In medium,
+          seu stabit iners
+          </lem>
+          <rdg>
+          En el medio [del agua]
+          o bien estará inerte
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="vfw_45h_n2c">
+          Ora inquieta circule,
+          atravesados
+          </l>
+          <!-\-
+          <span 
+          corresp="#vfw_45h_n2c">
+          <app>
+          <lem xml:lang="lat" source="#25-26">
+          seu profluet umor,
+          transversas
+          </lem>
+          <rdg>
+          o bien fluirá la humedad/el líquido
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="d1e28427">
+          Leños de sauce pon y piedras grandes,
+          </l>
+          <!-\-
+          <span 
+          corresp="#">
+          <app>
+          <lem xml:lang="lat" source="#26">
+          
+          </lem>
+          <rdg>
+          
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="d1e28443">
+          Do puedan fatigadas las abejas</l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28446" met="7">Como en continuos puentes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28461">
+          Parar el vuelo, u a orear aborden
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28477">
+          Al sol estivo las abiertas alas,</l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28480" met="7">Si con soplo importuno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28495">
+          El euro las dispersa rezagadas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28510">
+          O en los senos las hunde de Neptuno.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28526">
+          Verde romero y sérpol oloroso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28541">
+          En torno abunden, y fragancia esparza</l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28544" met="7">Floreciente ajedrea,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28560">
+          Y de sedientas violas el plantío
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28575">
+          De larga fuente humedecer se vea.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e28582">
+          Ora las formes de enhuecados corchos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28597">
+          Ora las tejas de flexibles mimbres,</l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28600" met="7">No tengan tus colmenas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28616">
+          Sino angostas entradas; que en hibierno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28631">
+          La miel aprieta penetrante frío,</l>
+          <pb ed="#MACOV2ed" n="162"/>
+          
+          <l resp="#MAC" xml:id="d1e28636">
+          Y a su vez la derriten los calores:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28652">
+          Grave daño uno y otro a las abejas;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28667">
+          Las cuales en sus casas a porfía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28682">
+          No en vano con su goma resinosa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28698">
+          Tapan las grietas que entreabrirse miran,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28713">
+          Y con zumo de líquenes y flores
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28728">
+          Cubren los bordes, y al intento mismo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28744">
+          Glutinosa materia depositan,</l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28747" met="7">Más que la liga densa,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28762">
+          Más tenaz que la pez en Ida brota.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28777">
+          Y también (si verdad la fama dice)
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28793">
+          Muchas veces en hoyos so la tierra
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28808">
+          Cavaron las abejas sus hogares,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28823">
+          Y húbolas que se hallasen encovadas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28839">
+          En hueca peña o carcomida encina.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28842" met="7">No por eso les niegues
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28857">
+          Tu auxilio, antes con fino barro en torno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28873">
+          Los porosos cubiles baria y frota,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28888">
+          Y breve y rara hoja extiende encima.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28891" met="7">Ni en los alrededores
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28906">
+          De la poblada estancia tejos sufras,</l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28910" met="7">Ni dejes a la lumbre
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28925">
+          Cocer rojos cangrejos, ni te fíes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28940">
+          De honda laguna, ni de aquellos sitios
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28956">
+          Do el cieno exhala fétidos vapores,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28971">
+          O donde heridos los peñascos huecos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e28986">
+          Las vibraciones de la voz repiten,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29002">
+          Y los ecos suceden a los ecos.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e29008" met="7">Así que ya derriba
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29023">
+          Bajo el polo al hibierno el sol dorado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29038">
+          Y con blando esplendor despeja el cielo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29054">
+          La abeja acude al punto a monte y prado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29069">
+          El cáliz de las gayas flores liba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29084">
+          Y el curso de las aguas en su vuelo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29100">
+          Rasando va, cual ellas fugitiva:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29115">
+          De aquí la misteriosa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29130">
+          Dulzura con que a prole y nido entonces</l>
+          <pb ed="#MACOV2ed" n="163"/>
+          
+          <l resp="#MAC" xml:id="d1e29136">
+          Da favor y calor; de aquí los medios
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29151">
+          Con que ella nueva cera y firmes mieles,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29166">
+          Maravilloso artífice, fabrica.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29182">
+          Cuando saliendo ya de la colmena
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29197">
+          Lanzarse vieres a la etérea altura
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29212">
+          El ejército alado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29228">
+          Y en piélagos nadar de luz serena,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29243">
+          Y a merced de los vientos confiado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29258">
+          A manera venir de nube oscura,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29274">
+          Mira, mírale atento;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29289">
+          Siempre aguas dulces y frondosas copas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29304">
+          Las volantes abejas solicitan.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29320">
+          Tú en torno esparce del presunto asiento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29335">
+          Los perfumes que enseña la experiencia,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29350">
+          Majado toronjil, vulgar cerinto;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29366">
+          Y, música a Cibeles favorita,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29381">
+          Tímpanos suena, címbalos agita.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29396">
+          Al hojoso recinto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29412">
+          Que con tales aliños les adobas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29427">
+          A sepultarse ellas vendrán de grado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29442">
+          Cual suelen, en las íntimas alcobas.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="kzm_vlt_n2c">
+          <seg cert="9">
+          Mas si
+          </seg>
+          <seg cert="5">
+          salen
+          </seg>
+          <seg cert="9">
+          de guerra…
+          </seg>
+          <gap source="#pk3_fmt_n2c" unit="1"/>
+          <seg cert="5">
+          Muchas veces
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#kzm_vlt_n2c">
+          <app>
+          <lem xml:lang="lat" source="#67">
+          Sin autem ad pugnam exierint –
+          <seg xml:id="pk3_fmt_n2c">
+          nam
+          </seg>
+          saepe
+          </lem>
+          <rdg>
+          Pero si salieran a la lucha
+          —pues con frecuencia
+          </rdg>
+          </app>
+          <note 
+          corresp="#kzm_vlt_n2c">
+          El inciso (señalado por la raya)
+          se cierra en el v.87, aparentemente.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="k1m_wlt_n2c">
+          <seg cert="9">
+          Entre dos reyes disensión
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          ruidosa
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#k1m_wlt_n2c">
+          <app>
+          <lem xml:lang="lat" source="#67-68">
+          duobus | regibus...
+          discordia
+          </lem>
+          <rdg>
+          a/entre dos reyes | la discordia
+          </rdg>
+          </app>
+          <note 
+          corresp="#k1m_wlt_n2c">
+          Aquí V. habla de abejas reyes en lugar de
+          reinas. Conington comenta que
+          la confusión era común
+          en la antigüedad.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="add_gyt_n2c">
+          <seg cert="9">
+          Nace
+          </seg>,
+          <seg cert="0"
+          source="#">
+          y
+          </seg>
+          <seg cert="9">
+          fiero tumulto
+          </seg>;
+          <seg cert="0"
+          source="#">
+          y ya a distancia
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#add_gyt_n2c">
+          <app>
+          <lem xml:lang="lat" source="#68-9">
+          incessit... magno... motu; |
+          Continuoque
+          </lem>
+          <rdg>
+          les sucede con gran movimiento/estrépito;
+          E inmediatamente
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="qtn_qfb_42c">
+          <seg cert="5">
+          El alboroto
+          </seg>
+          <seg cert="9">
+          popular, y
+          </seg>,
+          <seg cert="5">
+          aquellos
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#qtn_qfb_42c">
+          <app>
+          <lem xml:lang="lat" source="#69">
+          animos vulgi et
+          </lem>
+          <rdg>
+          los ánimos del vulgo/pueblo
+          y
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="ydj_1gb_42c">
+          <seg cert="9">
+          Pechos
+          que laten
+          en afán de lucha
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#ydj_1gb_42c">
+          <app>
+          <lem xml:lang="lat" source="#69, 70">
+          corda... trepidantia bello
+          </lem>
+          <rdg>
+          corazones que se agitan
+          para/por la guerra
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="dcd_lgb_42c">
+          Es dado presumir;
+          que bien se escucha
+          </l>
+          <!-\-
+          <span 
+          corresp="#dcd_lgb_42c">
+          <app>
+          <lem xml:lang="lat" source="#70">
+          licet longe praesciscere
+          </lem>
+          <rdg>
+          es lícito / cabe
+          saber desde mucho antes
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="pfk_b3b_42c">
+          <gap quantity="1" source="#lt2_k3b_42c"/>
+          <seg cert="9">
+          Marcial clangor
+          </seg>
+          <gap quantity="2" source="#bgf_h3c_42c"/>
+          <seg cert="9">
+          que al
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          más
+          </seg>
+          <seg cert="9">
+          moroso excita
+          </seg>,
+          </l>
+          <!-\-
+          <span 
+          corresp="#pfk_b3b_42c">
+          <app>
+          <lem xml:lang="lat" source="#70-71">
+          <seg xml:id="lt2_k3b_42c">
+          namque
+          </seg>
+          morantis Martius
+          ille
+          <seg xml:id="bgf_h3c_42c">
+          aeris rauci
+          </seg>
+          canor increpat
+          </lem>
+          <rdg>
+          (y) (pues)
+          aquel canto marcial de ronco aire
+          excita/levanta a los que se demoran
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="tv4_43c_42c">
+          Y siéntese la voz que
+          <seg cert="0"
+          source="#">
+          a
+          </seg>
+          las trompetas
+          </l>
+          <!-\-
+          <span 
+          corresp="#tv4_43c_42c">
+          <app>
+          <lem xml:lang="lat" source="#71-72">
+          et uox |
+          auditur... tubarum
+          </lem>
+          <rdg>
+          y se oye una voz |
+          de las trompetas
+          </rdg>
+          </app>
+          <note 
+          corresp="#tv4_43c_42c">
+          Corrección de este y el siguiente verso:
+          "Y siéntese la voz
+          que imita la fragorosa resonancia
+          de las trompetas".
+          No es que la fragorosa resonancia
+          imite las trompetas.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="vmh_bjc_42c">
+          <seg cert="9">
+          La fragorosa resonancia imita
+          </seg>:
+          </l>
+          <!-\-
+          <span 
+          corresp="#vmh_bjc_42c">
+          <app>
+          <lem xml:lang="lat" source="#72">
+          fractos sonitus imitata
+          </lem>
+          <rdg>
+          que imita los sonidos rotos
+          </rdg>
+          </app>
+          <note 
+          corresp="#vmh_bjc_42c">
+          "imitata", part.pres.dep de "imitor".
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="d1e29674">
+          Ordénanse animosas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29689">
+          Tersan la pluma, el aguijón afilan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29704">
+          Y aperciben el brazo a la batalla;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29720">
+          A par del rey, cabe la regia tienda,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29735">
+          En densos escuadrones se colocan,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29750">
+          Y con gran clamoreo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29766">
+          Al enemigo ejército provocan.
+          </l>
+          <pb ed="#MACOV2ed" n="164"/>
+          
+          <l resp="#MAC" xml:id="d1e29771">
+          Luego, pues, que de hermosa primavera
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29786">
+          Gozar consiguen, y de abiertos campos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29802">
+          Las puertas dejan y la lid se traba:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29817">
+          Con el alto rumor los aires zumban,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29832">
+          Y revueltas en gruesos pelotones
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29848">
+          A tierra ciento a ciento se derrumban.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29863">
+          No más denso el granizo cae, ni tantas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29878">
+          Bellotas llueve sacudida encina.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29894">
+          Con grandes almas en pequeños cuerpos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29909">
+          Ambos jefes discurren por las haces,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29924">
+          Y, desplegadas las insignes alas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29940">
+          En no ceder se empeñan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29955">
+          Hasta que a estos tal vez, tal vez a aquellos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e29970">
+          A dar la espalda el vencedor obligue.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="c1p_clc_42c">
+          <seg cert="9">
+          <seg cert="9">
+          Tan grandes guerras
+          </seg>,
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          tan tremendas
+          </seg>
+          <seg cert="5">
+          iras
+          </seg>
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#c1p_clc_42c">
+          <app>
+          <lem xml:lang="lat" source="#86">
+          hi motus animorum atque
+          haec certamina tanta
+          </lem>
+          <rdg>
+          estos movimientos de las almas/los ánimos
+          y estos combates tan grandes
+          </rdg>
+          </app>
+          <note 
+          corresp="#c1p_clc_42c">
+          MAC le da la vuelta a los términos
+          y entiende que "tanta" cobija a ambos.
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="jlf_klc_42c" ana="#interesante">
+          <seg cert="9">
+          Acaban
+          </seg>
+          <seg ana="#add"
+          cert="0"
+          source="#">
+          en un punto
+          </seg>
+          </l>
+          <!-\-
+          <span 
+          corresp="#jlf_klc_42c">
+          <app>
+          <lem xml:lang="lat" source="#87">
+          quiescunt/quiescent
+          </lem>
+          <rdg>
+          descansarán/acabarán
+          </rdg>
+          </app>
+          <note 
+          corresp="#jlf_klc_42c">
+          MAC sigue a Conington
+          —y a otra tradición manuscrita—
+          que lee en el presente "quiescunt".
+          </note>
+          </span>
+          -\->
+          
+          <l resp="#MAC" xml:id="vzl_llc_42c">
+          <seg cert="9">
+          Si un puñado de polvo al aire
+          </seg>
+          <seg cert="5">
+          tiras
+          </seg>.
+          </l>
+          </lg>
+          <!-\-
+          <span 
+          corresp="#vzl_llc_42c">
+          <app>
+          <lem xml:lang="lat" source="#87">
+          pulveris exigui iactu compressa
+          </lem>
+          <rdg>
+          detenidos por un lanzamiento de
+          (por lanzar)
+          exiguo
+          (un puñado/poco de)
+          polvo
+          </rdg>
+          </app>
+          </span>
+          -\->
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e30064">
+          Como hayas de la liza
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30079">
+          A entrambos generales separado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30094">
+          Condena a muerte al que inferior parezca,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30110">
+          Porque ocioso no estorbe; el más castizo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30125">
+          El reino abandonado ocupe solo.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30140">
+          El mejor de los dos (pues hay dos clases)
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30156">
+          Luciente de oro y con realzadas manchas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30171">
+          Señálase también por su figura,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30186">
+          Y escamas rutilantes le hermosean:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30202">
+          Flojo aquel otro, en la inacción raído,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30217">
+          Trae inglorioso un dilatado vientre.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30232">
+          Así como los reyes son sus pueblos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30248">
+          De dos clases también: hállanse abejas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30263">
+          Astrosas, al viajero semejantes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30278">
+          Que envuelto en polvoroso torbellino
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30294">
+          Llega, y con seca boca tierra escupe
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30309">
+          Sediento; y otras hay resplandecientes,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30324">
+          De ardor bañadas, revestidas de oro,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30340">
+          Y de pintas iguales salpicadas.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30355">
+          Son estas las mejores:</l>
+          <pb ed="#MACOV2ed" n="165"/>
+          
+          <l resp="#MAC" xml:id="d1e30360">
+          Estas, llegando la sazón precisa,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30376">
+          A coger te darán sus dulces mieles,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30391">
+          Mieles no dulces solo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30406">
+          Mas también puras y a templar llamadas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30422">
+          El áspero sabor al don de Baco.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e30428">
+          Cuando repares que en dudoso vuelo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30443">
+          Enjambres se solazan por el cielo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30458">
+          Que poniendo en desprecio sus panales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30474">
+          Su hogar dejaron solitario y frío,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30489">
+          Sus veleidosos ánimos separa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30504">
+          De tan vano solaz; ni a mucha costa Lograrás separallos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30520">
+          Como arranques las alas a los reyes;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30535">
+          Que cuando ellos reposan, no hay vasallos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30550">
+          Que osen viajar por la región del viento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30566">
+          Ni enseñas arrancar del campamento.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30581">
+          Los convide a su seno un delicioso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30596">
+          Fragante huerto de pintadas flores,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30612">
+          Que Priapo, aquel dios del Helesponto,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30627">
+          A pájaros medroso y a ladrones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30642">
+          Señoree empuñando su hoz de leño.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30658">
+          El guardián señalado a estos dominios,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30673">
+          Tomillo y pinos de los montes altos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30688">
+          Traslade él propio, y en el duro empeño
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30704">
+          Las manos encallezca;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30719">
+          Cada ferace planta él mismo ponga,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30734">
+          Y con lluvia amorosa la humedezca.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e30741">
+          Yo, si próximo al fin de la faena
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30756">
+          No fuese velas recogiendo ahora,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30771">
+          Y fatigado a la vecina arena
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30787">
+          No desease ya arrimar la prora,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30802">
+          Quizá el arte diría
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30817">
+          Que opulentos jardines hermosea:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30833">
+          De Pesto los rosales cantaría
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30848">
+          Que cada un año no una vez florecen:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30863">
+          La endibia, que en las aguas se recrea</l>
+          <pb ed="#MACOV2ed" n="166"/>
+          
+          <l resp="#MAC" xml:id="d1e30869">
+          Del arroyo sedienta; del arroyo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30884">
+          Las márgenes, que de apio reverdecen;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30899">
+          El melón tortuoso que serpea
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30915">
+          En la hierba, y en orbes se dilata;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30930">
+          Ni al narciso tampoco, de tardía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30945">
+          Cabellera, en mi canto callaría;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30961">
+          Ni las varillas del flexible acanto,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30976">
+          Ni las hiedras blanquizcas, ni los mirtos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e30991">
+          Que a las riberas se aficionan tanto.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31007">
+          Bajo las altas torres de Tarento,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31022">
+          En donde rubio y espigoso llano
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31037">
+          Galesa cavernoso baña lento,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31053">
+          Haber visto recuerdo a un buen anciano.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31068">
+          Era Coricio el tal: pocas yugadas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31083">
+          De un campo cultivaba antes baldío,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31099">
+          Ni conveniente a la labor de arado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31114">
+          Ni propicio al ganado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31129">
+          Ni oportuno de vides al plantío.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31145">
+          Allí, con todo, entre espinosos setos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31160">
+          Ordenaba hortalizas en la era,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31175">
+          Y verbenas en torno cultivaba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31191">
+          Y el blanco lirio y suave adormidera.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31206">
+          El de noche a sus rústicos hogares
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31221">
+          Tornando, con manjares
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31237">
+          No comprados su mesa aderezaba;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31252">
+          Y en riquezas, ufano de las suyas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31267">
+          Emulo de los reyes se ostentaba.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31283">
+          El la rosa primera Segaba en primavera;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31298">
+          El en otoño la primera fruta;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31313">
+          Y cuando daba el aterido hibierno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31329">
+          Peso de nieve a las robustas rocas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31344">
+          Y de hielo prisiones a los ríos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31359">
+          El ya, de flores al jacinto tierno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31375">
+          Desnudando, en sus triunfos al verano
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31390">
+          Llamaba, y a los céfiros tardíos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31405">
+          El, pues, era el primero</l>
+          <pb ed="#MACOV2ed" n="167"/>
+          
+          <l resp="#MAC" xml:id="d1e31411">
+          En ver multiplicarse sus abejas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31426">
+          En precoces enjambres; el primero
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31441">
+          En coger de panales quebrantados
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31457">
+          Miel espumosa, y él quien más en tilos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31472">
+          Y muníficos pinos abundaba;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31487">
+          Y cuantas frutas en vestidas flores
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31503">
+          Cada árbol fértil suyo prometiese,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31518">
+          Tantas daba maduras en otoño.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31533">
+          Adultos olmos y el peral ya firme
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31549">
+          Y ornado de ciruelas el espino
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31564">
+          El trasplantaba en ordenadas calles,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31579">
+          Y el plátano, ya a punto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31595">
+          De dar a bebedores su ancha sombra.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31610">
+          Mas el límite impuesto a mi carrera
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31625">
+          Respetaré, y el delibado asunto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31641">
+          Dejo al que, en pos de mí, cantarle quiera</l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e31647">
+          Ea: aquellos sociables
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31662">
+          Instintos ya diré que a las abejas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31677">
+          Jove mismo infundió, y ellas llevaron
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31693">
+          En galardón, porque volado habiendo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31708">
+          En pos de los curetes, atraídas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31723">
+          De sus sonoros címbalos, criaron
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31739">
+          En la cueva dictea al rey del cielo.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31754">
+          Solas ellas habitan como hermanas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31769">
+          Estrechas casas, y comunes hijos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31785">
+          Educan, y de leyes se gobiernan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31800">
+          Perpetuas y admirables; y ellas solas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31815">
+          Patria conocen y penates fijos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31831">
+          Próvidas venidero hibierno otean
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31846">
+          Y en estivos trabajos se ejercitan,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31861">
+          Y cuantas provisiones acarrean
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31877">
+          En comunal acervo depositan.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31892">
+          Mirar por el sustento deben unas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31907">
+          Y por pactado acuerdo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31923">
+          En la campiña vagarosas labran;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31938">
+          Otras en lo interior de sus mansiones
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31953">
+          Lágrimas ponen que Narciso llora,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31969">
+          Y de cortezas pegajoso gluten,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31984">
+          Por primer fundamento a sus panales;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e31999">
+          Y la cera tenaz suspenden luego.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32015">
+          Otras nuevos enjambres acaudillan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32030">
+          Que de la casta la esperanza encierran;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32045">
+          Otras apuran suave miel, y al cabo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32061">
+          Líquido néctar las celdillas colma.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32076">
+          Las hay también a quienes toca en suerte
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32091">
+          La guarda de las puertas, y por turnos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32107">
+          Augures de la lluvia, contemplando
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32122">
+          Se están las nubes y el mudable cielo.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32137">
+          Y o bien salen de paz, la carga ajena
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32153">
+          A recibir ufanas, o en batalla
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32168">
+          Cierran, y del castillo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32183">
+          Los zánganos arrojan, vil canalla;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32199">
+          Toda en tanto es calor la útil faena,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32214">
+          Y la aromosa miel huele a tomillo.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32229">
+          Y así como de masas maleables
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32245">
+          Forjan rayos los cíclopes desnudos:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32260">
+          No hay tregua: cuáles de ellos dan tormento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32275">
+          Al fuelle soplador de piel taurina,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32291">
+          Aire absorbiendo y arrojando; cuáles
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32306">
+          Zabullen en el agua convecina
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32321">
+          Con estridor fogoso los metales;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32337">
+          Con los heridos yunques Etna gime;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32352">
+          Ellos con fuerza el brazo alzando, iguales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32367">
+          Alternos golpes dan; tenaza emplean
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32383">
+          Mordaz, y el hierro sin cesar voltean:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32398">
+          Así también (si comparar es dado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32413">
+          Con una cosa grande otra pequeña)
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32429">
+          Mueve a los doctos áticos insectos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32444">
+          Nativo anhelo de adquirir, que empeña
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32459">
+          A cada uno en su oficio. La custodia
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32475">
+          De la ciudad, y el guarnecer panales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32490">
+          Y el fabricar artificiosos techos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32505">
+          A las ancianas de la tribu toca:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32521">
+          Las abejas más jóvenes en tanto</l>
+          <pb ed="#MACOV2ed" n="169"/>
+          
+          <l resp="#MAC" xml:id="d1e32526">
+          Vuelven, ya muy de noche, a sus moradas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32541">
+          Las alas fatigadas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32557">
+          Llenos los pies de néctares y aromas.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32572">
+          Madroño y casia en su volar ligero
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32587">
+          Girando pacen, el jugoso tilo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32603">
+          El purpúreo zafrán, el sauce cano,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32618">
+          Los cárdenos jacintos y el romero.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32633">
+          Es para todas ellas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32649">
+          Uno el descanso y el trabajo es uno:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32664">
+          Con el albor primero matutino
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32679">
+          Las puertas dejan; no hay tardanza; y cuando
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32695">
+          De la tarde el lucero Que del pasto descansen les intima,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32710">
+          El vuelo tornan a los patrios techos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32725">
+          Concordes, y sus cuerpos refocilan:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32741">
+          En torno al colmenar primero oscilan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32756">
+          Zumbando, y a las puertas se arrebozan;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32771">
+          Mas luego acomodándose en sus lechos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32787">
+          Hacen silencio, y dan los cuerpos lasos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32802">
+          A aquel cierto sopor de que ellas gozan.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32817">
+          Cuando lluvias amagan, no se atreven
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32833">
+          A alongarse; y del cielo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32848">
+          Si los euros asoman, desconfían,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32863">
+          Y las alas no explayan;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32879">
+          Mas al pie se guarecen de sus muros,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32894">
+          Y allí seguras beben,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32909">
+          Y breves excursiones solo ensayan.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32925">
+          También toman a veces pedrezuelas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32940">
+          Como lastre el bajel que la onda azota,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32955">
+          Y entre nieblas, con ellas, por el cielo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32971">
+          Equilibran el vuelo.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e32986">
+          ¿Y a quién admiración no dan aquellas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33001">
+          Castas costumbres? No el amor les place;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33017">
+          Jamás se dieron a enervante enlace,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33032">
+          Ni conocen del parto los dolores;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33047">
+          Mas ellas sus hijuelos con la boca
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33063">
+          En hierbas delicadas</l>
+          <pb ed="#MACOV2ed" n="170"/>
+          
+          <l resp="#MAC" xml:id="d1e33068">
+          Y en los pétalos toman de las flores;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33083">
+          Y así rey y quirites pequeñuelos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33099">
+          Renovar les es dado, y sus moradas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33114">
+          Y su ciudad reconstruír de cera.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33129">
+          Las leves alas contra dura roca
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33145">
+          Rompe a las veces una audaz viajera,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33160">
+          Y al peso de la carga ya rendida
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33175">
+          Da gustosa la vida;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33191">
+          Que tanto de las flores el cariño
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33206">
+          En ellas puede, y tanto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33221">
+          De fabricar su miel la dulce gloria!
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33237">
+          Es su existencia breve,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33252">
+          Siete veranos a lo sumo alcanza;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33267">
+          Mas su linaje permanece eterno:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33283">
+          En dilatados años persevera
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33298">
+          La gloria del solar, y la familia
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33313">
+          Por abuelos de abuelos se numera.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33329">
+          No Egipto, no las párticas regiones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33344">
+          No el medo Hidaspes, no la ingente Lidia,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33359">
+          Como ellas a sus reyes tanto acatan:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33375">
+          Todo es paz, vivo el rey, todo concordia;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33390">
+          Faltando el rey, ellas sus pactos rompen,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33405">
+          La acumulada miel meten a saco,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33421">
+          Y las tejidas tiendas desbaratan.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33436">
+          El monarca dirige los trabajos:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33451">
+          El es reverenciado; de él en torno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33467">
+          Los súbditos se agrupan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33482">
+          En densas filas con rumor confuso;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33497">
+          Y alzándole en sus hombros muchas veces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33513">
+          Por él ponen el pecho a adversos tiros
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33528">
+          Y honrosa muerte entre los golpes buscan.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e33534">
+          Muchos, tales acciones contemplando,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33549">
+          Que una porción de espíritu divino
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33564">
+          Reside en las abejas indujeron,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33580">
+          Bien como efluvios de la etérea esencia;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33595">
+          Pues dios, arguyen, lo penetra todo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33610">
+          Tierras, y mares, y el profundo cielo;</l>
+          <pb ed="#MACOV2ed" n="171"/>
+          
+          <l resp="#MAC" xml:id="d1e33616">
+          Y de él hombres y brutos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33631">
+          Y cuantas fieras por los montes vagan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33646">
+          Reciben, al nacer, la tenue vida;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33662">
+          Y a él las cosas en fin se restituyen
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33677">
+          Cuando en sus primitivos elementos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33692">
+          Se descomponen; y lugar no queda
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33708">
+          A la aniquilación; antes vivientes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33723">
+          Vuelan las almas a tornarse en astros
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33738">
+          Y en el fondo del cielo se colocan.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e33744">
+          Cuando angostos depósitos abriendo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33759">
+          A sacar te apercibas La atesorada miel de tus colmenas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33774">
+          Rociándote primero
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33790">
+          Con agua, agua en la boca vuelve, y lleva
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33805">
+          En la mano delante humos hostiles.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33820">
+          Dos veces en el año Hay sazonada miel, y dos los tiempos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33836">
+          Son de hacer su cosecha: cuando asoma La pléyada
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33851">
+          Taigete su faz pura Y con pie desdeñoso el seno hiere
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33866">
+          Del líquido oceano; y cuando, huyendo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33882">
+          De la constelación del Pece acuoso,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33897">
+          Del cielo, triste ninfa,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33912">
+          Cae ella a hundirse en hibernales ondas.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33928">
+          Ofendidas, en cólera se encienden
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33943">
+          Fiera; en las mordeduras inoculan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33958">
+          Veneno, y aferrándose a las carnes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33974">
+          Clavados dejan invisibles dardos;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e33989">
+          Y así el arma y la vida
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34004">
+          Pierden furiosas en la misma herida.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34020">
+          Mas si tú, previsor y compasivo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34035">
+          Auguras temeroso un recio hibierno,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34050">
+          Y a ti y a ellas mirando, te condueles
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34066">
+          De su futuro miserable estado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34081">
+          Que tristeza será todo y ruïna,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34096">
+          No por eso te arredres
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34112">
+          De sahumar con tomillo sus mansiones</l>
+          <pb ed="#MACOV2ed" n="172"/>
+          
+          <l resp="#MAC" xml:id="d1e34117">
+          Y cercenarles la superflua cera.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34132">
+          Así favor les das; que a los panales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34148">
+          Calar suele el lagarto escurridizo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34163">
+          Y en densa muchedumbre
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34178">
+          Medrosas de la luz las cucarachas;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34194">
+          Y el zángano holgazán, que el pasto ajeno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34209">
+          Gasta, mientras el tábano esforzado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34224">
+          Combates da con superiores armas;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34240">
+          También, perversa casta, las polillas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34255">
+          Hacen a sordas pavoroso estrago;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34270">
+          Y vista fue mil veces ya la astuta
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34286">
+          Araña, de Minerva aborrecida,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34301">
+          A las puertas colgar sus flojas redes.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34316">
+          Más laboriosas mientras más les falte,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34332">
+          En reparar se empeñan las abejas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34347">
+          De su afligido pueblo las ruinas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34362">
+          Y a henchir sus aposentos se apresuran
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34378">
+          Y sus paneras a tejer de flores.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e34384">
+          Que si en triste dolencia desfallecen,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34399">
+          —Pues las mismas miserias que a nosotros,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34414">
+          A los insectos, por haber nacido,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34430">
+          Afligen— ni los signos son dudosos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34445">
+          Que en las abejas el contagio anuncian:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34460">
+          Múdase luego la color; en ellas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34476">
+          Hórrido vese y macilento aspecto;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34491">
+          Sacando a las difuntas del recinto,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34506">
+          En triste funeral las acompañan:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34522">
+          Unas, pendientes al umbral, se miran
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34537">
+          Enredadas de pies; otras adentro
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34552">
+          Se esconden, con el hambre acobardadas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34568">
+          Y entumecidas del rigor del frío.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34583">
+          Hueco y cascado son, largo susurro
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34598">
+          Forman, a la manera
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34614">
+          Que solloza en las selvas austro helado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34629">
+          O como el mar con refluyentes ondas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34644">
+          Agitado se queja, o como gime
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34660">
+          Hirviendo el fuego en los cerrados hornos:</l>
+          <pb ed="#MACOV2ed" n="173"/>
+          
+          <l resp="#MAC" xml:id="d1e34665">
+          Tú, pues, en casos tales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34680">
+          Las colmenas con gálbano sahuma,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34696">
+          Y miel en canalejas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34711">
+          De caña introduciendo a las dolientes,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34726">
+          Con cariñosa voz, con ruego instante
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34742">
+          Al conocido pasto las convida.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34757">
+          Y es bien que con la miel el zumo mezcles
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34772">
+          De majadas agallas, rosas secas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34788">
+          Mosto mermado asaz a fuego lento,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34803">
+          Y de la psitia vid pasos racimos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34818">
+          Y tomillo salsero, y la centáurea
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34834">
+          Rica en vivos olores.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34849">
+          En los prados Hay también una flor a quien de amelo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34864">
+          La agricultora gente impuso el nombre:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34880">
+          Planta es que a quien la busca obvia se brinda,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34895">
+          Pues tallos brota de una sola cepa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34910">
+          En profusa abundancia; de oro el disco
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34926">
+          Tiene, mas en los pétalos que en torno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34941">
+          En larga copia esparce,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34956">
+          A vueltas del negror de la viola
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34972">
+          El brillo de la púrpura reluce:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e34987">
+          En festones tejida ella a menudo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35002">
+          Dio a los sacros altares ornamento:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35018">
+          Ingrato es su sabor: cogerla suelen
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35033">
+          En afeitados valles los pastores
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35048">
+          Mientras guían su grey, y en las orillas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35064">
+          Corvas abunda del humilde Mela.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35079">
+          Tú en vino generoso sus raíces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35094">
+          Cuece, y de ello colmados canastillos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35110">
+          Cual pasto salutífero a las puertas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35125">
+          De la familia mísera coloca.
+          </l>
+          </lg>
+        -->
+        
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.281-4.294 -->
+        <lg>
+          <l resp="#MAC" xml:id="lgp_ckr_42c" source="#d1e956" corresp="281" cert="high">
+            <gap source="#hj4_rcv_p2c" quantity="1" ana="#om" subana="#C" orig="Sed" cert="high"/> 
+            <seg ana="#sint" cert="medium" source="#nmm_4qd_q2c">
+              Quien viere que 
+            </seg>
+            <seg cert="high" source="#ir4_qqw_q2c">
+              de súbito ss
+              se extinguen
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="mpc_2kr_42c" source="#d1e956 #d1e959" corresp="282" cert="medium">
+            <seg xml:id="aby_2gv_p2c" ana="#semd" source="#ir4_qqw_q2c" orig="proles" cert="medium">
+              Sus enjambres,
+            </seg> 
+            <seg ana="#sem" cert="medium" source="#m4v_xqd_q2c">
+              y estirpe no le queda
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35161" source="#d1e959 #d1e962" corresp="282 283" cert="low">
+            <seg cert="medium" source="#m3k_crd_q2c">
+              Que el linaje restaure,
+            </seg>
+            <seg ana="#add" subana="#VP" cert="low" source="#gvt_grd_q2c">
+              oiga y admire
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35177" source="#d1e962" corresp="283" cert="high">
+            <seg cert="high" source="#b1p_1vy_q2c">
+              Del
+            </seg>
+            <seg ana="#sem" cert="medium" source="#psg_p3x_q2c">
+              mayoral
+            </seg>
+            <seg cert="high">
+              de Arcadia
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35192" source="#d1e962 #d1e965" corresp="283 284" cert="high">
+            <seg ana="#sint" cert="high" source="#zhn_bvy_q2c">
+              La invención memorable;
+            </seg> 
+            <seg ana="#sem #rep" cert="medium">
+              oiga
+            </seg>
+            <seg cert="high" source="#sq1_yrd_q2c">
+              los medios
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35207" source="#d1e965" corresp="283" cert="high">
+            <seg cert="high" source="#bnw_zp5_r2c">
+              Por donde
+            </seg> 
+            <seg ana="#sem" cert="medium">
+              tantas veces
+            </seg>
+          </l>
+          
+          <pb ed="#MACOV2ed" n="174"/>
+          
+          <l resp="#MAC" xml:id="d1e35213" source="#d1e968" corresp="285" cert="high">
+            <seg cert="high" source="#gnd_j54_q2c #jfk_j54_q2c">
+              Abejas dio la corrompida sangre
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="lpw_mtc_42c" source="#d1e965 #d1e971" corresp="284 286" cert="high">
+            <seg cert="high" source="#s4l_dsd_q2c">
+              De
+            </seg> 
+            <seg ana="#sint #sem" cert="medium">
+              una inmolada res.
+            </seg>
+            <seg ana="#sem" source="#esj_gld_q2c #nyg_pkd_q2c" cert="high">
+              Desde un principio
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="t42_tsc_42c" source="#d1e971" corresp="286" cert="low">
+            <gap quantity="1" ana="#om" subana="#DP" source="#kwm_lkd_q2c" orig="omnem" cert="low"/> 
+            <seg ana="#sem" cert="medium" source="#swy_mq5_r2c #xrn_lmf_r2c">
+              La historia, 
+              cual la fama la susurra,
+            </seg>
+            <note>
+              MAC traduce "expediam... repetens... famam"
+              ("narraré, volviendo [a ella], la fama/historia")
+              verbosamente así:
+              "enseñaré en mi canto
+              la historia/leyenda,
+              cual la fama la susurra".
+            </note>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="jb2_lrc_42c" source="#d1e971 #d1e975" corresp="286 287" cert="medium">
+            <seg ana="#sem" cert="medium" source="#zyd_nkd_q2c">
+              Enseñaré
+            </seg> 
+            <seg ana="#add" subana="#PP" cert="low">
+              en mi canto.
+            </seg>
+            <gap source="#szn_vrw_q2c" quantity="1" ana="#om" subana="#C" orig="Nam" cert="high"/>
+            <seg ana="#add" subana="#AdvP" cert="low">
+              Allá en comarcas
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="jzq_lrc_42c" source="#d1e975" corresp="287" cert="high">
+            <seg cert="high">
+              Do la felice gente de Canopo
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="odd_g5c_42c" source="#d1e975 #d1e978" corresp="287 288" cert="medium">
+            <seg ana="#sem" cert="medium">
+              (Ciudad de origen
+            </seg>
+            <seg ana="#sem" cert="high">
+              macedón)
+            </seg>
+            <seg ana="#sem" source="#vby_2cx_q2c" orig="accolit" cert="low">
+              cultiva
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="tg3_l5c_42c" source="#d1e978" corresp="288" cert="high">
+            <seg cert="high" source="#ll3_wp3_q2c #nmn_1q3_q2c">
+              Campos que cubre derramado el Nilo,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="yn3_bfd_42c" source="#d1e981" corresp="289" cert="high">
+            <seg cert="high" source="#srp_cq3_q2c">
+              Y en torno de sus predios
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="nwk_wfd_42c" source="#d1e981" corresp="289" cert="high">
+            <seg ana="#met" cert="medium">
+              El remo boga
+            </seg>
+            <seg cert="high">
+              en pintorescas barcas;
+            </seg>
+          </l>
+          
+          
+          <!--
+            291: et viridem...
+            292: et diversa...
+            293: usque..
+            
+            Orden de MAC: 290, 291, 292, 293, 294
+          -->
+          
+          <l resp="#MAC" xml:id="lnz_wfd_42c" source="#d1e984" corresp="290" cert="high">
+            <gap ana="#om" subana="#C" source="#dzf_hnd_q2c" quantity="1" orig="et" cert="high"/> 
+            <seg cert="high">
+              Allá donde
+            </seg>
+            <seg xml:id="wj3_lnd_q2c" ana="#sem" next="#clc_mnd_q2c" cert="high" source="#vmt_ynd_q2c">
+              zozobras
+            </seg>
+            <seg ana="#sem" cert="high">
+              los confines
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="qwh_pgd_42c" source="#d1e984 #d1e987" corresp="290 291" cert="high">
+            <seg xml:id="clc_mnd_q2c" ana="#sem" prev="#wj3_lnd_q2c" cert="high">
+              Causan
+            </seg>
+            <seg cert="high">
+              de la flechera Persia,
+            </seg>
+            <seg ana="#rep" cert="medium">
+              y donde
+            </seg>
+            <note>
+              MAC: "zozobras... causan" ← V: "urget".
+            </note>
+          </l>
+          
+          
+          
+          <l resp="#MAC" xml:id="vzs_xgd_42c" source="#d1e987" corresp="291" cert="high">
+            <seg cert="high" source="#alm_rxy_q2c">
+              Al verde Egipto con su
+              limo negro
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="vqk_xsd_42c" source="#d1e987 #d1e993" corresp="291 292" cert="high">
+            <seg cert="high">
+              Fertiliza, y
+            </seg> 
+            <seg source="#myd_m4d_q2c" cert="high">
+              brotando
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="ols_wrh_42c" source="#d1e993 #d1e1000" corresp="292 293" cert="high">
+            <seg cert="high" source="#d45_bnk_q2c">
+              En siete
+            </seg> 
+            <seg ana="#met" source="#r43_qcx_q2c" cert="medium">
+              brazos 
+            </seg>
+            <seg ana="#sem" cert="high" source="#myd_m4d_q2c">
+              se divide
+            </seg>
+            <seg source="#wrs_54d_q2c" cert="high">
+              el río
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="mkd_dsh_42c" source="#d1e1000" corresp="293" cert="medium">
+            <seg cert="high">
+              Que entre los prietos 
+            </seg>
+            <seg ana="#sem" cert="medium">
+              etiopes
+            </seg>
+            <seg ana="#sem" source="#lhh_bqd_q2c" orig="devexus" cert="low">
+              nace,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="rrm_jsh_42c" source="#d1e1006" corresp="294" cert="medium">
+            <seg cert="high" source="#s1z_qnk_q2c">
+              Toda
+            </seg>
+            <seg cert="medium">
+              aquella
+            </seg>
+            <seg cert="high">
+              región,
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="low">
+              que abejas cría,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="fng_mnl_42c" source="#d1e1006" corresp="294" cert="high">
+            <seg cert="high">
+              Ha cifrado en esta arte
+            </seg>
+            <seg ana="#sem" orig="certam... salutem" cert="medium">
+              su esperanza.
+            </seg>
+          </l>   
+        </lg>
+        
+        
+        <lg>  
+          <l resp="#MAC" xml:id="d1e35562" source="#d1e1009" corresp="295" cert="high">
+            <seg cert="high" source="#zhr_hqg_s2c">
+              Pequeño, y
+            </seg> 
+            <seg ana="#sem" cert="high" source="#hwn_bdl_t2c">
+              al intento 
+            </seg>
+            <seg cert="high">
+              acomodado,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35577" source="#d1e1012" corresp="296" cert="high">
+            <seg cert="high">
+              Lugar
+            </seg> 
+            <seg ana="#sint" cert="high">
+              eligen:
+            </seg>
+            <seg ana="#sint" cert="medium">
+              a 
+            </seg>
+            <seg cert="high">
+              tinglado angosto
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35592" source="#d1e1012 #d1e1015" corresp="296 297" cert="high">
+            <seg cert="high" source="#gc3_vzf_s2c">
+              Y tabiques estrechos le
+            </seg> 
+            <seg ana="#sem" cert="high">
+              reducen:
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35608" source="#d1e1015 d1e1018" corresp="297 298" cert="high">
+            <seg cert="high" source="#ekp_wxf_s2c">
+              Cuatro ventanas a los cuatro vientos
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35623" source="#d1e1015 d1e1018" corresp="297 298" cert="medium">
+            <seg cert="high">
+              En ellos abren,
+            </seg> 
+            <seg ana="#add" subana="#AdjP" cert="low">
+              que del sol reciban
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35638" source="#d1e1018" corresp="298" cert="medium">
+            <seg cert="high">
+              En rayo oblicuo
+            </seg> 
+            <seg ana="#add" subana="#AdjP" cert="low">
+              claridad menguada.
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35654" source="#d1e1022" corresp="299" cert="high">
+            <seg cert="high" source="#o4m_xzf_s2c">
+              Entonces un novillo
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35669" source="#d1e1022 #d1e1025" corresp="299 300" cert="high">
+            <seg ana="#sem #sint" cert="high">
+              Traen
+            </seg> 
+            <seg cert="high">
+              en cuya frente
+            </seg> 
+            <seg ana="#sint #met" cert="medium">
+              de dos años
+            </seg>
+            <note>
+              La frente no es de dos años
+              sino los cuernos.
+            </note>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35684" source="#d1e1022" corresp="299" cert="medium">
+            <seg ana="#add" subana="#S" cert="low">
+              Ya el asta asome y ya
+            </seg> 
+            <seg cert="high">
+              a encorvarse empiece.
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35700" source="#d1e1025" corresp="300" cert="high">
+            <seg cert="high" source="#d4s_msg_s2c">
+              Tápanle ambas narices, y el aliento
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35715" source="#d1e1025 #d1e1028" corresp="300 301" cert="medium">
+            <seg ana="#add" subana="#VP" cert="medium">
+              Ahóganle
+            </seg> 
+            <seg cert="high">
+              en la boca
+            </seg> 
+            <seg ana="#sem" cert="medium">
+              a viva fuerza;
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35730" source="#d1e1028" corresp="301" cert="low">
+            <seg ana="#add" subana="#S" cert="low" source="#h23_xsg_s2c">
+              Le oprimen; 
+              carne y huesos todo junto
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35746" source="#d1e1031" corresp="302" cert="high">
+            <seg cert="high" source="#gqq_ctg_s2c">
+              Sin llagarle la piel muélenle a golpes,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35761" source="#d1e1034" corresp="303" cert="medium">
+            <seg cert="high">
+              Y en la cerrada
+            </seg> 
+            <seg ana="#add" subana="#NP" cert="low">
+              cámara 
+            </seg>
+            <seg cert="high">
+              le dejan
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35776" source="#d1e1034 d1e1037" corresp="303 304" cert="high">
+            <seg ana="#met" cert="high">
+              Tendido en lecho de cortadas ramas,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35792" source="#d1e1037" corresp="304" cert="high">
+            <seg cert="high" source="#dyq_z2g_s2c">
+              Frescas
+            </seg>
+            <seg ana="#rep" cert="high">
+              ramas
+            </seg>
+            <seg cert="high">
+              de casia y de tomillo.
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35807" source="#d1e1041" corresp="305" cert="high">
+            <seg cert="high">
+              Tal hacen cuando céfiros
+            </seg> 
+            <seg ana="#sem" source="#dh4_3lb_s2c" orig="primum" cert="medium">
+              tempranos
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35822" source="#d1e1041 #d1e1044" corresp="305 306" cert="high">
+            <seg cert="high">
+              Comienzan a rizar las ondas, antes
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35838" source="#d1e1044" corresp="306" cert="high">
+            <seg cert="high">
+              Que de nuevos matices se arrebolen
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35853" source="#d1e1044" corresp="306 306" cert="high">
+            <seg cert="high">
+              Los prados; antes que a los
+            </seg>
+            <seg ana="#met" cert="high">
+              techos 
+            </seg>
+            <seg cert="high">
+              cuelgue
+            </seg>
+          </l>
+          
+          <pb ed="#MACOV2ed" n="175"/>
+          
+          <l resp="#MAC" xml:id="d1e35858" source="#d1e1047" corresp="307" cert="medium">
+            <seg cert="high">
+              Parlera golondrina el 
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="low">
+              dulce 
+            </seg>
+            <seg cert="high">
+              nido.
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35874" source="#d1e1050" corresp="308" cert="high">
+            <seg ana="#sem" source="#xz4_sgg_s2c" orig="aestuat" cert="medium">
+              Fermenta
+            </seg> 
+            <seg cert="high" source="#vt5_gvg_s2c">
+              en tanto en los
+            </seg>
+            <seg ana="#sem" cert="high">
+              deshechos 
+            </seg>
+            <seg cert="high">
+              huesos
+            </seg>
+            <note>
+              Ojo con el "aestuat".
+            </note>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35889" source="#d1e1050 #d1e1053" corresp="308 309" cert="medium">
+            <seg cert="high">
+              Cálido humor,
+              y en 
+            </seg> 
+            <seg ana="#sem" source="#emz_kmb_s2c" orig="miris" cert="low">
+              peregrino
+            </seg> 
+            <seg cert="high">
+              modo
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35904" source="#d1e1053 d1e1060#" corresp="309 311" cert="high">
+            <seg cert="high">
+              Enjámbranse animales, que primero
+            </seg>
+            <note>
+              "Enjámbranse" (miscentur) está en el v.311.
+            </note>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35920" source="#d1e1056" corresp="310" cert="high">
+            <seg cert="high">
+              Faltos de pies, 
+            </seg>
+            <seg ana="#met" cert="high" source="#idv_nwg_s2c">
+              de alas
+            </seg>
+            <seg cert="high">
+              después 
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="low">
+              vestidos,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35935" source="#d1e1056" corresp="310" cert="high">
+            <seg cert="high">
+              De zumbadoras
+            </seg>
+            <seg ana="#met #rep" cert="high">
+              alas 
+            </seg>
+            <seg ana="#sint" cert="high">
+              que en
+            </seg> 
+            <seg cert="high">
+              las leves
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35950" source="#d1e1060" corresp="311" cert="high">
+            <seg cert="high" source="#wwg_llg_s2c">
+              Auras
+            </seg> 
+            <seg ana="#met" cert="medium">
+              ensayan
+            </seg>
+            <seg cert="high">
+              más y más, al cabo
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35966" source="#d1e1063 #d1e1066" corresp="312 313" cert="medium">
+            <seg cert="high" source="#a41_11d_t2c">
+              Saltan
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="low">
+              perfectos
+            </seg> 
+            <seg cert="high" source="#zn1_gb3_s2c">
+              cual la recia lluvia
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35981" source="#d1e1063" corresp="312" cert="high">
+            <seg ana="#sint" cert="high">
+              Que de las nubes de verano brota,
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e35996" source="#d1e1066" corresp="313" cert="high">
+            <seg cert="high">
+              Cual del
+            </seg> 
+            <seg cert="high">
+              nervio
+            </seg>
+            <seg cert="high" source="#q3n_p4b_s2c #scw_myg_s2c">
+              pujante las saetas
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36012" source="#d1e1069" corresp="314" cert="high">
+            <seg cert="high">
+              Que rompiendo la lid 
+            </seg>
+            <seg ana="#met" cert="high">
+              lanzan
+            </seg>
+            <seg cert="high">
+              los partos.
+            </seg>
+            <gap ana="#om" subana="#AdjP" quantity="1" source="#q3n_p4b_s2c" orig="leves" cert="low"/> 
+          </l>
+        </lg>
+        
+        <lg>
+          <l resp="#MAC" xml:id="d1e36018" source="#d1e1074" corresp="315" cert="medium">
+            <seg cert="high" source="#r31_lgs_v3c">
+              ¿Cuál dios
+            </seg>
+            <gap ana="#om" subana="#NP" orig="Musae" quantity="1" cert="low"/>
+            <seg ana="#sem" cert="medium">
+              a los mortales
+            </seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36033" source="#d1e1074" corresp="315" cert="medium">
+            <seg ana="#sem" cert="high">
+              Esta traza
+              enseñó 
+            </seg>
+            <seg ana="#add" subana="#AdvP" cert="low">
+              por vez primera
+            </seg>
+            <seg cert="high">?</seg>
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36048" source="#d1e1078" corresp="316" cert="medium">
+            <seg ana="#sem" cert="medium" source="#pxx_c3s_v3c #q4h_5gs_v3c #hhn_1hs_v3c #vsw_yhs_v3c">
+              ¿Cuándo ellos a aplicarla principiaron?
+            </seg>
+          </l>
+          
+          <!-- ... -->
+        </lg>
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        <!-- 
+          <l resp="#MAC" xml:id="d1e36064">
+          Vosotras lo decid, divinas musas.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e36070">
+          El pastor Aristeo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36085">
+          Huyendo, es fama, del herboso valle
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36100">
+          Que con sus aguas ilustró Peneo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36116">
+          Porque a la vez de enfermedad e inedia
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36131">
+          Morir a sus abejas visto había,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36146">
+          Del sacro río aquel cabe la fuente
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36162">
+          Detúvose doliente,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36177">
+          Y en prolijo lamento así decía:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36192">
+          "Cirene, madre mía,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36208">
+          Tú que en el fondo de estas aguas moras,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36223">
+          ¿De la preclara estirpe de los dioses
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36238">
+          (Si es, cual cantas, mi padre el timbrio Apolo)
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36254">
+          A qué me diste el ser? ¿para que el hado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36269">
+          Me maltratase así? ¿O a dónde es ido
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36284">
+          El entrañable amor que me tuviste?
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36300">
+          ¡Y de inmortalidad al alto asiento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36315">
+          Me mandaste aspirar! Este, este mismo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36330">
+          Aunque en vida mortal, glorioso estado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36346">
+          Que a fuerza de desvelos y fatigas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36361">
+          Pastor a un tiempo y labrador cobraba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36376">
+          Hoy mísero le pierdo,</l>
+          <pb ed="#MACOV2ed" n="176"/>
+          
+          <l resp="#MAC" xml:id="d1e36382">
+          Y tú viéndolo estás y eres mi madre!
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36397">
+          Acaba, pues: mis árboles opimos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36412">
+          Ven y descuaja por tu mano; mueve
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36428">
+          A mis establos enemigo fuego;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36443">
+          Mis mieses tala, mis sembrados quema,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36458">
+          Implacable segur mete en mis viñas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36474">
+          Si de un hijo el honor te duele tanto!"
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36489">
+          Confusamente el ruido de su llanto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36504">
+          Bajo el profundo tálamo del río,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36520">
+          De sus ninfas servida, oyó la madre.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36535">
+          Ellas a la sazón hilando estaban
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36550">
+          De lana tinta en la color del vidrio
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36566">
+          Emulas copos del vellón milesio.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36581">
+          Allí Drimo y Filódoce y Ligea
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36596">
+          En círculo; allí Janto,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36612">
+          Nesa, Spío, Cimódoce y Talía,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36627">
+          Esparcidos los nítidos cabellos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36642">
+          Por los cándidos cuellos;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36658">
+          Y la rubia Licorias y Cidipe,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36673">
+          Recién probada aquella
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36688">
+          En trances de Lucina; esta, doncella:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36704">
+          Allí Clío y Beroe, ambas nacidas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36719">
+          Del océano, y ambas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36734">
+          Ceñidas de oro y matizadas pieles:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36750">
+          Opis, Efire, Deyopeya asiana,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36765">
+          Y Aretusa veloz, que al fin el arco
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36780">
+          Depuesto y las saetas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36796">
+          Rendida a la fatiga reposaba.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36811">
+          Celebra entre ellas la gentil Climene
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36826">
+          Las inútiles artes de Vulcano,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36842">
+          Y de Marte el ardid, sus dulces robos;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36857">
+          Y hasta el antiguo caos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36872">
+          Subiendo, los amores de los dioses
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36888">
+          En apiñada sucesión cantaba.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36903">
+          A cuyo canto las atentas ninfas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36918">
+          Mientras desvuelven el mechón suave
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36934">
+          Que con los husos tuercen,</l>
+          <pb ed="#MACOV2ed" n="177"/>
+          
+          <l resp="#MAC" xml:id="d1e36939">
+          Estaban las historias escuchando.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36954">
+          Hiere otra vez el maternal oído
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36970">
+          Del pastor el gemido.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e36985">
+          Todas en sus mansiones cristalinas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37000">
+          Suspéndense las ninfas, y entre todas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37016">
+          Diligente Aretusa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37031">
+          Por cima de las aguas la cabeza
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37046">
+          Alzando, sacudió sus hebras de oro,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37062">
+          Torna a mirar, y desde lejos dice:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37077">
+          "Cirene, hermana mía,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37092">
+          No en vano te asustaron
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37108">
+          Tan grandes ecos de dolor: el mismo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37123">
+          Hijo de tus entrañas, Aristeo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37138">
+          Largo llanto derrama
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37154">
+          Cabe el raudal del genitor Peneo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37169">
+          Y con renombre de cruel te llama".
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37184">
+          Nuevo afán, más solícito deseo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37200">
+          Atosiga a la madre, y "Venga, venga!"
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37215">
+          Dice; "que de los dioses los umbrales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37230">
+          Le es lícito pisar". Y manda al punto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37246">
+          Que el agua se divida a recibirle
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37261">
+          Y sendas abra por do baje al fondo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37276">
+          El ilustre mancebo. Altas las ondas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37292">
+          A manera de cerros se levantan,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37307">
+          Y envuelto en su ancho seno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37322">
+          Le depositan bajo el hondo río.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e37328">
+          Ya el huésped a su paso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37343">
+          Atónito contempla de la madre
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37358">
+          El palacio y las húmedas regiones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37374">
+          Las frescas grutas y silbosos bosques,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37389">
+          Y entre espeluncas escondidos lagos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37404">
+          Oye rumores vagos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37420">
+          De muchas aguas, y los grandes ríos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37435">
+          Ve que debajo de la tierra manan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37450">
+          Con varia dirección: el Lico, el Fasis
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37466">
+          Repara, y las cabezas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37481">
+          De do brota profundo el Enipeo,</l>
+          <pb ed="#MACOV2ed" n="178"/>
+          
+          <l resp="#MAC" xml:id="d1e37486">
+          Y el padre Tibre y los raudales de Anio,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37502">
+          Y entre rocas el Hípanis sonante,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37517">
+          Y el Caíco de Misia; y mira erguirse
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37532">
+          En faz de toro y con dorados cuernos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37548">
+          A Erídano, que campos ricos trata
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37563">
+          Y bajo el manto de la mar purpúreo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37578">
+          Con desusado arrojo se dilata.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e37584">
+          Después que ya Aristeo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37599">
+          Entró bajo los huecos artesones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37614">
+          En columnas de pómez sustentados,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37630">
+          Materna alcoba, y que sus vanas quejas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37645">
+          Cirene oyó, las plácidas nereides
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37660">
+          Aguamanos le ofrecen, y en seguida
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37676">
+          Sirven toallas de atusado vello.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37691">
+          Otras cubren las mesas de manjares,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37706">
+          Llenas copas reponen,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37722">
+          Y arden arabio incienso en los altares.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37737">
+          Vuelta al hijo Cirene,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37752">
+          "Alza esta copa de meonio vino,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37768">
+          Y libemos", le dice, "al oceano";
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37783">
+          Y al oceano al mismo tiempo invoca
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37798">
+          Por padre de las cosas, y a las ninfas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37814">
+          Que cien bosques custodian y cien ríos;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37829">
+          Tres veces ella sobre el sacro fuego
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37844">
+          Vuelca el líquido néctar, y tres veces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37860">
+          Vuela al techo la llama entre esplendores.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37875">
+          Con tan felice agüero
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37890">
+          Animada la diosa, así comienza:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37906">
+          "En los Carpacios golfos de Neptuno
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37921">
+          Mora el sabio Proteo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37936">
+          Cerúleo vate, en su gentil carroza
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37952">
+          Que bípedos caballos semipeces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37967">
+          Uncidos tiran sobre el mar inmenso.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37982">
+          En los puertos holgándose de Emacia
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e37998">
+          Visita ahora su natal Palene.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38013">
+          Veneración tenémosle las ninfas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38028">
+          Y el gran padre Nereo</l>
+          <pb ed="#MACOV2ed" n="179"/>
+          
+          <l resp="#MAC" xml:id="d1e38034">
+          Venérale también; que él lo pasado,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38049">
+          Presente y porvenir, todo lo sabe,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38064">
+          Por obra y recompensa de Neptuno,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38080">
+          Cuyo ganado de disformes focas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38095">
+          En profundos abismos apacienta.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38110">
+          Hasle, hijo, de ceñir con ligaduras,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38126">
+          Porque las causas él de tu desgracia
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38141">
+          Revele, y de salud te abra camino;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38156">
+          Que no de otra manera sino atado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38172">
+          Sus enseñanzas a dictar se aviene.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38187">
+          Ni esperes con plegarias reducille:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38202">
+          Fuerza, fuerza has de hacerle, y con prisiones
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38218">
+          Cautivo sujetarle, a fuer de malla
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38233">
+          En que en balde sus dolos vueltas dando
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38248">
+          Primero que romperla ellos se rompan.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38264">
+          Yo misma, cuando en medio de su giro
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38279">
+          Ardores vibre el sol (hora en que mueren
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38294">
+          De sed las plantas, y la sombra invita
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38310">
+          Más sabrosa que nunca a los ganados),
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38325">
+          Te llevaré al retrete en que acostumbra
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38340">
+          Viniendo de las ondas recogerse
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38356">
+          Fatigado el anciano. Allí tendido
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38371">
+          Entregarase al sueño, y tú embestirle
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38386">
+          Fácilmente podrás. Mas oye atento:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38402">
+          Así como entre manos y en cadena
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38417">
+          Cogido ya le tengas, él de monstruos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38432">
+          Mil formas tomará por engañarte;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38448">
+          Mostrarase de pronto a tus miradas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38463">
+          Atónito contempla de la madre
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38478">
+          El palacio y las húmedas regiones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38494">
+          Las frescas grutas y silbosos bosques,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38509">
+          Y entre espeluncas escondidos lagos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38524">
+          Oye rumores vagos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38540">
+          De muchas aguas, y los grandes ríos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38555">
+          Ve que debajo de la tierra manan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38570">
+          Con varia dirección: el Lico, el Fasis
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38586">
+          Repara, y las cabezas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38601">
+          De do brota profundo el Enipeo,</l>
+          <pb ed="#MACOV2ed" n="178"/>
+          
+          <l resp="#MAC" xml:id="d1e38606">
+          Y el padre Tibre y los raudales de Anio,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38622">
+          Y entre rocas el Hípanis sonante,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38637">
+          Y el Caíco de Misia; y mira erguirse
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38652">
+          En faz de toro y con dorados cuernos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38668">
+          A Erídano, que campos ricos trata
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38683">
+          Y bajo el manto de la mar purpúreo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38698">
+          Con desusado arrojo se dilata.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38714">
+          Ya jabalí erizado, ya hosca tigre,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38729">
+          O escamoso dragón, o bien leona
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38744">
+          De bermeja cerviz: ora cual fuego
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38760">
+          Estallará soltándose, ora en agua
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38775">
+          Sutil parecerá que se deshace.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38790">
+          Tú mientras más figuras finja y mude,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38806">
+          Los vínculos tenaces más le aprieta,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38821">
+          Hasta que torne a aquella en que le hallaste
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38836">
+          Cuando empezaba del tranquilo sueño
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38852">
+          A gustar que sus párpados cubría".
+          </l>
+          </lg>
+          <pb ed="#MACOV2ed" n="180"/>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e38861">
+          Así dice Cirene,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38876">
+          Y la fragante líquida ambrosía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38891">
+          Vertiendo, el cuerpo todo unge del hijo;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38907">
+          El cual en un instante
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38922">
+          De la aliñada cabellera exhala
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38937">
+          Suave aroma, y ya su pecho anima
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38953">
+          Competente vigor. Hay un cavado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38968">
+          Monte, y del monte a un lado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38983">
+          Profundo un antro, a donde empuja el viento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e38999">
+          Gran copia de aguas, que a romperse llegan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39014">
+          Y rómpense a morir en los recodos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39029">
+          Acosados tal vez, allí los nautas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39045">
+          Hallan grato abrigaño; allí Proteo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39060">
+          Con una enorme roca
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39075">
+          Defendiendo la entrada, se guarece.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39091">
+          En un cabo sombrío ora la ninfa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39106">
+          Al mancebo coloca; entre una nube
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39121">
+          Ella misma a distancia se cautela.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39137">
+          Arde en tanto en el cielo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39152">
+          Sirio, y del indo la sedienta zona
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39167">
+          Consumidor abrasa: el sol fogoso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39183">
+          La mitad del espacio de su curso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39198">
+          Ha devorado ya: mustios se inclinan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39213">
+          Los agostados árboles; y yacen
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39229">
+          Los huecos ríos con las fauces secas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39244">
+          Oprimidos del rayo, que sus aguas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39259">
+          Sorbe, y el limo de sus lechos cuece.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39275">
+          A esta sazón hacia la usada gruta
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39290">
+          Saliendo de las ondas se encamina
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39305">
+          Proteo; los mojados habitantes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39321">
+          Del dilatado mar en torno saltan
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39336">
+          Y el salado cristal lejos esparcen;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39351">
+          Y ya al sueño sus miembros en la playa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39367">
+          Vueltas acá y allá rinden las focas.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39382">
+          El a su vez (cual en los montes suele
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39397">
+          De un establo el guardián, cuando del pasto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39413">
+          La estrella de la tarde a los becerros</l>
+          <pb ed="#MACOV2ed" n="181"/>
+          
+          <l resp="#MAC" xml:id="d1e39418">
+          Reduce a casa, y el cordero empieza
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39433">
+          Al lobo a alborotar con sus balidos)
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39449">
+          En medio del escollo alto se asienta
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39464">
+          Y su rebaño cuenta.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39479">
+          No despreció Aristeo la propicia
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39495">
+          Ocasión; mas apenas vio al anciano
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39510">
+          Que fatigado el cuerpo reclinaba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39525">
+          Precipítase encima
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39541">
+          Con gran clamor, y en tierra con esposas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39556">
+          Átale. El por su parte,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39571">
+          Maravillosamente trasfigura
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39587">
+          Su ser (antiguas artes no olvidando),
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39602">
+          Y en sucesivas formas aparece
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39617">
+          Fuego, monstruo feroz, fugace río.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39633">
+          Mas salida no logra su artimaña;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39648">
+          Su semblante recobra verdadero,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39663">
+          Vencido, y habló, en fin, como habla un hombre:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39679">
+          "¿Pues quién traerte pudo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39694">
+          Mozo audaz por extremo, a mi morada?
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39709">
+          O qué buscas aquí?"
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39725">
+          Respondió el otro: "Tú lo sabes,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39740">
+          Proteo, tú lo sabes;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39755">
+          ¿Quién te engañó jamás? Falacias deja.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39771">
+          Por divino precepto vine, en suma,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39786">
+          Y en mi doliente estado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39801">
+          Oráculos espero de tu boca".
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39817">
+          Esto dijo no más. El vate entonces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39832">
+          En laborioso esfuerzo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39847">
+          Tuerce inspirado los ardientes ojos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39863">
+          De verdinegro resplandor, los dientes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39878">
+          Rechina, y con palabras
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39893">
+          Así descorre el velo de los hados:</l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e39899">
+          "La cólera de un numen te persigue;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39914">
+          Grande crimen expías!
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39929">
+          Por ti sumido en sempiterno duelo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39945">
+          Orfeo contra ti castigos lanza;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39960">
+          De la perdida arrebatada esposa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39975">
+          El rabioso recuerdo le importuna,</l>
+          <pb ed="#MACOV2ed" n="182"/>
+          
+          <l resp="#MAC" xml:id="d1e39981">
+          Y si no lo remedia tu fortuna,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e39996">
+          Su sombra tomará cabal venganza.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40011">
+          Huyendo por las márgenes del río,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40027">
+          Huyendo iba de ti con presta huella
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40042">
+          La mísera doncella,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40057">
+          Que, al paso, en la alta hierba ay! escondida
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40073">
+          La hidra horrenda no vio que allí velaba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40088">
+          Mortal peligro a su inocente vida.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40103">
+          El coro de las dríadas dolientes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40119">
+          (Sus hermanas de infancia) de los montes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40134">
+          Hinchieron las alturas con gemidos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40149">
+          Lamentaron del Ródope las cumbres
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40165">
+          Y el erguido Pangeo Gimió, y de
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40180">
+          Reso la marcial comarca,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40195">
+          Y los getas, su muerte; honrola el Hebro
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40211">
+          Y la ateniense Oritia con su llanto.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40226">
+          Con su cóncava cítara él, en tanto,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40241">
+          Consolaba su amor, siguiendo a solas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40257">
+          El curso de las olas;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40272">
+          Y a ti, dulce mujer, naciendo el día,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40287">
+          A ti cantaba cuando el sol moría.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40303">
+          El las fauces del Ténaro, y de Dite
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40318">
+          También las puertas penetró, y aquella
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40333">
+          Negra selva que horror pone y espanto:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40349">
+          Presentase a los manes, y al temido
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40364">
+          Rey y su corte, que al humano ruego
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40379">
+          Duros cerraron corazón y oído;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40395">
+          Y arrebatados del divino canto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40410">
+          De los senos del Érebo profundos,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40425">
+          Simulacros sin vida y sombras tenues
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40441">
+          Tales iban, y tantas, cual las aves
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40456">
+          Que a guarecerse en la arboleda umbría
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40471">
+          Encaminan el vuelo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40487">
+          Si el véspero su luz vibra en el cielo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40502">
+          O ráfaga hibernal el monte envía.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40517">
+          Imágenes allí se ven que fueron
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40533">
+          O matronas tal vez o ciudadanos,</l>
+          <pb ed="#MACOV2ed" n="183"/>
+          
+          <l resp="#MAC" xml:id="d1e40538">
+          Magnánimos difuntos campeones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40553">
+          Y tímidas doncellas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40569">
+          Y cándidos garzones,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40584">
+          A quienes ya, cabe la alzada pira,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40599">
+          Lloró el padre infeliz que arder los mira.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40615">
+          Védanles el regreso, del Cocito
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40630">
+          El negro limo y los informes juncos;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40645">
+          Del odioso pantano la onda torpe
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40661">
+          Atájales, y Estigio los circuye
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40676">
+          Con siete vallas en oblicuos giros.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40691">
+          Pasmáronse aun las hondas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40707">
+          Tartáreas sedes de la muerte triste;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40722">
+          Aun las fieras euménides, crinadas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40737">
+          De lívidas serpientes, se pasmaron
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40753">
+          De aquel mágico acento:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40768">
+          Murió el ladrido en la entreabierta boca
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40783">
+          Del can trifauce; y porque el son la toca,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40799">
+          La rueda de Ixïón paró, y el viento.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e40805">
+          "Ya el pie el cantor volvía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40820">
+          Triunfante, y de peligros bien librado:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40835">
+          Restituída Eurídice a su esposo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40851">
+          Del esposo siguiendo las pisadas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40866">
+          (Condición que Prosérpina impusiera)
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40881">
+          Y a se elevaba a la región del día.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40897">
+          En esto del amante se apodera
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40912">
+          Momentánea locura,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40927">
+          Impetu que perdón merecería
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40943">
+          Ay! si el infierno perdonar supiera.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40958">
+          Y fue así que al umbral del aura pura,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40973">
+          El mísero, en su pecho
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e40989">
+          Venciendo amor y olvido,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41004">
+          Tornó su triunfo a ver: desvanecido
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41019">
+          Su trabajo contempla, y lo pactado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41035">
+          Con el tremendo rey, roto y deshecho.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41050">
+          Fragoroso rumor se oyó tres veces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41065">
+          En los abismos del averno, y ella,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41081">
+          '¿Cuál', dice, 'ay triste! cuál demencia, Orfeo,</l>
+          <pb ed="#MACOV2ed" n="184"/>
+          
+          <l resp="#MAC" xml:id="d1e41086">
+          A perderme ha venido y a perderte?
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41101">
+          Atrás hado crüel volver me manda,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41117">
+          Y el sueño de la muerte
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41132">
+          Sepulta ya mis zozobrantes ojos.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41147">
+          Adiós! envuelta en pavorosa noche
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41163">
+          Arrebatada voy: adiós! en vano
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41178">
+          A ti, tuya antes, ay! las palmas tiendo!'
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41193">
+          Dice, y piérdese huyendo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41209">
+          Cual humo que en los aires se desata,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41224">
+          En dirección contraria; y al amante,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41239">
+          Que sombras apalpando por cogella
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41255">
+          Corre en pos delirante,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41270">
+          Jamás a ver volvió desde ese instante.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41285">
+          Ni del Orco el guardián, en la interpuesta
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41301">
+          Laguna, desde entonces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41316">
+          Abrir quiso camino a alma viviente.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41331">
+          ¿Y a dónde el triste iría
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41347">
+          Una vez y otra vez desposeído
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41362">
+          De su bien? ¿Con qué ruego, con cuál llanto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41377">
+          A los manes y dioses movería?
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41393">
+          Ella en la estigia tabla iba entretanto
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41408">
+          Bogando ya, doliente sombra y fría.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e41414">
+          "Siete meses arreo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41429">
+          Junto a las ondas de Estrimón, es fama,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41444">
+          Llorando estuvo Orfeo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41460">
+          Bajo una envanecida roca, y solo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41475">
+          Tornando al tema infausto y flébil canto,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41490">
+          Al cielo se quejaba y las estrellas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41506">
+          De bronce a sus querellas;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41521">
+          Y al sonar de su música divina
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41536">
+          Manso el tigre mostrose, y por gozalla
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41552">
+          Íbase en pos la descuajada encina.
+          </l>
+        -->
+        
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.511-515 -->
+        <l resp="#MAC" xml:id="d1e41567" source="#d1e1706" corresp="511" cert="medium">
+          <!-- populea... sub umbra -->
+          <!-- = a la sombra de un álamo -->
+          <seg cert="high" source="#lcb_o46_ccq #rr7_hm8_ny4" ana="#sint" subana="#PP">
+            De un álamo 
+            a la sombra 
+          </seg> 
+          <!-- philomela -->
+          <seg cert="medium" source="#l77_qjr_aq7" ana="#sem" subana="#NP">
+            filomena
+          </seg>
+          <gap source="#dds_sjf_p2c" orig="maerens" quantity="1" ana="#om" subana="#VP" cert="low"/>
+        </l>
+        
+        
+        <l resp="#MAC" xml:id="d1e41582" source="#d1e1709" corresp="512" met="7" cert="medium">
+          <!-- amissos queritur fetus -->
+          <seg cert="high" source="#qh2_v2u_go7 #kbn_i8h_vwk">
+            Así sus hijos
+          </seg> 
+          <gap source="#r4f_zjf_p2c" orig="amissos" quantity="1" ana="#om" subana="#AdjP" cert="low"/>
+          <seg cert="high" source="#rr7_ohs_d5c">
+            llora
+          </seg>
+        </l>
+        
+        
+        <l resp="#MAC" xml:id="d1e41598" source="#d1e1709 #d1e1712" corresp="512 513" cert="high">
+          <seg cert="high">
+            Que duro labrador,
+          </seg>
+          <seg cert="medium" source="#szr_2pf_p2c">
+            dentro
+          </seg> 
+          <seg cert="high">
+            del nido
+          </seg>
+        </l>
+        
+        
+        <l resp="#MAC" xml:id="d1e41613" source="#d1e1712" corresp="513" cert="medium">
+          <seg cert="high">
+            Mirando implumes, le robó
+          </seg> 
+          <seg ana="#add" subana="#AdvP" cert="low">
+            en mal hora;
+          </seg>
+        </l>
+        
+        
+        <l resp="#MAC" xml:id="d1e41628" source="#d1e1712 #d1e1715" corresp="513 514" met="7" cert="medium">
+          <seg ana="#add" subana="#C" cert="high">
+            Y
+          </seg> 
+          <seg cert="high">
+            en la noche
+          </seg> 
+          <seg ana="#add" subana="#AdjP" cert="low">
+            serena
+          </seg>
+        </l>
+        
+        <pb ed="#MACOV2ed" n="185"/>
+        
+        <l resp="#MAC" xml:id="d1e41634" source="#d1e1712" corresp="514 515" met="7" cert="high">
+          <seg source="#u3j_bpf_p2c" ana="#sem" cert="medium" orig="integrat">
+            Repite
+          </seg>
+          <seg cert="low" source="#jl3_g4f_p2c" orig="sedens" ana="#sem #sint">
+            allí 
+          </seg>
+          <seg source="#k7r_qhe_gnp">
+            en la rama
+          </seg> 
+        </l>
+        
+        
+        <l resp="#MAC" xml:id="d1e41649" source="#d1e1715" corresp="514" cert="high">
+          <seg cert="high" source="#r2t_m2d_e0n #hwz_m2b_w40">
+            Su endecha lamentable,
+          </seg>
+          <seg cert="high" source="#qyo_sg2_c49" ana="#sem #sint">
+            y el gemido
+          </seg>
+        </l>        
+        
+        
+        <l resp="#MAC" xml:id="d1e41664" source="#d1e1719" corresp="515" cert="medium">
+          <seg source="#prg_w4f_p2c" ana="#sem" cert="medium">
+            En ecos
+          </seg> 
+          <seg source="#uxb_ykf_p2c" cert="high">
+            por los campos
+          </seg> 
+          <seg source="#qd2_wkf_p2c" cert="medium" orig="implet">
+            se derrama.
+          </seg>
+          <gap source="#h29_r18_ex6" orig="late" quantity="1" ana="#om" subana="#AdvP" cert="high"/>
+        </l>
+        <!-- fin fragmento vv. 4.511-515 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        <!--<l resp="#MAC" xml:id="d1e41680">
+          No hubo ya amor, placer, gustos nupciales
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41695">
+          Que su ánimo doblasen.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41710">
+          Solitario Los hiperbóreos hielos y el nevoso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41726">
+          Tánais, y campos que jamás perdieron
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41741">
+          Sus hórridas escarchas, visitaba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41756">
+          Y el rapto de la esposa, y la mentira
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41772">
+          De las gracias de Dite lamentaba.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41787">
+          Menospreciadas, del piadoso oficio
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41802">
+          Las hijas de Ciconia se ofendieron,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41818">
+          Y en ruidosas nocturnas bacanales,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41833">
+          En medio al sacrificio,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41848">
+          Los miembros del mancebo destrozaron,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41864">
+          Los trozos en los campos esparcieron.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41879">
+          Segado el vulto del garzón divino,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41894">
+          El vulto alabastrino
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41910">
+          Que arrastran de Hebro las paternas ondas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41925">
+          'Ay desdichada Eurídice!' aun decía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41940">
+          Su moribunda voz, su lengua fría,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41956">
+          Huyendo en tanto el ánima ligera;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41971">
+          'Eurídice !' y rodando el son doliente
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e41986">
+          A par de la corrriente,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42002">
+          'Eurídice !' retumba la ribera!"
+          </l>
+          
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e42008">
+          Así Proteo dijo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42023">
+          Y lánzase a la mar; y allí por donde
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42038">
+          Lanzándose se esconde
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42054">
+          Debajo de las aguas, espumoso
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42069">
+          Remolino formó. No así Cirene;
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42084">
+          Antes, medroso el hijo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42100">
+          Con voces tales a alentarle viene:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42115">
+          "De enojosos cuidados, hijo mío,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42130">
+          Libre puedes vivir. La causa sabes,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42146">
+          La causa toda de la peste aciaga.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42161">
+          Ya ves por qué las enojadas ninfas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42176">
+          Con quienes coros en los altos bosques</l>
+          <pb ed="#MACOV2ed" n="186"/>
+          
+          <l resp="#MAC" xml:id="d1e42182">
+          La triste aderezaba,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42197">
+          Trajeron a tus míseros enjambres
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42212">
+          General destrucción. Paz implorando
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42228">
+          Tú, y dones ofreciendo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42243">
+          Vé, y adora las fáciles napeas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42258">
+          Que acogerán tus ruegos con perdones
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42274">
+          Y depondrán sus iras. Oye el modo:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42289">
+          Cuatro elige ante todo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42304">
+          Toros eximios de arrogantes formas,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42320">
+          De aquellos que en las cumbres del Liceo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42335">
+          Tienes, paciendo su verdura; y cuatro
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42350">
+          Novillas de cerviz no al yugo usada:
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42366">
+          En los adoratorios de las diosas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42381">
+          Cuatro altares erígeles: en ellos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42396">
+          La sangre de las víctimas sagrada
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42412">
+          Haz que corra, y tendidos
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42427">
+          Los cuerpos deja en la floresta umbría.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42442">
+          Después, cuando los rayos de su lumbre
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42458">
+          Haya esparcido la novena aurora,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42473">
+          Por funeral tributo adormideras
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42488">
+          En el agua bañadas del Leteo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42504">
+          A la sombra de Orfeo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42519">
+          Ofrece, y sacrifica una becerra
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42534">
+          Propiciatoria a Eurídice; ni olvides
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42550">
+          Negra oveja inmolar: gozoso entonces
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42565">
+          El paso vuelve a la floresta opaca".
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e42571">
+          Dijo. Al punto Aristeo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42586">
+          Cumple el mandato de la madre: vuela
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42601">
+          A los adoratorios: allí erige
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42617">
+          Las señaladas aras: cuatro, luego,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42632">
+          Eximios toros de arrogantes formas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42647">
+          Conduce, y otras tantas
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42663">
+          Novillas de cerviz no al yugo usada.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42678">
+          Después, cuando los rayos de su lumbre
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42693">
+          Hubo esparcido la novena aurora,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42709">
+          Ofrece a Orfeo el funeral tributo,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42724">
+          Y el paso vuelve a la floresta opaca.
+          </l>
+          <pb ed="#MACOV2ed" n="187"/>
+          
+          <l resp="#MAC" xml:id="d1e42729">
+          Y allí abejas sin cuento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42745">
+          ¡Oh increíble portento!
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42760">
+          Hervir contempla en las disueltas carnes
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42775">
+          De las postradas reses, y zumbando
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42791">
+          Las costillas romper, lanzarse al viento
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42806">
+          Como nubes inmensas, y la copa
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42821">
+          Asediar de los árboles altiva,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42837">
+          Y en vividor racimo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42852">
+          Negras colgarse a los flexibles ramos.
+          </l>
+          </lg>
+          
+          
+          
+          <lg>
+          <l resp="#MAC" xml:id="d1e42859">
+          Esto acerca del campo y su cultura,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42874">
+          Esto acerca canté de los ganados
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42889">
+          Y acerca de los árboles, a tiempo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42905">
+          Que César prepotente al hondo Éufrates
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42920">
+          El rayo de la guerra
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42935">
+          Llevaba, y vencedor leyes ponía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42951">
+          A los sumisos pueblos de la tierra,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42966">
+          Y al Olimpo ensayaba abrirse vía.
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42981">
+          De la dulce Parténope a ese tiempo
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e42997">
+          En el seno abrigado, florecía
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43012">
+          En no ruidosas artes yo, Virgilio,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43027">
+          El mismo aquel que un día
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43043">
+          Entonara campestre cantilena,
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43058">
+          Y en juveniles fuerzas confiado
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43073">
+          Cantarte osé atrevido
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43089">
+          A ti, a la sombra, Títiro, tendido
+          </l>
+          
+          
+          <l resp="#MAC" xml:id="d1e43104">
+          De haya copuda, en pastoril avena.
+          </l>
+          </lg>-->
+        
+      </div>
+    </body>
+  </text>
+</TEI>

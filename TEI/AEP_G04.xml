@@ -1,0 +1,755 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geórgicas</title>
+        <author>Virgilio</author>
+        <editor role="translator" xml:id="AEP">
+          Aurelio Espinosa Pólit
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+          Editado por 
+          <persName xml:id="AUT">
+            AUTOR
+          </persName>
+          para edición electrónica
+          <date>2025</date>.
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="AEPGV">
+          <monogr>
+            <author>
+              Virgilio
+            </author>
+            <author role="traductor">
+              Aurelio Espinosa Pólit
+            </author>
+            <title xml:lang="es">
+              Virgilio en verso castellano:
+              Bucólicas, Geórgicas, Eneida
+            </title>
+            <imprint>
+              <pubPlace>Olmeca (México)</pubPlace>
+              <publisher>
+                Jus
+              </publisher>
+              <date>1963</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <body>
+      <div n="4">
+        
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.281-4.314 -->
+        <l resp="#AEP" xml:id="jcg_fj1_q2c" source="#d1e956" corresp="281" cert="medium">
+          <seg cert="high" source="#hj4_rcv_p2c">
+            Mas si
+          </seg> 
+          <seg ana="#add" subana="#AdjP" cert="low" source="#ir4_qqw_q2c">
+            algún día
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="bfp_2j1_q2c" source="#d1e956" corresp="281" cert="high">
+          <seg cert="high" source="#nmm_4qd_q2c">
+            se llegase a perder súbitamente
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="hfk_2j1_q2c" source="#d1e956 #d1e959" corresp="281 282" cert="high">
+          <seg cert="high">
+            la especie toda,
+          </seg>
+          <gap ana="#om" source="#m3k_crd_q2c" orig="nec" quantity="1" cert="high"/> 
+          <seg cert="high">
+            sin tenerse a mano
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="vjc_2j1_q2c" source="#d1e959" corresp="282" cert="medium">
+          <gap source="#m4v_xqd_q2c" ana="#om" quantity="1" orig="genus" cert="low"/> 
+          <seg cert="high">
+            de dónde levantar 
+            estirpe nueva,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="uby_dj1_q2c" source="#d1e962 #d1e965" corresp="283 284" cert="high">
+          <gap source="#gvt_grd_q2c" quantity="1" ana="#om" orig="et" cert="high"/> 
+          <seg cert="high" source="#b1p_1vy_q2c">
+            tiempo es de revelar el
+          </seg>
+          <seg source="#psg_p3x_q2c" ana="#sema" cert="medium">
+            gran
+          </seg>
+          <seg ana="#sint" cert="high" source="#zhn_bvy_q2c">
+            invento
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="fzt_dj1_q2c" source="#d1e962 #d1e965" corresp="283 284" cert="high">
+          <seg cert="high">
+            del árcade pastor,
+          </seg> 
+          <gap ana="#om" quantity="1" source="#sq1_yrd_q2c" orig="-que" cert="high"/>
+          <seg cert="high" source="#zhn_bvy_q2c">
+            de cómo
+          </seg> 
+          <seg ana="#sint" cert="medium" source="#bnw_zp5_r2c">
+            pueden
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="x4l_dj1_q2c" source="#d1e965" corresp="284" cert="medium">
+          <seg cert="high">
+            de la sangre corrupta de novillos
+          </seg>
+          <gap source="#s4l_dsd_q2c" ana="#om" subana="#AdjP" quantity="1" orig="caesis" cert="low"/> 
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="lxc_dj1_q2c" source="#d1e968 #d1e971" corresp="285 286" cert="high">
+          <seg ana="#sem" cert="high" source="#gnd_j54_q2c">
+            nacer
+          </seg> 
+          <seg cert="high" source="#jfk_j54_q2c">
+            abejas.
+          </seg>
+          <seg cert="high" source="#zyd_nkd_q2c">
+            Al primer origen
+          </seg>
+        <gap source="#esj_gld_q2c" ana="#om" orig="prima" cert="high"/>
+            <gap source="#nyg_pkd_q2c" ana="#om" orig="ab origine" cert="high"/>
+            <gap source="#swy_mq5_r2c" ana="#om" orig="famam" cert="high"/>
+            </l>
+        
+        
+        <l resp="#AEP" xml:id="tpt_cj1_q2c" source="#d1e971" corresp="286" cert="low">
+          <seg xml:id="mpk_1v4_q2c" ana="#add" subana="#PP" synch="#mvz_x54_q2c" cert="low" source="#kwm_lkd_q2c">
+            de este portento
+          </seg>
+          <seg source="#xrn_lmf_r2c" cert="low">
+            remontarme quiero.
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="yxp_cj1_q2c" source="#d1e975 #d1e978" corresp="287 288" cert="high">
+          <seg cert="high" source="#szn_vrw_q2c">
+            Pues donde vive el pueblo venturoso
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="ilm_cj1_q2c" source="#d1e975 #d1e978" corresp="287 288" cert="high">
+          <seg cert="high" source="#vby_2cx_q2c">
+            de la pelea Cánope,
+          </seg> 
+          <seg source="#ll3_wp3_q2c" cert="high">
+            surcando
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="nj2_cj1_q2c" source="#d1e978 #d1e981" corresp="288 289" cert="high">
+          <seg cert="high">
+            el Nilo 
+          </seg>
+          <seg source="#nmn_1q3_q2c" cert="high">
+            desbordado
+          </seg> 
+          <seg source="#srp_cq3_q2c" cert="high">
+            en su campiña
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="qwz_bj1_q2c" source="#d1e981 #d1e984" corresp="289 290" cert="high">
+          <seg cert="high">
+            en pintadas canoas,
+          </seg>
+          <seg cert="high" source="#dzf_hnd_q2c">
+            y en
+          </seg> 
+          <seg ana="#add" subana="#NP" cert="medium">
+            la tierra
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="rqw_bj1_q2c" source="#d1e984" corresp="290" cert="high">
+          <seg cert="high">
+            donde,
+          </seg> 
+          <seg ana="#sem" cert="medium" source="#vmt_ynd_q2c">
+            cerca 
+          </seg>
+          <seg cert="high">
+            de Persia
+          </seg> 
+          <seg ana="#sem" cert="high">
+            que usa aljaba,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="l1q_bj1_q2c" source="#d1e987" corresp="291" cert="medium">
+          <seg ana="#add" subana="#S" cert="low" source="#alm_rxy_q2c">
+            se estrecha el río,
+          </seg>
+          <seg cert="high">
+            y con su negro limo
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="tzk_bj1_q2c" source="#d1e987" corresp="291" cert="high">
+          <seg cert="high">
+            el verdeante Egipto fertiliza,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="azh_bj1_q2c" source="#d1e993" corresp="292" cert="medium">
+          <seg cert="high">
+            y en 
+          </seg> 
+          <seg ana="#add" subana="#NP" cert="low">
+            la región
+          </seg> 
+          <seg cert="high">
+            donde
+          </seg>
+          <seg cert="high" source="#r43_qcx_q2c">
+            por siete bocas
+          </seg>
+          <gap source="#d45_bnk_q2c" quantity="1" ana="#om" subana="#AdjP" orig="diversa" cert="low"/> 
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="c32_bj1_q2c" source="#d1e993" corresp="292" cert="medium">
+          <seg cert="high" source="#myd_m4d_q2c">
+            precipita
+          </seg>
+          <seg ana="#add" subana="#NP" cert="low">
+            sus ondas
+          </seg>
+          <seg ana="#sint" cert="high">
+            que han bajado
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="jmz_1j1_q2c" source="#d1e1000" corresp="293" cert="medium">
+          <seg cert="high" source="#wrs_54d_q2c">
+            desde
+          </seg> 
+          <seg ana="#add" subana="#NP" cert="low">
+            el confín de
+          </seg> 
+          <seg cert="high" source="#lhh_bqd_q2c">
+            los tostados
+          </seg>
+          <seg cert="medium" ana="#sem" orig="indis">
+            Indos,
+          </seg>
+        </l>
+        
+        
+        <l corresp="294" resp="#AEP" source="#d1e1006" xml:id="t5t_z31_q2c" cert="medium">
+          <seg cert="medium">
+            todos
+          </seg> 
+          <gap ana="#om" subana="#NP" orig="regio" quantity="1" source="#s1z_qnk_q2c" cert="low"/> 
+          <seg cert="high">
+            en esta práctica
+          </seg> 
+          <seg cert="high">
+            confían
+          </seg> 
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="sw4_z31_q2c" source="#d1e1006" corresp="294" cert="medium">
+          <seg ana="#sem" cert="medium">
+            como en única fuente de esperanza.
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="sw4_z31_ab9" source="#d1e1009" corresp="295" cert="high">
+          <seg cert="high" source="#zhr_hqg_s2c">
+            Sitio angosto,
+          </seg> 
+          <seg ana="#sem" cert="high" source="#hwn_bdl_t2c">
+            a su fin
+          </seg>
+          <seg cert="high">
+            acomodado
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="e2h_xvf_s2c" source="#d1e1012" corresp="296" cert="high">
+          <seg cert="high">
+            se elige, y se lo cierra con las tejas
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="uhh_zwf_s2c" source="#d1e1012 #d1e1015" corresp="296 297" cert="high">
+          <seg cert="high">
+            de un cobertizo y cuatro estrechos muros.
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="rmf_1xf_s2c" source="#d1e1018" corresp="298" cert="medium">
+          <seg cert="high">
+            Cuatro ventanas
+          </seg> 
+          <seg ana="#sem" source="#ekp_wxf_s2c" cert="low">
+            a
+          </seg> 
+          <seg cert="high">
+            los cuatro vientos
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="qd5_zwf_s2c" source="#d1e1015 #d1e1018" corresp="297 298" cert="high">
+          <seg cert="high">
+            en ellos
+          </seg> 
+         <seg source="#gc3_vzf_s2c" orig="addunt" cert="high">
+           se abren,
+         </seg> 
+          <seg cert="high">
+            con la luz oblicua.
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="hhm_1xf_s2c" source="#d1e1022" corresp="299" cert="high">
+          <gap source="#o4m_xzf_s2c" orig="tum" quantity="1" ana="#om" cert="high"/> 
+          <seg cert="high">
+            Un novillo se busca que en la frente
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="iff_bxf_s2c" source="#d1e1022" corresp="299" cert="high">
+          <seg cert="high">
+            cuernos lleve encorvados de dos años,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="g4k_bxf_s2c" source="#d1e1025 #d1e1028" corresp="300 301" cert="high">
+          <seg cert="high">
+            y, por más que resista, 
+          </seg>
+          <seg ana="#sem" cert="high" source="#d4s_msg_s2c">
+            se le cosen
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="anq_bxf_s2c" source="#d1e1028" corresp="301" cert="high">
+          <seg ana="#semd" cert="high">
+            boca
+          </seg> 
+          <seg cert="high">
+            y narices 
+            sin dejarle aliento.
+          </seg>
+          <note>
+            AEP separa "spiritus oris" 
+            (el aliento de su boca)
+            en dos conceptos.
+          </note>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="r55_bxf_s2c" source="#d1e1028" corresp="301" cert="high">
+          <seg cert="high">
+            A golpes se le mata,
+          </seg> 
+          <seg ana="#sint" cert="high">
+            se magulla
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="qs1_cxf_s2c" source="#d1e1031" corresp="302" cert="high">
+          <seg ana="#met" cert="high" source="#h23_xsg_s2c">
+            el interior
+          </seg> 
+          <seg cert="high" source="#gqq_ctg_s2c">
+            bajo la piel intacta.
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="g3f_cxf_s2c" source="#d1e1034" corresp="303" cert="high">
+          <seg cert="high">
+            Así
+          </seg>
+          <seg ana="#met #add" cert="high" subana="#AdjP">
+            molido
+          </seg>
+          <seg cert="high">
+            se le deja entonces
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="lmk_cxf_s2c" source="#d1e1034" corresp="303" cert="high">
+          <seg cert="high">
+            en la cerrada
+          </seg> 
+          <seg ana="#sem" cert="high">
+            cámara
+          </seg>
+          <seg cert="high">
+            tendido
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="ivv_dxf_s2c" source="#d1e1037" corresp="304" cert="high">
+          <seg cert="high">
+            sobre ramojo de tomillo y
+          </seg> 
+          <seg ana="#sem" source="#dyq_z2g_s2c" orig="casias" cert="high">
+            dafne
+          </seg>
+          <note>
+            "Dafne" es laurel.
+          </note>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="ksb_2xf_s2c" source="#d1e1037 #d1e1031" corresp="304 305" cert="high">
+          <seg cert="high">
+            recién cortado.
+          </seg>
+          <seg ana="#sem" cert="high" source="#dh4_3lb_s2c">
+            Todo
+          </seg> 
+          <seg cert="high">
+            se hace al tiempo
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="m2g_2xf_s2c" source="#d1e1041" corresp="305" cert="high">
+          <seg cert="high">
+            en que rizan los Céfiros las ondas
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="b2m_2xf_s2c" source="#d1e1044" corresp="306" cert="high">
+          <seg cert="high">
+            antes que 
+          </seg>
+          <seg ana="#sem" cert="medium">
+            nuevas flores
+          </seg> 
+          <seg cert="high">
+            arrebolen
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="gfq_2xf_s2c" source="#d1e1044 #d1e1047" corresp="306 307" cert="high">
+          <seg cert="high">
+            los prados, 
+            y que cuelgue de las vigas
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="lvv_2xf_s2c" source="#d1e1047" corresp="307" cert="high">
+          <seg cert="high">
+            su nido la cantora golondrina.
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="flz_2xf_s2c" source="#d1e1050" corresp="308" cert="high">
+          <seg cert="high" source="#vt5_gvg_s2c">
+            El humor entretanto se calienta
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="sb2_fxf_s2c" source="#d1e1050" corresp="308" cert="high">
+          <seg cert="high">
+            en los molidos huesos
+          </seg> 
+          <seg ana="#sem #rep" orig="aestuat" source="#xz4_sgg_s2c" cert="medium">
+            fermentando,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="j4h_fxf_s2c" source="#d1e1053 #d1e1060" corresp="309 311" cert="high">
+          <seg cert="high">
+            y
+          </seg> 
+          <seg ana="#sem" cert="medium" source="#emz_kmb_s2c">
+            extraña
+          </seg> 
+          <seg ana="#sem" cert="high">
+            enjambrazón de animalillos
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="ktm_fxf_s2c" source="#d1e1060" corresp="311" cert="medium">
+          <seg cert="high">
+            se ve estallar en vivido
+          </seg>
+          <seg ana="#add" subana="#NP" cert="low">
+            hormiguero,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="zkq_fxf_s2c" source="#d1e1056" corresp="310" cert="high">
+          <seg cert="high" source="#idv_nwg_s2c">
+            sin patas al principio, luego alados
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="q1v_fxf_s2c" source="#d1e1056" corresp="310" cert="medium">
+          <seg cert="high">
+            con estridente 
+          </seg>
+          <seg ana="#add" subana="#NP" cert="low">
+            vuelo que rebulle,
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="otc_gxf_s2c" source="#d1e1060" corresp="311" cert="high">
+          <seg ana="#sem" source="#wwg_llg_s2c" cert="medium">
+            poco a poco 
+          </seg> 
+          <seg ana="#sem" cert="high">
+            en
+          </seg>
+          <seg cert="high">
+            el aire
+          </seg> 
+          <seg ana="#sem" cert="high">
+            se sostiene
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="j2q_gxf_s2c" source="#d1e1063 #d1e1066" corresp="312 313" cert="high">
+          <seg cert="high" source="#a41_11d_t2c">
+            y al fin revienta,
+          </seg> 
+          <seg cert="high">
+            cual
+          </seg> 
+          <seg ana="#sem" cert="medium">
+            hirvientes
+          </seg>
+          <seg cert="high">
+            gotas
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="jzt_gxf_s2c" source="#d1e1063" corresp="312" cert="high">
+          <seg ana="#sem" cert="high" source="#zn1_gb3_s2c">
+            de tempestad
+          </seg> 
+          <seg cert="high">
+            de estío, o
+          </seg>
+          <seg ana="#rep" cert="high">
+            cual
+          </seg> 
+          <seg ana="#sem" cert="high">
+            la lluvia
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="rm1_hxf_s2c" source="#d1e1066 #d1e1069" corresp="313 314" cert="high">
+          <seg cert="high" source="#q3n_p4b_s2c">
+            de flechas
+          </seg>
+          <seg cert="high">
+            con que el Parto
+            en sus combates
+          </seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="u33_hxf_s2c" source="#d1e1069" corresp="314" cert="high">
+          <seg cert="high" source="#scw_myg_s2c">
+            con leve escaramuza
+          </seg> 
+          <seg cert="high">
+            inicia el choque.
+          </seg>
+        </l>
+        
+        
+        <!--<l resp="#PVM" xml:id="d1e1074" n="315">
+          Quis deus hanc, Musae, 
+          quis nobis extudit artem?
+        </l>-->
+        <l resp="#AEP" xml:id="rys_flr_v3c" source="#d1e1074" corresp="315" cert="medium">
+          <seg cert="high" source="#r31_lgs_v3c">¿Qué dios esta</seg> 
+          <seg cert="medium" ana="#sem">invención</seg>
+            <seg cert="medium">a favor nuestro,</seg>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="jbg_jlr_v3c" source="#d1e1074 #d1e1078" corresp="315 316" cert="high">
+          <seg cert="high" source="#vsw_yhs_v3c">oh Musas,</seg> 
+          <seg cert="medium" ana="#sem">descubrió?</seg> 
+          <seg cert="high" source="#pxx_c3s_v3c">¿cómo los hombres</seg>
+        </l>
+        
+        
+        <!--<l resp="#PVM" xml:id="d1e1078" n="316">
+          Unde nova ingressus hominum 
+          experientia cepit?
+        </l>-->
+        <l resp="#AEP" xml:id="bdp_jlr_v3c" source="#d1e1078" corresp="316" cert="medium">
+          <seg cert="medium" ana="#sem" source="#q4h_5gs_v3c">
+            hicieron de ella su
+          </seg>
+          <seg cert="medium" ana="#sem" source="#hhn_1hs_v3c">
+            primer ensayo?
+          </seg>
+        </l>
+        
+        
+        
+        
+        
+        
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vvv. 4.511-515 -->
+        
+        <l resp="#AEP" xml:id="adg_lmf_p2c" source="#d1e1706 #d1e1709" corresp="511 512" cert="medium">
+          <seg ana="#sint" cert="high" source="#dds_sjf_p2c">
+            <!-- qualis... queritur -->
+            Cual se lastima
+          </seg>
+          <gap quantity="1" source="#dds_sjf_p2c" orig="maerens" ana="#om" subana="#AdjP" cert="low"/>
+        </l>
+        
+        
+        <l resp="#AEP" xml:id="m52_4mf_p2c" source="#d1e1706" corresp="511" cert="high">
+          <seg ana="#sem" cert="high">
+            <!-- no es un nombre propio -->
+            Filomela,
+          </seg>
+          <seg cert="high">
+            a la sombra de los álamos,
+          </seg>
+        </l>
+        
+        <l resp="#AEP" xml:id="ft2_pmf_p2c" source="#d1e1709" corresp="512" cert="medium">
+          <seg cert="high" source="#r4f_zjf_p2c">
+            de sus polluelos,
+          </seg>
+          <gap source="#r4f_zjf_p2c" quantity="1" ana="#om" subana="#AdjP" orig="amissos" cert="low"/> 
+          <seg cert="high">
+            que,
+          </seg>
+          <seg ana="#sema" source="#szr_2pf_p2c" orig="observans" cert="medium">
+            tras largo acecho,
+          </seg>
+        </l>
+        
+        <l resp="#AEP" xml:id="th3_pmf_p2c" source="#d1e1709 #d1e1712" corresp="512 513" cert="high">
+          <seg cert="high">
+            implumes el labriego incompasivo
+          </seg>
+        </l>
+        
+        <l resp="#AEP" xml:id="ztl_pmf_p2c" source="#d1e1715" corresp="514" cert="medium">
+          <seg cert="high">
+            llora
+          </seg>
+          <gap source="#jl3_g4f_p2c" quantity="1" orig="sedens" ana="#om" subana="#AdjP" cert="low"/> 
+          <seg cert="high">
+            desde la rama,
+          </seg>
+          <seg ana="#sint #sem" source="#u3j_bpf_p2c" cert="medium">
+            <!-- integrat -->
+            y renovando
+          </seg>
+        </l>
+        
+        <l resp="#AEP" xml:id="fdq_pmf_p2c" source="#d1e1715 #d1e1719" corresp="514 515" cert="medium">
+          <seg cert="high">
+            sus endechas
+          </seg> 
+          <seg ana="#add" subana="#AdvP" cert="low">
+            sin tregua,
+          </seg>
+          <seg cert="high">
+            tristes
+          </seg> 
+          <seg source="#prg_w4f_p2c" orig="questibus" cert="medium">
+            sones
+          </seg>
+        </l>
+        
+        <l resp="#AEP" xml:id="pxw_rmf_p2c" source="#d1e1719" corresp="515" cert="high">
+            <seg ana="#sem" source="#qd2_wkf_p2c" orig="implet" cert="medium">
+              esparce
+            </seg> 
+           <seg cert="high" source="#uxb_ykf_p2c">
+             por los ámbitos distantes
+           </seg>
+        </l>
+        
+        <!-- fin fragmento  vv. 4.511-515 -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+      </div>
+    </body>
+  </text>
+</TEI>

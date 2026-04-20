@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" 
+  xmlns:rng="http://relaxng.org/ns/structure/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>NV-Verg Schema</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>AUTOR</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>AUTOR</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <schemaSpec ident="tei-nv-v" start="TEI">
+        <!-- Include all standard TEI modules -->
+        <moduleRef key="tei"/>
+        <moduleRef key="core"/>
+        <moduleRef key="header"/>
+        <moduleRef key="textstructure"/>
+        <moduleRef key="msdescription"/>
+        <moduleRef key="namesdates"/>
+        <moduleRef key="transcr"/>
+        <moduleRef key="analysis"/>
+        <moduleRef key="certainty"/>
+        <moduleRef key="corpus"/>
+        <moduleRef key="dictionaries"/>
+        <moduleRef key="drama"/>
+        <moduleRef key="figures"/>
+        <moduleRef key="gaiji"/>
+        <moduleRef key="iso-fs"/>
+        <moduleRef key="linking"/>
+        <moduleRef key="nets"/>
+        <moduleRef key="spoken"/>
+        <moduleRef key="tagdocs"/>
+        <moduleRef key="textcrit"/>
+        <moduleRef key="verse"/>
+        
+        <!-- Modify the l element -->
+        <!-- @ana="#ojo" flags verses that require further attention -->
+        <elementSpec ident="l" mode="change">
+          <attList>
+            <attDef ident="ana" mode="change">
+              <valList mode="add">
+                <valItem ident="#ojo">
+                  <desc>Marca un verso que requiere revisión o atención posterior.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        <!-- Modify the gap element -->
+        <!-- gap encodes an omission in TT of a term present in ST.
+             @orig     = the Latin term omitted
+             @ana      = translation-deviation type from atributos.xml; only #om is valid here
+             @subana   = syntactic/phrasal category of the omitted Latin term
+                         (#AdjP, #AdvP, #AP, #C, #DP, #I, #NP, #P, #PP, #S, #U, #VP);
+                         mirrors @subana on seg
+             @cert     = certainty of the omission analysis (high/medium/low)
+             @quantity = number of omitted tokens (optional) -->
+        <elementSpec ident="gap" mode="change">
+          <attList>
+            <!-- @orig: the Latin term omitted by the translator -->
+            <attDef ident="orig" mode="add">
+              <desc>El término latino omitido por el traductor en este punto.</desc>
+              <datatype>
+                <dataRef name="string"/>
+              </datatype>
+            </attDef>
+            <!--            -->
+            <!-- @quantity: number of omitted tokens (optional) -->
+            <attDef ident="quantity" mode="replace" usage="opt">
+              <desc>Número de tokens omitidos.</desc>
+              <datatype>
+                <dataRef name="integer"/>
+              </datatype>
+            </attDef>
+            <!--            -->
+            <!-- @cert: certainty of the omission analysis -->
+            <attDef ident="cert" mode="replace" usage="req">
+              <desc>Grado de certeza del análisis de omisión (high, medium, low).</desc>
+              <datatype>
+                <dataRef name="data.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="high"/>
+                <valItem ident="medium"/>
+                <valItem ident="low"/>
+              </valList>
+            </attDef>
+            <!--            -->
+            <!-- @ana: translation-deviation type from atributos.xml -->
+            <attDef ident="ana" mode="replace" usage="req">
+              <desc>
+                Tipo de desviación traductora según el vocabulario de atributos.xml.
+                En gap, el único valor válido es #om (omisión).
+              </desc>
+              <datatype>
+                <dataRef name="data.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="#om">
+                  <desc>
+                    Omisión: TT no traduce un término presente en ST.
+                  </desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <!--            -->
+            <!-- @subana: syntactic/phrasal category of the omitted Latin term -->
+            <attDef ident="subana" mode="add" usage="rec">
+              <desc>
+                Categoría sintagmática del término latino omitido.
+                Espeja el uso de @subana en seg.
+              </desc>
+              <datatype>
+                <dataRef name="data.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="#AdjP">
+                  <desc>Sintagma adjetival.</desc>
+                </valItem>
+                <valItem ident="#AdvP">
+                  <desc>Sintagma adverbial.</desc>
+                </valItem>
+                <valItem ident="#AP">
+                  <desc>Adposición.</desc>
+                </valItem>
+                <valItem ident="#C">
+                  <desc>Conjunción.</desc>
+                </valItem>
+                <valItem ident="#DP">
+                  <desc>Sintagma pronominal o determinante.</desc>
+                </valItem>
+                <valItem ident="#I">
+                  <desc>Interjección.</desc>
+                </valItem>
+                <valItem ident="#NP">
+                  <desc>Sintagma nominal.</desc>
+                </valItem>
+                <valItem ident="#P">
+                  <desc>Puntuación.</desc>
+                </valItem>
+                <valItem ident="#PP">
+                  <desc>Sintagma preposicional.</desc>
+                </valItem>
+                <valItem ident="#S">
+                  <desc>Oración.</desc>
+                </valItem>
+                <valItem ident="#U">
+                  <desc>Categoría no determinada.</desc>
+                </valItem>
+                <valItem ident="#VP">
+                  <desc>Sintagma verbal.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        
+        <!-- Customize the seg element -->
+        <!-- @ana on seg belongs to the translation-deviation vocabulary defined
+             in atributos.xml. It classifies the type of deviation between ST and TT.
+             Note: omissions are encoded via gap, not seg. -->
+        <elementSpec ident="seg" mode="change">
+          <attList>
+            <attDef ident="ana" mode="change" usage="rec">
+              <valList type="closed">
+                <valItem ident="#add">
+                  <desc>
+                    Añadido: TT incluye un término que no está (ni se insinúa) en ST,
+                    y que no es la repetición de un término ya presente en ST (cf. #rep).
+                  </desc>
+                </valItem>
+                <valItem ident="#id">
+                  <desc>
+                    Ídem: el término en ST y TT es el mismo, es decir, no se tradujo sino
+                    se transcribió directamente.
+                  </desc>
+                </valItem>
+                <valItem ident="#met">
+                  <desc>
+                    Metonimia: TT vierte metonímicamente una expresión de ST, es decir,
+                    por sustitución de contigüidad semántica (e.g. "el remo boga" ← "se navega");
+                    a diferencia de #sem, la relación entre los términos es metonímica, no
+                    meramente léxica.
+                  </desc>
+                </valItem>
+                <valItem ident="#rep">
+                  <desc>
+                    Repetición: TT repite un término que en ST aparece solo una vez;
+                    a diferencia de #add, el término repetido sí está presente en ST.
+                  </desc>
+                </valItem>
+                <valItem ident="#sem">
+                  <desc>
+                    Semántica: TT sustituye un término de ST por otro cuyo campo semántico
+                    es distinto pero de extensión comparable (desplazamiento lateral);
+                    cf. #semd y #sema para sustituciones que implican cambio de extensión.
+                  </desc>
+                </valItem>
+                <valItem ident="#sema">
+                  <desc>
+                    Semántica aumenta: TT sustituye un término de ST por otro de campo
+                    semántico más amplio, es decir, la extensión del término en ST es un
+                    subconjunto de la del término en TT (e.g. "enjambre" → "prole").
+                  </desc>
+                </valItem>
+                <valItem ident="#semd">
+                  <desc>
+                    Semántica disminuye: TT sustituye un término de ST por otro de campo
+                    semántico más restringido, es decir, la extensión del término en TT es
+                    un subconjunto de la del término en ST (e.g. "prole" → "enjambre").
+                  </desc>
+                </valItem>
+                <valItem ident="#sint">
+                  <desc>
+                    Sintaxis: TT introduce un cambio morfosintáctico flexivo respecto a ST
+                    (e.g. de persona, de número, de voz, de modo, de tiempo verbal), sin
+                    que medie un cambio léxico de la raíz.
+                  </desc>
+                </valItem>
+              </valList>
+            </attDef>
+            <!--            -->
+            <!-- @orig: the Latin term rendered by this seg -->
+            <attDef ident="orig" mode="add">
+              <desc>El término latino que este segmento traduce o vierte.</desc>
+              <datatype>
+                <dataRef name="string"/>
+              </datatype>
+            </attDef>
+            <!--            -->
+            <!-- @cert: certainty of the deviation analysis -->
+            <attDef ident="cert" mode="replace" usage="rec">
+              <desc>Grado de certeza del análisis de desviación (high, medium, low).</desc>
+              <datatype>
+                <dataRef name="data.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="high"/>
+                <valItem ident="medium"/>
+                <valItem ident="low"/>
+              </valList>
+            </attDef>
+            <!--            -->
+            <attDef ident="source" mode="change">
+              <desc>Fuente de apoyo para el análisis; requerido cuando cert="low".</desc>
+            </attDef>
+            <!--            -->
+            <!-- @subana: syntactic/phrasal category of the added term; required when ana="#add" -->
+            <attDef ident="subana" mode="add">
+              <desc>Categoría sintagmática del término añadido; requerido cuando ana="#add".</desc>
+              <datatype>
+                <dataRef name="data.word"/>
+              </datatype>
+              <valList type="closed">
+                <valItem ident="#AdjP">
+                  <desc>Sintagma adjetival.</desc>
+                </valItem>
+                <valItem ident="#AdvP">
+                  <desc>Sintagma adverbial.</desc>
+                </valItem>
+                <valItem ident="#AP">
+                  <desc>Adposición.</desc>
+                </valItem>
+                <valItem ident="#C">
+                  <desc>Conjunción.</desc>
+                </valItem>
+                <valItem ident="#DP">
+                  <desc>Sintagma pronominal o determinante.</desc>
+                </valItem>
+                <valItem ident="#I">
+                  <desc>Interjección.</desc>
+                </valItem>
+                <valItem ident="#NP">
+                  <desc>Sintagma nominal.</desc>
+                </valItem>
+                <valItem ident="#P">
+                  <desc>Puntuación.</desc>
+                </valItem>
+                <valItem ident="#PP">
+                  <desc>Sintagma preposicional.</desc>
+                </valItem>
+                <valItem ident="#S">
+                  <desc>Oración.</desc>
+                </valItem>
+                <valItem ident="#U">
+                  <desc>Categoría no determinada.</desc>
+                </valItem>
+                <valItem ident="#VP">
+                  <desc>Sintagma verbal.</desc>
+                </valItem>
+              </valList>
+            </attDef>
+          </attList>
+        </elementSpec>
+        
+        
+        
+        
+        <!--  Schematron rules  -->
+        
+        <!-- @source is required on seg whenever cert="low", except when ana="#add"
+             (additions have no Latin source term to cite by definition) -->
+        <constraintSpec ident="seg-cert-source" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:seg[@cert='low' and @ana!='#add']">
+              <sch:assert test="@source">
+                Cuando cert="low" en un elemento seg, el atributo @source debe estar presente
+                (excepción: ana="#add", donde no hay término latino que citar).
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!-- @source values must contain a '#' character -->
+        <constraintSpec ident="element-hash-source" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:seg[@source]">
+              <sch:assert test="contains(@source, '#')">
+                El atributo @source en elementos seg debe contener el carácter "#".
+              </sch:assert>
+            </sch:rule>
+            
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:l[@source]">
+              <sch:assert test="contains(@source, '#')">
+                El atributo @source en elementos l debe contener el carácter "#".
+              </sch:assert>
+            </sch:rule>
+            
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:gap[@source]">
+              <sch:assert test="contains(@source, '#')">
+                El atributo @source en elementos gap debe contener el carácter "#".
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!-- Reference attributes must not be bare '#' -->
+        <constraintSpec ident="no-empty-references" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="*[@*]">
+              <sch:assert test="not(./@*[. = '#'])">
+                Los atributos de referencia no pueden ser solo "#"; deben apuntar a un identificador específico.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!-- l may only contain seg, gap, and note as immediate children -->
+        <constraintSpec ident="l-only-allowed-children" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:l">
+              <sch:assert test="count(*[not(self::tei:seg) and not(self::tei:gap) and not(self::tei:note)]) = 0">
+                El elemento l solo puede contener elementos seg, gap y note como hijos inmediatos.
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!-- l must not contain direct text content -->
+        <constraintSpec ident="l-no-direct-text" scheme="schematron">
+          <constraint>
+            <sch:rule xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:l/text()">
+              <sch:report test="normalize-space(.)">
+                El elemento l no debe contener texto directo; todo el texto debe estar dentro de seg, gap o note.
+              </sch:report>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+        <!-- @subana is required when ana="#add" -->
+        <constraintSpec ident="subanaRequired" scheme="schematron">
+          <constraint>
+            <sch:rule
+              xmlns:sch="http://purl.oclc.org/dsdl/schematron" 
+              context="tei:seg[@ana='#add']">
+              <sch:assert test="@subana">
+                El atributo @subana es obligatorio cuando @ana="#add".
+              </sch:assert>
+            </sch:rule>
+          </constraint>
+        </constraintSpec>
+        
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>

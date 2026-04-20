@@ -1,0 +1,642 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Georgics</title>
+        <author>Virgilio</author>
+        <editor role="translator" xml:id="PF">
+          Peter Fallon
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+          <date>2025</date>
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="MACOV2ed">
+          <monogr>
+            <author>
+              Virgilio
+            </author>
+            <author role="traductor">
+              Peter Fallon
+            </author>
+            <title>
+              Georgics
+            </title>
+            <imprint>
+              <pubPlace>Oxford</pubPlace>
+              <publisher>
+                Oxford University Press
+              </publisher>
+              <date>2005</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="en">
+    <body>
+      <div n="4">
+        
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.281-4.294 -->
+        <lg>
+          <!--. . . -->
+          <l resp="#PF" xml:id="k3w_dfz_q2c" source="#d1e956" corresp="281" cert="high">
+            <gap source="#hj4_rcv_p2c" ana="#om" orig="Sed" subana="#C" cert="high"/>
+            <seg ana="#sint" cert="medium">
+              It can happen
+            </seg> 
+            <seg orig="subito" source="#nmm_4qd_q2c" cert="high">
+              in a flash
+            </seg> 
+            <seg cert="high" source="#ir4_qqw_q2c">
+              that someone's stock completely fails
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="jqz_v2z_q2c" source="#d1e959" corresp="282" cert="high">
+            <seg cert="high" source="#m3k_crd_q2c">
+              —and
+            </seg> 
+            <seg ana="#sint" cert="high" source="#m4v_xqd_q2c">
+              he can see no way
+            </seg> 
+            <seg ana="#sem" cert="high">
+              to supplant it with new blood.
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="ypd_2fz_q2c" source="#d1e962" corresp="283" cert="high">
+            <gap source="#gvt_grd_q2c" ana="#om" orig="et" cert="high"/>
+            <seg cert="high" source="#b1p_1vy_q2c">
+              Time then to let you in
+            </seg> 
+            <seg cert="high">
+              on what that
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="low">
+              great
+            </seg> 
+            <seg cert="high">
+              Arcadian
+            </seg> 
+            <seg ana="#semd" cert="high" source="#psg_p3x_q2c">
+              keeper
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="ecj_x2z_q2c" source="#d1e962 #d1e965" corresp="283 284" cert="medium">
+            <gap source="#sq1_yrd_q2c" ana="#om" orig="que" cert="high"/>
+            <seg ana="#add" subana="#AdvP" cert="low">
+              first
+            </seg> 
+            <seg cert="high" source="#zhn_bvy_q2c">
+              discovered,
+            </seg>
+            <seg ana="#add" subana="#C" cert="medium">
+              that is
+            </seg>
+            <seg cert="high" source="#bnw_zp5_r2c #gnd_j54_q2c #jfk_j54_q2c">
+              —this happened often—
+              that putrid blood
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="vq3_y2z_q2c" source="#d1e965 #d1e968" corresp="284 285" cert="high">
+            <seg cert="high">
+              of
+            </seg> 
+            <seg ana="#semd" cert="high" source="#s4l_dsd_q2c">
+              slaughtered
+            </seg>
+            <seg ana="#sema" cert="high">
+              cattle
+            </seg> 
+            <seg cert="high">
+              brought
+            </seg>
+            <seg ana="#add" subana="#AdjP" cert="medium">
+              new
+            </seg> 
+            <seg ana="#met" cert="high">
+              swarms
+            </seg>
+            <seg cert="high">
+              into being.
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="egm_y2z_q2c" source="#d1e968 #d1e971" corresp="285 286" cert="high">
+            <seg cert="high" source="#zyd_nkd_q2c #kwm_lkd_q2c">
+              Listen. I'll tell
+            </seg> 
+            <seg cert="high" source="#esj_gld_q2c #xrn_lmf_r2c #nyg_pkd_q2c">
+              all from the root to bloom,
+            </seg>
+            <seg ana="#add #met" cert="high" source="#swy_mq5_r2c" subana="#VP">
+              share all I've heard.
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="yhd_1fz_q2c" source="#d1e975 #d1e978" corresp="287 288" cert="high">
+            <seg cert="high" source="#szn_vrw_q2c">
+              For where Pellaean people live
+            </seg>
+            <seg ana="#met" cert="high">
+              their happy lives
+            </seg>
+            <seg cert="high">
+              beside Canopus
+            </seg>
+            <seg ana="#sem" cert="high">
+              on 
+            </seg>
+            <seg cert="high">
+              the Nile
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="ufj_1fz_q2c" source="#d1e978" corresp="288" cert="medium">
+            <seg cert="high" source="#vby_2cx_q2c #ll3_wp3_q2c #nmn_1q3_q2c">
+              whose flowing waters form floodpools
+            </seg>
+            <gap quantity="3" orig="circum... sua rura" source="#srp_cq3_q2c" ana="#om" subana="#PP" cert="low"/> 
+          </l>
+          
+          
+          <l resp="#PF" xml:id="ul4_1fz_q2c" source="#d1e981" corresp="289" cert="high">
+            <seg cert="high">
+              on which
+            </seg> 
+            <seg ana="#sem" cert="high">
+              they do their rounds
+            </seg> 
+            <seg cert="high">
+              in
+            </seg> 
+            <seg ana="#add #sem" cert="high" subana="#AdvP">
+              brightly
+            </seg> 
+            <seg cert="high">
+              painted pinnaces
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="nzr_1fz_q2c" source="#d1e984" corresp="290" cert="high">
+            <gap source="#dzf_hnd_q2c" ana="#om" orig="que" cert="high"/>
+            <seg cert="high">
+              and where
+            </seg> 
+            <seg ana="#met" cert="high">
+              the Persians,
+            </seg>
+            <seg ana="#met" cert="high">
+              race of archers,
+            </seg> 
+            <seg orig="urget" source="#vmt_ynd_q2c" cert="medium">
+              crowd in close
+            </seg> 
+            <seg cert="high">
+              as neighbours,
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="yzw_1fz_q2c" source="#d1e993" corresp="292" cert="high">
+            <seg cert="high" source="#d45_bnk_q2c #myd_m4d_q2c">
+              and a tumbling torrent splits into its seven
+            </seg> 
+            <seg ana="#met" cert="medium" source="#r43_qcx_q2c">
+              deltas—
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="o3b_bfz_q2c" source="#d1e1000" corresp="293" cert="high">
+            <seg cert="high" source="#wrs_54d_q2c #lhh_bqd_q2c">
+              the river, which has travelled all the way
+            </seg> 
+            <seg ana="#add" subana="#PP" cert="medium">
+              from the land of
+            </seg> 
+            <seg cert="high">
+              sun-bronzed Ethiopians
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="epg_bfz_q2c" source="#d1e987" corresp="291" cert="high">
+            <seg cert="high" source="#alm_rxy_q2c">
+              and which fertilizes
+            </seg> 
+            <seg ana="#met" cert="medium" source="#alm_rxy_q2c">
+              fertile
+            </seg> 
+            <seg cert="high">
+              Egypt with 
+              dank sands
+            </seg>
+            <seg orig="omnis... regio" cert="medium">
+              —that's where
+            </seg>
+          </l>
+          
+          
+          <l resp="#PF" xml:id="bbk_bfz_q2c" source="#d1e1006" corresp="294" cert="medium">
+            <seg cert="medium" source="#s1z_qnk_q2c">
+              the continued well-being
+            </seg>
+            <seg ana="#add" subana="#PP" cert="low">
+              of the bees 
+            </seg>
+            <seg cert="high">
+              rests safe 
+              and surely on the skill
+            </seg> 
+            <seg ana="#add" subana="#S" cert="low">
+              I've promised to describe.
+            </seg>
+          </l>
+        </lg>
+        
+        
+        <l resp="#PF" xml:id="w4d_2kj_s2c" source="#d1e1009 #d1e1012" corresp="295 296" cert="high">
+          <seg ana="#sint" cert="high" source="#zhr_hqg_s2c">
+            First they choose
+          </seg>
+            <seg ana="#sem #rep" cert="high" source="#hwn_bdl_t2c">
+              an area, 
+            </seg>
+          <seg cert="high">
+          a place made smaller
+          for this very purpose,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="asv_qkj_s2c" source="#d1e1012 #d1e1015" corresp="296 297" cert="high">
+          <seg cert="high">
+            enclosed with roof tiles 
+            and its walls pressed in.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="pbz_qkj_s2c" source="#d1e1015 #d1e1018" corresp="297 298" cert="high">
+          <seg cert="high" source="#gc3_vzf_s2c">
+            Then they add four apertures 
+            that face four
+          </seg>
+          <seg ana="#sem" cert="high" source="#ekp_wxf_s2c">
+            quarters
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="mc2_rkj_s2c" source="#d1e1018" corresp="298" cert="high">
+          <seg ana="#sem" cert="high" source="#ekp_wxf_s2c">
+            of the wind 
+          </seg>
+          <seg cert="high">
+            and admit a slanting light.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="fxl_f24_s2c" source="#d1e1022 #d1e1025" corresp="299 300" cert="high">
+          <seg cert="high" source="#o4m_xzf_s2c">
+            Then they'll pick a bull calf out, 
+            his two years' growth of horn 
+          </seg>
+          <seg ana="#sem" cert="high">
+            a crown upon his brow
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="ssy_f24_s2c" source="#d1e1025 d1e1028" corresp="300 301" cert="high">
+          <seg cert="high" source="#d4s_msg_s2c">
+            and plug his nostrils and, 
+            despite the fight he'll offer, 
+            put a stop to his breathing.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="gm4_g24_s2c" source="#d1e10283 #d1e1031" corresp="301 302" cert="high">
+          <seg cert="high">
+            And when he's been 
+          </seg>            
+          <seg ana="#sem" cert="medium">
+            assailed
+          </seg> 
+          <seg cert="high" source="#h23_xsg_s2c">
+            with blows,
+            and while his hide
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="xzf_1f4_s2c" source="#d1e1031" corresp="302" cert="high">
+          <seg cert="high" source="#gqq_ctg_s2c">
+            is still unbroken,
+            they'll pummel to a pulp his flesh.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="nwl_1f4_s2c" source="#d1e1034" corresp="303" cert="high">
+          <seg cert="high">
+            That's how they leave him, 
+            shut away in that enclosure, 
+            beneath his ribcage
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="v1r_1f4_s2c" source="#d1e1037" corresp="304" cert="high">
+          <seg cert="high">
+            piles of branches, 
+            thyme, 
+            and newly picked 
+          </seg>
+          <seg ana="#sem" source="#dyq_z2g_s2c" orig="casias" cert="high">
+            spurge laurel.
+          </seg>
+          <note>
+            "spurge laurel": 
+            "Daphne laureola".
+          </note>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="xlx_vwc_t2c" source="#d1e1041" corresp="305" cert="high">
+          <seg cert="high">
+            All this proceeds while
+          </seg>
+          <seg ana="#sem" cert="high">
+            west winds
+          </seg>
+          <seg cert="high" source="#dh4_3lb_s2c">
+            first 
+          </seg>
+          <seg ana="#sem" cert="high">
+            play 
+          </seg>
+          <seg cert="high">
+            on the waves,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="dzd_z34_s2c" source="#d1e1044" corresp="306" ana="#ojo" cert="medium">
+          <seg cert="high">
+            before 
+          </seg>
+          <seg ana="#add" subana="#NP" cert="low">
+            spring 
+          </seg>
+          <seg ana="#sem" cert="high">
+            restores 
+            a flush of colour to the face 
+            of fields,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="wvq_z34_s2c" source="#d1e1044 #d1e1047" corresp="306 307" cert="high">
+          <seg cert="high">
+            before the chattering swallow 
+            attaches her nest to the rafters.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="xrq_1yc_t2c" source="#d1e1050 #d1e1053" corresp="308 309" ana="#ojo" cert="high">
+          <seg cert="high" source="#vt5_gvg_s2c #xz4_sgg_s2c">
+            Meanwhile, the bullock's tender bones 
+            begin to heat
+          </seg>
+          <seg ana="#add" subana="#VP" cert="medium">
+            and ferment
+          </seg>
+          <note>
+            PF vierte "aestuat" en dos verbos:
+            "heat" y "ferment".
+          </note>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="llz_1yc_t2c" source="#d1e1053" corresp="309" cert="high">
+          <seg cert="high" source="#emz_kmb_s2c">
+            and astonishing to see strange animals 
+          </seg>
+          <seg ana="#add" subana="#VP" cert="medium">
+            appear,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="pyq_lzc_t2c" source="#d1e1056 #d1e1060" corresp="310 311" cert="high">
+          <seg cert="high">
+            with, at first, no feet to speak of, 
+            then with 
+          </seg>
+          <seg ana="#met" cert="high">
+            wings
+          </seg>
+          <seg cert="high" source="#idv_nwg_s2c">
+            whirring,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="pgy_lzc_t2c" source="#d1e1060" corresp="311" cert="high">
+          <seg cert="high">
+            as they mill around 
+            on their play flights, 
+          </seg>
+          <seg ana="#sem" orig="-que magis magis" source="#wwg_llg_s2c" cert="high">
+            first here, then there,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="w4d_mzc_t2c" source="#d1e1063" corresp="312" cert="high">
+          <gap ana="#om" subana="#C" quantity="1" source="#a41_11d_t2c" orig="donec" cert="medium"/>
+          <seg cert="high">
+            and then 
+          </seg>
+          <seg ana="#sem" cert="high">
+            spill out 
+          </seg>
+          <seg cert="high">
+            like
+          </seg>
+          <seg ana="#sem" cert="high" source="#zn1_gb3_s2c">
+            heavy showers
+          </seg>
+          <seg cert="high">
+            poured from summer clouds,
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="yk1_rbd_t2c" source="#d1e1066 #d1e1069" corresp="313 314" cert="high">
+          <seg cert="high" source="#q3n_p4b_s2c #scw_myg_s2c">
+            or like those arrows 
+            the lightly armed Parthians 
+          </seg>
+          <seg ana="#add" subana="#VP" cert="medium">
+            unleash 
+          </seg>
+          <seg ana="#met" cert="high">
+            from bows
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="wtg_3bd_t2c" source="#d1e1069" corresp="314" cert="high">
+          <seg cert="high">
+            to strike the first 
+          </seg>
+          <seg ana="#sem" cert="high">
+            blows 
+          </seg>
+          <seg ana="#sem" cert="high">
+            in battle.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="wfr_3bd_t2c" source="#d1e1074" corresp="315" cert="high">
+          <!-- Quid deus... musae...-->
+          <seg cert="high">
+            O Muses, 
+          </seg>
+          <seg cert="high">
+            say 
+          </seg>
+          <seg cert="high">
+            what god was it
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="d5v_3bd_t2c" source="#d1e1074 d1e1078" corresp="315 316" cert="high">
+          <seg cert="high">
+            <!--...hanc... 
+              quis nobis extudit artem?-->
+            who 
+          </seg>
+            <seg ana="#met" orig="hanc artem" cert="high" source="#r31_lgs_v3c">
+              with this miracle
+            </seg> 
+            <seg orig="ingressus/cepit(?)" cert="high" source="#hhn_1hs_v3c">
+              advanced
+            </seg>
+          <seg ana="#sem" orig="hominum experientia" cert="high" source="#vsw_yhs_v3c">
+              the minds of men
+            </seg>
+          <seg cert="high">?</seg>
+          <!--Unde nova ingressus hominum 
+            experientia cepit?-->
+          <gap source="#pxx_c3s_v3c" ana="#om" orig="Unde" cert="high"/>
+        <gap source="#q4h_5gs_v3c" ana="#om" orig="nova" cert="high"/>
+            </l>
+        
+        
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vvv. 4.511-515 -->
+        <l resp="#PF" xml:id="zj1_zzt_r2c" source="#d1e1706" corresp="511" cert="high">
+          <seg cert="high">
+            just as a nightingale
+          </seg>
+          <seg cert="medium" ana="#sint" source="#dds_sjf_p2c">
+            will sorrow
+          </seg>
+          <seg cert="high">
+            under poplar shade
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="gpk_115_r2c" source="#d1e1709" corresp="512" cert="high">
+          <seg cert="high" source="#r4f_zjf_p2c">
+            for her lost brood which some brute 
+            ploughboy spotted
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="a34_115_r2c" source="#d1e1712" corresp="513" cert="high">
+          <seg cert="high" source="#szr_2pf_p2c">
+            and pilfered from the nest, 
+            though it was not yet fledged.
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="f2t_115_r2c" source="#d1e1715" corresp="514" cert="medium">
+          <seg cert="high">
+            That
+          </seg>
+          <seg ana="#add #rep" subana="#NP" cert="medium">
+            bird
+          </seg> 
+          <seg ana="#add" subana="#AdvP" cert="low">
+            still
+          </seg> 
+          <seg cert="high" source="#jl3_g4f_p2c #u3j_bpf_p2c">
+            weeps by night and,
+            perched in a tree, repeats
+          </seg>
+        </l>
+        
+        
+        <l resp="#PF" xml:id="ocx_115_r2c" source="#d1e1719" corresp="515" cert="high">
+          <seg orig="miserabile carmen" cert="high">
+            her plaintive keen,
+          </seg> 
+          <seg orig="implet" cert="high" source="#qd2_wkf_p2c">
+            filling
+          </seg>
+          <seg xml:id="ztb_f55_r2c" orig="late loca... " synch="#wws_l55_r2c" cert="high" source="#uxb_ykf_p2c">
+            far and wide
+          </seg>
+          <seg ana="#sem" orig="maestis questibus" cert="high" source="#prg_w4f_p2c">
+            with the ache of her heartbreak
+          </seg>
+        </l>
+        <!-- fin fragmento  vv. 4.511-515 -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+      </div>
+    </body>
+  </text>
+</TEI>

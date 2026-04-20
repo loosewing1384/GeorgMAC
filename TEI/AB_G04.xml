@@ -1,0 +1,304 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="schema/out/tei-nv-v.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geórgicas</title>
+        <author>Virgilio</author>
+        <editor role="translator" xml:id="AB">
+          Alejandro Bekes
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p>
+          Editado por 
+          <persName xml:id="AUT">
+            AUTOR
+          </persName>
+          para edición electrónica
+          <date>2026</date>.
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <biblStruct xml:id="RBNGV">
+          <monogr>
+            <author>
+              Virgilio
+            </author>
+            <author role="traductor">
+              Alejandro Bekes
+            </author>
+            <title xml:lang="es">
+              Geórgicas
+            </title>
+            <imprint>
+              <pubPlace>Buenos Aires</pubPlace>
+              <publisher>
+                Losada
+              </publisher>
+              <date>2007</date>
+            </imprint>
+          </monogr>
+        </biblStruct>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:lang="es">
+    <body>
+      <div n="4">
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.281-4.314 -->
+        <l resp="#AB" xml:id="gm4_thw_s3c" source="#d1e956" corresp="281" cert="high">
+          <seg cert="high" source="#hj4_rcv_p2c #ir4_qqw_q2c">Pero si a alguien</seg>
+          <seg cert="high" source="#nmm_4qd_q2c">de pronto</seg>
+          <seg cert="high">le faltara toda progenie</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="f1w_ref_qn7" source="#d1e959" corresp="282" cert="high">
+          <seg cert="high" source="#m3k_crd_q2c #m4v_xqd_q2c">y no tuviera ya dónde renovar una estirpe,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="pvi_9gz_co2" source="#d1e962" corresp="283" cert="high">
+          <seg cert="high" source="#b1p_1vy_q2c #gvt_grd_q2c #psg_p3x_q2c">tiempo es de exponer también los memorables hallazgos</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="jx2_t5m_wq4" source="#d1e965" corresp="284" cert="high">
+          <seg cert="high" source="#zhn_bvy_q2c #bnw_zp5_r2c">del maestro arcadio y cómo de</seg>
+          <seg ana="#sem" orig="caesis" cert="medium" source="#s4l_dsd_q2c">inmolados</seg>
+          <seg cert="high"> novillos pudo</seg>
+        <gap source="#sq1_yrd_q2c" ana="#om" orig="que" cert="high"/>
+            </l>
+        
+        
+        <l resp="#AB" xml:id="m5r_ix1_dvd" source="#d1e968" corresp="285" cert="high">
+          <seg cert="high" source="#gnd_j54_q2c #jfk_j54_q2c">ya la sangre corrupta dar abejas. </seg>
+          <seg ana="#sem" orig="Altius" cert="medium" source="#zyd_nkd_q2c #kwm_lkd_q2c">Bien</seg>
+          <seg cert="high"> remontándome</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="esl_36p_l1d" source="#d1e971" corresp="286" cert="high">
+          <seg cert="high" source="#esj_gld_q2c #xrn_lmf_r2c #nyg_pkd_q2c">a su origen primero expondré </seg>
+          <seg ana="#sem" orig="famam" cert="medium" source="#swy_mq5_r2c">la leyenda</seg>
+          <seg cert="high"> entera.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="tvh_hfx_l9l" source="#d1e975" corresp="287" cert="high">
+          <seg cert="high" source="#szn_vrw_q2c">Pues donde el pueblo afortunado de la pelia Canopo</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="pzz_ltv_tqo" source="#d1e978" corresp="288" cert="high">
+          <seg cert="high" source="#vby_2cx_q2c #ll3_wp3_q2c #nmn_1q3_q2c">junto al Nilo que inunda con su excesivo fluir </seg>
+          <seg ana="#sem" orig="accolit" cert="medium">habita</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="pii_6mw_pqc" source="#d1e981" corresp="289" cert="high">
+          <seg cert="high" source="#srp_cq3_q2c">y en pintadas barcazas se mueve en torno de sus campos,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="w9v_z8o_u65" source="#d1e984" corresp="290" cert="high">
+          <seg cert="high" source="#alm_rxy_q2c #vmt_ynd_q2c">y al Egipto verdeante con su negra arena fecunda</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="kia_6bl_xsn" source="#d1e987" corresp="291" cert="high">
+          <seg cert="high" source="#d45_bnk_q2c #myd_m4d_q2c #r43_qcx_q2c">y en siete bocas dividido acude corriendo</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="gc6_l5w_oru" source="#d1e993" corresp="292" cert="high">
+          <seg cert="high" source="#wrs_54d_q2c #lhh_bqd_q2c">el río, allí acarreado desde los atezados indos,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="ih3_4b4_be5" source="#d1e1000" corresp="293" cert="high">
+          <seg cert="high" source="#s1z_qnk_q2c">todo el país su salvación segura cifra en tal arte.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="gmf_ht1_mw7" source="#d1e1006" corresp="294" cert="high">
+          <seg cert="high" source="#zhr_hqg_s2c #hwn_bdl_t2c">Primero un sitio estrecho, y aun a estos fines reducido,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="pf4_qfy_m4l" source="#d1e1009" corresp="295" cert="high">
+          <seg cert="high" source="#dzf_hnd_q2c">donde la vecindad de Persia que lleva aljaba apremia</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="p3o_fdj_37e" source="#d1e1012" corresp="296" cert="high">
+          <seg cert="high" source="#gc3_vzf_s2c">se elige; a este lo cubren con la teja de un techo angosto</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="inb_qom_4op" source="#d1e1015" corresp="297" cert="high">
+          <seg cert="high" source="#ekp_wxf_s2c">y con paredes apretadas, y hacia los cuatro vientos</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="nbf_i4c_44p" source="#d1e1018" corresp="298" cert="high">
+          <seg cert="high">cuatro ventanas que reciban oblicua luz le añaden.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="h2v_z31_zqr" source="#d1e1022" corresp="299" cert="high">
+          <seg cert="high" source="#o4m_xzf_s2c">Luego un ternero que en su frente bienal ya cuernos curve</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="pyf_sn1_la5" source="#d1e1025" corresp="300" cert="high">
+          <seg cert="high" source="#d4s_msg_s2c">se busca; a este las narices y el aliento en la boca,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="oeh_dv2_eev" source="#d1e1028" corresp="301" cert="high">
+          <seg cert="high">rebelándose mucho, se le obstruyen y, muerto a golpes,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="cpd_35n_dv8" source="#d1e1031" corresp="302" cert="high">
+          <seg cert="high" source="#h23_xsg_s2c #gqq_ctg_s2c">sus machacadas vísceras se funden en la piel íntegra.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="ps0_ekq_iga" source="#d1e1034" corresp="303" cert="high">
+          <seg cert="high">Así puesto, encerrado lo dejan; bajo sus costillas</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="p3k_rs2_tbm" source="#d1e1037" corresp="304" cert="high">
+          <seg cert="high" source="#dyq_z2g_s2c">echan trozos de ramas, tomillo y </seg>
+          <seg ana="#sem" orig="casias" cert="medium">laureolas</seg>
+          <seg cert="high">frescas.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="btz_3dz_vf1" source="#d1e1041" corresp="305" cert="high">
+          <seg cert="high" source="#dh4_3lb_s2c">Se hace esto cuando empiezan a empujar las olas los céfiros,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="j6w_ohy_hux" source="#d1e1044" corresp="306" cert="high">
+          <seg cert="high">antes que con colores nuevos enrojezcan los prados</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="wnc_hjq_zds" source="#d1e1047" corresp="307" cert="high">
+          <seg cert="high">y la parlera golondrina cuelgue el nido en las vigas.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="u0i_ukk_pps" source="#d1e1050" corresp="308" cert="high">
+          <seg cert="high" source="#vt5_gvg_s2c">Entre tanto, </seg>
+          <seg ana="#semd" orig="aestuat" source="#xz4_sgg_s2c" cert="medium">entibiado</seg>
+          <seg cert="high"> el humor en los tiernos huesos,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="a1x_jib_se5" source="#d1e1053" corresp="309" cert="high">
+          <seg cert="high" source="#emz_kmb_s2c">bulle, y</seg>
+          <seg ana="#sem" orig="modis miris" cert="medium">en curiosas formas</seg>
+          <seg cert="high">seres dignos de verse,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="qua_454_4h8" source="#d1e1056" corresp="310" cert="high">
+          <seg cert="high" source="#idv_nwg_s2c">faltos de pies primero, pronto con estridentes alas,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="mhk_olu_68w" source="#d1e1060" corresp="311" cert="high">
+          <seg cert="high" source="#wwg_llg_s2c">pululan; más y más el aire tenue van hostigando</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="gl8_spe_ald" source="#d1e1063" corresp="312" cert="high">
+          <seg cert="high" source="#a41_11d_t2c #zn1_gb3_s2c">hasta que, como lluvia que vierten estivales nubes,</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="gjy_w25_mpw" source="#d1e1066" corresp="313" cert="high">
+          <seg cert="high">ya se lanzaron fuera, o como flechas que el nervio impulsa</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="tez_vh5_7im" source="#d1e1069" corresp="314" cert="high">
+          <seg ana="#sint" orig="si quando" cert="medium" source="#q3n_p4b_s2c">no bien</seg>
+          <seg cert="high" source="#scw_myg_s2c">ligeros entran en primer combate los partos.</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="kme_xoe_6s1" source="#d1e1074" corresp="315" cert="high">
+          <seg cert="high">¿Qué dios, oh Musas, </seg>
+          <seg ana="#rep" cert="high">qué dios</seg>
+          <seg cert="high"> nos ha </seg>
+          <seg ana="#sem" orig="extudit" source="#r31_lgs_v3c" cert="medium">forjado</seg>
+          <seg cert="high"> un arte tal?</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="swm_51t_40w" source="#d1e1078" corresp="316" cert="high">
+          <seg cert="high" source="#pxx_c3s_v3c #q4h_5gs_v3c">¿Dónde esta nueva</seg>
+          <seg ana="#sem" orig="experientia" cert="medium" source="#hhn_1hs_v3c #vsw_yhs_v3c">industria</seg>
+          <seg cert="high">de los hombres tuvo su inicio?</seg>
+        </l>
+        
+        
+        
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vvv. 4.511-515 -->       
+        <l resp="#AB" xml:id="wvj_me5_hnn" source="#d1e1706" corresp="511" cert="high">
+          <seg cert="high" source="#dds_sjf_p2c">tal la afligida Filomela, que a la sombra de un álamo</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="aam_lxf_el2" source="#d1e1709" corresp="512" cert="high">
+          <seg cert="high">lamenta los perdidos hijos que el labriego </seg>
+          <seg ana="#sem" orig="durus" cert="medium" source="#r4f_zjf_p2c">implacable</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="jwd_to4_w4t" source="#d1e1712" corresp="513" cert="high">
+          <seg ana="#sem" orig="observans" source="#szr_2pf_p2c" cert="medium">al acecho del nido</seg>
+          <seg cert="high"> arrancó implumes; y ella</seg>
+          <seg ana="#sint" orig="at illa [flet]" cert="high">los llora</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="yq4_s43_xec" source="#d1e1715" corresp="514" cert="high">
+          <seg cert="high" source="#jl3_g4f_p2c #u3j_bpf_p2c">toda la noche y, en su rama posada, el triste canto</seg>
+        </l>
+        
+        
+        <l resp="#AB" xml:id="ldz_iez_0sd" source="#d1e1719" corresp="515" cert="high">
+          <seg cert="high" source="#qd2_wkf_p2c">renueva y con </seg>
+          <seg ana="#sem" orig="maestis questibus" cert="medium" source="#prg_w4f_p2c">amargas quejas</seg>
+          <seg cert="high" source="#uxb_ykf_p2c"> llena</seg>
+          <seg ana="#semd" orig="loca" cert="medium">el bosque</seg>
+          <seg cert="high"> a lo lejos.</seg>
+        </l>
+        <!-- fin fragmento  vv. 4.511-515 -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!--  ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+      </div>
+    </body>
+  </text>
+</TEI>

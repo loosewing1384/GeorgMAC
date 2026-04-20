@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<standOff xml:id="atributos" xmlns="http://www.tei-c.org/ns/1.0">
+  <list xml:lang="es">
+    <item xml:id="add">añadido: TT incluye un término que no está (ni se insinúa) en TO, y que no es la repetición de un término ya presente en TO (cf. <ref target="#rep">rep</ref>).</item>
+    <item xml:id="met">metonimia: TT vierte metonímicamente una expresión de TO, es decir, por sustitución de contigüidad semántica (e.g. "el remo boga" ← "se navega"); a diferencia de <ref target="#sem">sem</ref>, la relación entre los términos es metonímica, no meramente léxica.</item>
+    <item xml:id="om">omisión: TO incluye un término que no aparece (ni se insinúa) en TT. Se codifica en el elemento <gi>gap</gi> mediante <att>ana</att>="om" y <att>orig</att> con el término latino omitido.</item>
+    <item xml:id="rep">repetición: TT repite un término que en TO aparece solo una vez; a diferencia de <ref target="#add">add</ref>, el término repetido sí está presente en TO.</item>
+    <item xml:id="sem">semántica: TT sustituye un término de TO por otro cuyo campo semántico es distinto pero de extensión comparable (desplazamiento lateral); cf. <ref target="#semd">semd</ref> y <ref target="#sema">sema</ref> para sustituciones que implican cambio de extensión semántica.</item>
+    <item xml:id="semd">semántica disminuye: TT sustituye un término de TO por otro de campo semántico más restringido, es decir, la extensión del término en TT es un subconjunto de la del término en TO (e.g. "prole" → "enjambre").</item>
+    <item xml:id="sema">semántica aumenta: TT sustituye un término de TO por otro de campo semántico más amplio, es decir, la extensión del término en TO es un subconjunto de la del término en TT (e.g. "enjambre" → "prole").</item>
+    <item xml:id="sint">sintaxis: TT introduce un cambio morfosintáctico flexivo respecto a TO (e.g. de persona, de número, de voz, de modo, de tiempo verbal), sin que medie un cambio léxico de la raíz.</item>
+  </list>
+</standOff>
