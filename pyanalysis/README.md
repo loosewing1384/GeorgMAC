@@ -1,1 +1,0 @@
-uv run analisis_fidelidad.py 
