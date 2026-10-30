@@ -1,0 +1,23 @@
+#+STARTUP: showeverything
+#+OPTIONS: toc:nil 
+
+
+* *<seg>*
+** *@cert*: puede ser: /low/, /medium/ o /high/
+** *@ana*
+- /#add/: añadido. TT incluye un término que no está (ni se insinúa) en ST.
+- /#met/: metonimia. TT vierte metonímicamente una expresión en ST (e.g. "el remo boga" < "se navega")
+- /#rep/: repetición. Se repite un término en TT que no solo está una vez en el ST.
+- /#sem/: semántica. Hay un cambio semántico entre ST y TT.
+  - /#sema/: semántica aumenta. Hay un aumento en el campo semántico de una expresión entre ST y TT (e.g. "enjambre" > "prole").
+  - /#semd/: semántica disminuye. Hay una disminución en el campo semántico de una expresión entre ST y TT (e.g. "prole" > "enjambre").
+- /#sint/: sintaxis. Hay un cambio sintáctico (e.g. de persona, de número, de voz, de modo) entre ST y TT.
+
+  
+* <gap/>
+** *@cert*: puede ser: /low/, /medium/ o /high/
+** *@ana*
+- /#conj/: se omite una conjunción
+- #vb: se omite un verbo conjugado
+- #part: se omite un participio
+- #det: se omite un determinante (e.g. "todo", "el", etc.)

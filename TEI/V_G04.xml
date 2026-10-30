@@ -1,0 +1,3187 @@
+﻿<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Georgics</title>
+        <author xml:id="PVM">Publius Vergilius Maro</author>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <!--  <StandOff> -->
+  <xi:include href="atributos.xml" parse="xml"/>
+  <!--  </StandOff> --> 
+  <text xml:lang="la">
+    <body>
+      <div n="4.4">
+        
+        <l resp="#PVM" xml:id="d1e40" n="1">
+          Protinus aerii mellis caelestia dona
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e43" n="2">
+          exsequar: hanc etiam, Maecenas, adspice partem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e46" n="3">
+          Admiranda tibi levium spectacula rerum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e49" n="4">
+          magnanimosque duces totiusque ordine gentis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e53" n="5">
+          mores et studia et populos et proelia dicam.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e56" n="6">
+          In tenui labor; at tenuis non gloria, si quem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e59" n="7">
+          numina laeva sinunt auditque vocatus Apollo.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e64" n="8">
+          Principio sedes apibus statioque petenda,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e67" n="9">
+          quo neque sit ventis aditus—nam pabula venti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e71" n="10">
+          ferre domum prohibent—neque oves haedique petulci
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e74" n="11">
+          floribus insultent aut errans bucula campo
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e77" n="12">
+          decutiat rorem et surgentes atterat herbas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e80" n="13">
+          Absint et picti squalentia terga lacerti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e83" n="14">
+          pinguibus a stabulis meropesque aliaeque volucres
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e86" n="15">
+          et manibus Procne pectus signata cruentis;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e90" n="16">
+          omnia nam late vastant ipsasque volantes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e93" n="17">
+          ore ferunt dulcem nidis immitibus escam.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e96" n="18">
+          At liquidi fontes et stagna virentia musco
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e99" n="19">
+          adsint et tenuis fugiens per gramina rivus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e102" n="20">
+          palmaque vestibulum aut ingens oleaster inumbret,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e105" n="21">
+          ut, cum prima novi ducent examina reges
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e109" n="22">
+          vere suo ludetque favis emissa iuventus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e112" n="23">
+          vicina invitet decedere ripa calori,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e115" n="24">
+          obviaque hospitiis teneat frondentibus arbos.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e118" n="25">
+          In medium, seu stabit iners seu profluet umor,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e121" n="26">
+          transversas salices et grandia conice saxa,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e124" n="27">
+          pontibus ut crebris possint consistere et alas
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e128" n="28">
+          pandere ad aestivum solem, si forte morantes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e131" n="29">
+          sparserit aut praeceps Neptuno immerserit Eurus.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e134" n="30">
+          Haec circum casiae virides et olentia late
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e137" n="31">
+          serpylla et graviter spirantis copia thymbrae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e140" n="32">
+          floreat inriguumque bibant violaria fontem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e143" n="33">
+          Ipsa autem, seu corticibus tibi suta cavatis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e147" n="34">
+          seu lento fuerint alvaria vimine texta,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e150" n="35">
+          angustos habeant aditus: nam frigore mella
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e153" n="36">
+          cogit hiems, eademque calor liquefacta remittit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e156" n="37">
+          Utraque vis apibus pariter metuenda; neque illae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e159" n="38">
+          nequiquam in tectis certatim tenuia cera
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e162" n="39">
+          spiramenta linunt fucoque et floribus oras
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e166" n="40">
+          explent collectumque haec ipsa ad munera gluten
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e169" n="41">
+          et visco et Phrygiae servant pice lentius Idae.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e172" n="42">
+          Saepe etiam effossis, si vera est fama, latebris
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e175" n="43">
+          sub terra fovere larem, penitusque repertae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e178" n="44">
+          pumicibusque cavis exesaeque arboris antro.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e181" n="45">
+          Tu tamen et levi rimosa cubilia limo
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e185" n="46">
+          ungue fovens circum et raras superinice frondes.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e188" n="47">
+          Neu propius tectis taxum sine, neve rubentes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e191" n="48">
+          ure foco cancros, altae neu crede paludi,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e194" n="49">
+          aut ubi odor caeni gravis aut ubi concava pulsu
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e197" n="50">
+          saxa sonant vocisque offensa resultat imago.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e203" n="51">
+          Quod superest, ubi pulsam hiemem sol aureus egit
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e206" n="52">
+          sub terras caelumque aestiva luce reclusit,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e209" n="53">
+          illae continuo saltus silvasque peragrant
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e212" n="54">
+          purpureosque metunt flores et flumina libant
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e215" n="55">
+          summa leves. Hinc nescio qua dulcedine laetae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e218" n="56">
+          progeniem nidosque fovent, hinc arte recentes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e222" n="57">
+          excudunt ceras et mella tenacia fingunt.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e225" n="58">
+          Hinc ubi iam emissum caveis ad sidera caeli
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e228" n="59">
+          nare per aestatem liquidam suspexeris agmen
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e231" n="60">
+          obscuramque trahi vento mirabere nubem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e234" n="61">
+          contemplator: aquas dulces et frondea semper
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e237" n="62">
+          tecta petunt.  Huc tu iussos adsperge sapores,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e241" n="63">
+          trita melisphylla et cerinthae ignobile gramen,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e244" n="64">
+          tinnitusque cie et Matris quate cymbala circum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e247" n="65">
+          ipsae consident medicatis sedibus, ipsae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e250" n="66">
+          intima more suo sese in cunabula condent.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e255" n="67">
+          Sin autem ad pugnam exierint, nam saepe duobus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e259" n="68">
+          regibus incessit magno discordia motu,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e262" n="69">
+          continuoque animos vulgi et trepidantia bello
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e265" n="70">
+          corda licet longe praesciscere; namque morantes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e268" n="71">
+          Martius ille aeris rauci canor increpat et vox
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e271" n="72">
+          auditur fractos sonitus imitata tubarum;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e274" n="73">
+          tum trepidae inter se coeunt pennisque coruscant
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e278" n="74">
+          spiculaque exacuunt rostris aptantque lacertos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e281" n="75">
+          et circa regem atque ipsa ad praetoria densae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e284" n="76">
+          miscentur magnisque vocant clamoribus hostem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e287" n="77">
+          Ergo ubi ver nactae sudum camposque patentes,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e290" n="78">
+          erumpunt portis; concurritur, aethere in alto
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e293" n="79">
+          fit sonitus, magnum mixtae glomerantur in orbem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e297" n="80">
+          praecipitesque cadunt; non densior aere grando,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e300" n="81">
+          nec de concussa tantum pluit ilice glandis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e303" n="82">
+          ipsi per medias acies insignibus alis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e306" n="83">
+          ingentes animos angusto in pectore versant,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e309" n="84">
+          usque adeo obnixi non cedere, dum gravis aut hos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e312" n="85">
+          aut hos versa fuga victor dare terga subegit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e316" n="86">
+          Hi motus animorum atque haec certamina tanta
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e319" n="87">
+          pulveris exigui iactu compressa quiescent.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e324" n="88">
+          Verum ubi ductores acie revocaveris ambo,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e327" n="89">
+          deterior qui visus, eum, ne prodigus obsit,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e330" n="90">
+          dede neci; melior vacua sine regnet in aula.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e334" n="91">
+          Alter erit maculis auro squalentibus ardens;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e337" n="92">
+          nam duo sunt genera: hic melior, insignis et ore
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e340" n="93">
+          et rutilis clarus squamis, ille horridus alter
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e343" n="94">
+          desidia latamque trahens inglorius alvum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e346" n="95">
+          Ut binae regum facies, ita corpora plebis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e349" n="96">
+          Namque aliae turpes horrent, ceu pulvere ab alto
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e353" n="97">
+          cum venit et sicco terram spuit ore viator
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e356" n="98">
+          aridus; elucent aliae et fulgore coruscant
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e359" n="99">
+          ardentes auro et paribus lita corpora guttis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e362" n="100">
+          Haec potior suboles, hinc caeli tempore certo
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e365" n="101">
+          dulcia mella premes, nec tantum dulcia, quantum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e368" n="102">
+          et liquida et durum Bacchi domitura saporem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e374" n="103">
+          At cum incerta volant caeloque examina ludunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e377" n="104">
+          contemnuntque favos et frigida tecta relinquunt,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e380" n="105">
+          instabiles animos ludo prohibebis inani.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e383" n="106">
+          Nec magnus prohibere labor: tu regibus alas
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e386" n="107">
+          eripe; non illis quisquam cunctantibus altum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e390" n="108">
+          ire iter aut castris audebit vellere signa.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e393" n="109">
+          Invitent croceis halantes floribus horti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e396" n="110">
+          et custos furum atque avium cum falce saligna
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e399" n="111">
+          Hellespontiaci servet tutela Priapi.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e402" n="112">
+          Ipse thymum pinosque ferens de montibus altis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e405" n="113">
+          tecta serat late circum, cui talia curae;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e409" n="114">
+          ipse labore manum duro terat, ipse feraces
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e412" n="115">
+          figat humo plantas et amicos inriget imbres.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e417" n="116">
+          Atque equidem, extremo ni iam sub fine laborum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e420" n="117">
+          vela traham et terris festinem advertere proram,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e423" n="118">
+          forsitan et, pingues hortos quae cura colendi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e427" n="119">
+          ornaret, canerem, biferique rosaria Paesti,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e430" n="120">
+          quoque modo potis gauderent intiba rivis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e433" n="121">
+          et virides apio ripae, tortusque per herbam
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e436" n="122">
+          cresceret in ventrem cucumis; nec sera comantem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e439" n="123">
+          narcissum aut flexi tacuissem vimen acanthi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e442" n="124">
+          pallentesque hederas et amantes litora myrtos.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e446" n="125">
+          Namque sub Oebaliae memini me turribus arcis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e449" n="126">
+          qua niger umectat flaventia culta Galaesus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e452" n="127">
+          Corycium vidisse senem, cui pauca relicti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e455" n="128">
+          iugera ruris erant, nec fertilis illa iuvencis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e458" n="129">
+          nec pecori opportuna seges nec commoda Baccho.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e461" n="130">
+          Hic rarum tamen in dumis olus albaque circum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e465" n="131">
+          lilia verbenasque premens vescumque papaver
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e468" n="132">
+          regum aequabat opes animis seraque revertens
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e471" n="133">
+          nocte domum dapibus mensas onerabat inemptis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e474" n="134">
+          Primus vere rosam atque autumno carpere poma,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e477" n="135">
+          et cum tristis hiems etiamnum frigore saxa
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e480" n="136">
+          rumperet et glacie cursus frenaret aquarum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e484" n="137">
+          ille comam mollis iam tondebat hyacinthi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e487" n="138">
+          aestatem increpitans seram Zephyrosque morantes.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e490" n="139">
+          Ergo apibus fetis idem atque examine multo
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e493" n="140">
+          primus abundare et spumantia cogere pressis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e496" n="141">
+          mella favis; illi tiliae atque uberrima pinus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e499" n="142">
+          quotque in flore novo pomis se fertilis arbos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e503" n="143">
+          induerat, totidem autumno matura tenebat.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e506" n="144">
+          Ille etiam seras in versum distulit ulmos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e509" n="145">
+          eduramque pirum et spinos iam pruna ferentes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e512" n="146">
+          iamque ministrantem platanum potantibus umbras.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e515" n="147">
+          Verum haec ipse equidem spatiis exclusus iniquis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e518" n="148">
+          praetereo atque aliis post me memoranda relinquo.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e524" n="149">
+          Nunc age, naturas apibus quas Iuppiter ipse
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e527" n="150">
+          addidit, expediam, pro qua mercede canoros
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e530" n="151">
+          Curetum sonitus crepitantiaque aera secutae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e533" n="152">
+          Dictaeo caeli regem pavere sub antro.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e536" n="153">
+          Solae communes natos, consortia tecta
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e540" n="154">
+          urbis habent magnisque agitant sub legibus aevum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e543" n="155">
+          et patriam solae et certos novere penates,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e546" n="156">
+          venturaeque hiemis memores aestate laborem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e549" n="157">
+          experiuntur et in medium quaesita reponunt.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e552" n="158">
+          Namque aliae victu invigilant et foedere pacto
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e555" n="159">
+          exercentur agris; pars intra saepta domorum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e559" n="160">
+          Narcissi lacrimam et lentum de cortice gluten
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e562" n="161">
+          prima favis ponunt fundamina, deinde tenaces
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e565" n="162">
+          suspendunt ceras: aliae spem gentis adultos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e568" n="163">
+          educunt fetus, aliae purissima mella
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e571" n="164">
+          stipant et liquido distendunt nectare cellas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e574" n="165">
+          Sunt quibus ad portas cecidit custodia sorti,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e578" n="166">
+          inque vicem speculantur aquas et nubila caeli
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e581" n="167">
+          aut onera accipiunt venientum aut agmine facto
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e584" n="168">
+          ignavum fucos pecus a praesepibus arcent.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e587" n="169">
+          Fervet opus, redolentque thymo fragrantia mella.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e590" n="170">
+          ac veluti lentis Cyclopes fulmina massis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e593" n="171">
+          cum properant, alii taurinis follibus auras
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e597" n="172">
+          accipiunt redduntque, alii stridentia tingunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e600" n="173">
+          aera lacu; gemit impositis incudibus Aetna;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e603" n="174">
+          illi inter sese magna vi bracchia tollunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e606" n="175">
+          in numerum versantque tenaci forcipe ferrum:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e609" n="176">
+          non aliter, si parva licet componere magnis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e612" n="177">
+          Cecropias innatus apes amor 
+          <seg xml:id="cd2_znd_q2c">
+            urget
+          </seg> 
+          habendi,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e616" n="178">
+          munere quamque suo. Grandaevis oppida curae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e619" n="179">
+          et munire favos et daedala fingere tecta.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e622" n="180">
+          At fessae multa referunt se nocte minores,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e625" n="181">
+          crura thymo plenae; pascuntur et arbuta passim
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e628" n="182">
+          et glaucas salices casiamque crocumque rubentem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e631" n="183">
+          et pinguem tiliam et ferrugineos hyacinthos.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e635" n="184">
+          Omnibus una quies operum, labor omnibus unus:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e638" n="185">
+          mane ruunt portis; nusquam mora; rursus easdem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e641" n="186">
+          vesper ubi e pastu tandem decedere campis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e644" n="187">
+          admonuit, tum tecta petunt, tum corpora curant;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e647" n="188">
+          fit sonitus, mussantque oras et limina circum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e650" n="189">
+          Post, ubi iam thalamis se composuere, siletur
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e654" n="190">
+          in noctem fessosque sopor suus occupat artus.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e659" n="191">
+          Nec vero a stabulis pluvia impendente recedunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e662" n="192">
+          longius aut credunt caelo adventantibus Euris,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e665" n="193">
+          sed circum tutae sub moenibus urbis aquantur,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e668" n="194">
+          excursusque breves temptant et saepe lapillos,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e672" n="195">
+          ut cumbae instabiles fluctu iactante saburram,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e675" n="196">
+          tollunt, his sese per inania nubila librant.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e678" n="197">
+          Illum adeo placuisse apibus mirabere morem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e681" n="198">
+          quod neque concubitu indulgent nec corpora segnes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e684" n="199">
+          in Venerem solvunt aut fetus nixibus edunt:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e687" n="200">
+          verum ipsae e foliis natos, e suavibus herbis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e691" n="201">
+          ore legunt, ipsae regem parvosque Quirites
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e694" n="202">
+          sufficiunt aulasque et cerea regna refigunt.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e697" n="203">
+          saepe etiam duris errando in cotibus alas
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e700" n="204">
+          attrivere ultroque animam sub fasce dedere:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e703" n="205">
+          tantus amor florum et generandi gloria mellis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e706" n="206">
+          Ergo ipsas quamvis angusti terminus aevi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e710" n="207">
+          excipiat, neque enim plus septima ducitur aestas,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e713" n="208">
+          at genus immortale manet multosque per annos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e716" n="209">
+          stat fortuna domus et avi numerantur avorum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e719" n="210">
+          Praeterea regem non sic Aegyptus et ingens
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e722" n="211">
+          Lydia nec populi Parthorum aut Medus Hydaspes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e725" n="212">
+          observant. Rege incolumi mens omnibus una est;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e729" n="213">
+          amisso rupere fidem constructaque mella
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e732" n="214">
+          diripuere ipsae et crates solvere favorum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e735" n="215">
+          Ille operum custos, illum admiruntur et omnes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e738" n="216">
+          circumstant fremitu denso stipantque frequentes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e741" n="217">
+          et saepe attollunt umeris et corpora bello
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e744" n="218">
+          obiectant pulchramque petunt per vulnera mortem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e750" n="219">
+          His quidam signis atque haec exempla secuti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e753" n="220">
+          esse apibus partem divinae mentis et haustus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e756" n="221">
+          aetherios dixere; deum namque ire per omnes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e759" n="222">
+          terrasque tractusque maris caelumque profundum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e762" n="223">
+          Hinc pecudes, armenta, viros, genus omne ferarum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e766" n="224">
+          quemque sibi tenues nascentem arcessere vitas;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e769" n="225">
+          scilicet huc reddi deinde ac resoluta referri
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e772" n="226">
+          omnia nec morti esse locum, sed viva volare
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e775" n="227">
+          sideris in numerum atque alto succedere caelo.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e780" n="228">
+          Si quando sedem angustam servataque mella
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e784" n="229">
+          thesauris relines, prius haustu sparsus aquarum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e787" n="230">
+          ora fove fumosque manu praetende sequaces.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e790" n="231">
+          Bis gravidos cogunt fetus, duo tempora messis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e793" n="232">
+          Taygete simul os terris ostendit honestum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e796" n="233">
+          Pleas et Oceani spretos pede reppulit amnes,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e799" n="234">
+          aut eadem sidus fugiens ubi Piscis aquosi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e803" n="235">
+          tristior hibernas caelo descendit in undas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e806" n="236">
+          Illis ira modum supra est, laesaeque venenum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e809" n="237">
+          morsibus inspirant et spicula caeca relinquunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e812" n="238">
+          adfixae venis animasque in vulnere ponunt.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e815" n="239">
+          Sin duram metues hiemem parcesque futuro
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e818" n="240">
+          contunsosque animos et res miserabere fractas,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e822" n="241">
+          at suffire thymo cerasque recidere inanes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e825" n="242">
+          quis dubitet? nam saepe favos ignotus adedit
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e828" n="243">
+          stellio et lucifugis congesta cubilia blattis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e831" n="244">
+          immunisque sedens aliena ad pabula fucus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e834" n="245">
+          aut asper crabro imparibus se immiscuit armis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e837" n="246">
+          aut dirum tiniae genus, aut invisa Minervae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e841" n="247">
+          laxos in foribus suspendit aranea casses.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e844" n="248">
+          Quo magis exhaustae fuerint, hoc acrius omnes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e847" n="249">
+          incumbent generis lapsi sarcire ruinas
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e850" n="250">
+          complebuntque foros et floribus horrea texent.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e855" n="251">
+          Si vero, quoniam casus apibus quoque nostros
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e859" n="252">
+          vita tulit, tristi languebunt corpora morbo—
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e862" n="253">
+          quod iam non dubiis poteris cognoscere signis:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e865" n="254">
+          continuo est aegris alius color, horrida vultum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e868" n="255">
+          deformat macies, tum corpora luce carentum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e871" n="256">
+          exportant tectis et tristia funera ducunt;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e874" n="257">
+          aut illae pedibus conexae ad limina pendent,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e878" n="258">
+          aut intus clausis cunctantur in aedibus, omnes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e881" n="259">
+          ignavaeque fame et contracto frigore pigrae.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e884" n="260">
+          Tum sonus auditur gravior, tractimque susurrant,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e887" n="261">
+          frigidus ut quondam silvis immurmurat Auster,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e890" n="262">
+          ut mare sollicitum stridit refluentibus undis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e893" n="263">
+          aestuat ut clausis rapidus fornacibus ignis:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e897" n="264">
+          hic iam galbaneos suadebo incendere odores
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e900" n="265">
+          mellaque harundineis inferre canalibus, ultro
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e903" n="266">
+          hortantem et fessas ad pabula nota vocantem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e906" n="267">
+          Proderit et tunsum gallae admiscere saporem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e909" n="268">
+          Arentesque rosas aut igni pinguia multo
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e912" n="269">
+          defruta vel psithia passos de vite racemos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e916" n="270">
+          Cecropiumque thymum et grave olentia centaurea.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e919" n="271">
+          Est etiam flos in pratis, cui nomen amello
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e922" n="272">
+          fecere agricolae, facilis quaerentibus herba;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e925" n="273">
+          namque uno ingentem tollit de caespite silvam,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e928" n="274">
+          aureus ipse, sed in foliis, quae plurima circum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e931" n="275">
+          funduntur, violae sublucet purpura nigrae;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e935" n="276">
+          <!-- unremarkable -->
+          saepe deum nexis ornatae torquibus arae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e941" n="277">
+          asper in ore sapor; 
+          tonsis in vallibus illum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e944" n="278">
+          pastores et curva legunt prope flumina Mellae.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e947" n="279">
+          Huius odorato radices incoque Baccho
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e950" n="280">
+          pabulaque in foribus plenis adpone canistris.
+        </l>
+        
+        
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.281-4.294 -->
+        <l resp="#PVM" xml:id="d1e956" n="281">
+          <seg xml:id="hj4_rcv_p2c">
+            Sed
+          </seg>
+          
+          <seg xml:id="ir4_qqw_q2c">
+            proles
+          </seg> 
+          <seg xml:id="nmm_4qd_q2c">
+            subito
+          </seg>
+          
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e959" n="282">
+          <seg xml:id="m3k_crd_q2c">
+            nec
+          </seg> 
+          <seg xml:id="m4v_xqd_q2c">
+            genus
+          </seg> 
+          <seg xml:id="q6i_hx3_qrp">unde</seg> 
+          <seg xml:id="dbu_u44_gud">novae</seg> 
+          <seg xml:id="hhf_tv1_jrq">stirpis</seg>
+          <seg xml:id="yyj_tu7_mcn">revocetur</seg> 
+          <seg xml:id="dyc_thu_u3w">habebit</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e962" n="283">
+          <seg xml:id="b1p_1vy_q2c">
+            tempus
+          </seg> 
+          <seg xml:id="gvt_grd_q2c">
+            et
+          </seg>
+          <seg xml:id="bue_kgc_cn5">Arcadii</seg> 
+          <seg xml:id="psg_p3x_q2c">
+            memoranda
+          </seg>
+          <seg xml:id="jn6_knx_rhi">inventa</seg> 
+          <seg xml:id="smc_o6l_yz2">magistri</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e965" n="284">
+          <seg xml:id="zhn_bvy_q2c">
+            pandere
+          </seg>, 
+          <seg xml:id="eot_q4y_on4">quo</seg><seg xml:id="sq1_yrd_q2c">que</seg> 
+          <seg xml:id="fa3_cbc_vd8">modo</seg> 
+          <seg xml:id="s4l_dsd_q2c">
+            caesis
+          </seg> 
+          <seg xml:id="bnw_zp5_r2c">
+            iam
+          </seg> 
+          <seg xml:id="srs_ra8_na6">saepe</seg> 
+          <seg xml:id="zi6_fjc_yp6">iuvencis</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e968" n="285">
+          <seg xml:id="gnd_j54_q2c">
+            insincerus
+          </seg> 
+          <seg xml:id="oxz_ea2_a14">apes</seg> 
+          <seg xml:id="xqx_bpf_hhi">tulerit</seg> 
+          <seg xml:id="jfk_j54_q2c">
+            cruor
+          </seg>. 
+          <seg xml:id="zyd_nkd_q2c">
+            Altius
+          </seg> 
+          <seg xml:id="kwm_lkd_q2c">
+            omnem
+          </seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e971" n="286">
+          <seg xml:id="rfe_p3r_lsp">expediam</seg> 
+          <seg xml:id="esj_gld_q2c">
+            prima
+          </seg> 
+          <seg xml:id="xrn_lmf_r2c">
+            repetens
+          </seg> 
+          <seg xml:id="nyg_pkd_q2c">
+            ab origine
+          </seg> 
+          <seg xml:id="swy_mq5_r2c">
+            famam
+          </seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e975" n="287">
+          <seg xml:id="szn_vrw_q2c">
+            Nam
+          </seg> 
+          qua <seg xml:id="agw_cbi_w02">Pellaei</seg> 
+          <seg xml:id="h7m_pm3_igz">gens</seg> 
+          <seg xml:id="gr1_ilz_le5">fortunata</seg> 
+          <seg xml:id="cj1_nj6_vh0">Canopi</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e978" n="288">
+          <seg xml:id="vby_2cx_q2c">
+            accolit
+          </seg> 
+          <seg xml:id="ll3_wp3_q2c">
+            effuso
+          </seg>
+          <seg xml:id="nmn_1q3_q2c">
+            stagnantem
+          </seg>
+          <seg xml:id="utv_axp_z5n">flumine</seg> 
+          <seg xml:id="k2x_gyf_jck">Nilum</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e981" n="289">
+          et circum <seg xml:id="eh5_d40_fcu">pictis</seg> 
+          <seg xml:id="u10_gxh_nks">vehitur</seg> 
+          <seg xml:id="srp_cq3_q2c">
+            sua rura
+          </seg> 
+          <seg xml:id="kcn_o28_w2d">phaselis</seg>,
+        </l>
+        
+        
+        <!--
+          290: quaque pharetratae...
+          291: et viridem Aegyptum...
+          292: et diversa ruens...
+          293: usque coloratis...
+          294: omnis in hac...
+          
+          AB:           290, 291, 292, 293, 294  "a"
+          AEP:          290, 291, 292, 293, 294  "a"
+          LLA:          290, 290, 291, 293, 293, 291, 292, 294  "f*"
+          MAC:          290, 291, 292, 293, 294  "a"
+          NPC:          290, 291, 293, 292, 294  "f" 
+          RBN:          290, 291, 292, 293, 294  "a"
+          
+          
+          PF:           290, 292, 293, 291, 294  "d"
+          JL:           290, 292, 293, 291, 294  "d"
+          
+          Ott-Conte:    290, 291, 292, 293, 294  "a"
+          Geymonat:     290, 292, 291, 293, 294  "b"
+          Heyne-Wagner: 290, 294, 291, 292, 293  "e"
+          Ribbeck:      291, 292, 293, 290, 294  "c"
+          Conington:    290, 292, 291, 293, 294  "b"
+          Mynors:       290, 292, 293, 291, 294  "d"
+          Hirtzel:      290, 292, 291, 293, 294  "b"
+          290, 291, 293, 292, 294  "e"
+        -->
+        
+        <l resp="#PVM" xml:id="d1e984" n="290">
+          qua<seg xml:id="dzf_hnd_q2c">que</seg>
+          <seg xml:id="tkv_s73_day">pharetratae</seg> 
+          <seg xml:id="zhd_oab_gh1">vicinia</seg> 
+          <seg xml:id="t0e_x0a_m44">Persidis</seg> 
+          <seg xml:id="vmt_ynd_q2c">
+            <!-- luego se vuelve a usar -->
+            urget
+          </seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e987" n="291">
+          <seg xml:id="alm_rxy_q2c">
+            et viridem Aegyptum
+          </seg> 
+          <seg xml:id="xtg_upu_nc9">nīgrā</seg> 
+          <seg xml:id="c08_bid_nr7">fecundat</seg> 
+          <seg xml:id="evb_fwv_r6b">harenā</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e993" n="292">
+          et 
+          <seg xml:id="d45_bnk_q2c">
+            diversa
+          </seg> 
+          <seg xml:id="myd_m4d_q2c">
+            ruens
+          </seg> 
+          <seg xml:id="wnc_q1s_ike">septem</seg> 
+          <seg xml:id="qnd_lwb_mow">discurrit</seg> in 
+          <seg xml:id="r43_qcx_q2c">
+            ora
+          </seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1000" n="293">
+          <seg xml:id="aio_weu_g04">usque</seg> 
+          <seg xml:id="k7p_ux0_r8g">coloratis</seg> 
+          <seg xml:id="wrs_54d_q2c">
+            amnis
+          </seg> 
+          <seg xml:id="lhh_bqd_q2c">
+            devexus
+          </seg> 
+          ab <seg xml:id="e9r_lpz_c7a">Indis</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1006" n="294">
+          <!-- omnis regio in hac arte iacit 
+            certam salutem. -->
+          <seg xml:id="enu_yjj_ps4">omnis</seg> in hac <seg xml:id="bka_qbl_qx0">certam</seg> 
+          <seg xml:id="s1z_qnk_q2c">
+            regio
+          </seg> 
+          <seg xml:id="vgx_ehg_twn">iacit</seg> 
+          <seg xml:id="jda_crx_p3p">arte</seg> 
+          <seg xml:id="r3j_cbj_l3c">salutem</seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1009" n="295">
+          <seg xml:id="yq8_i3x_cyt">Exiguus</seg>
+          <seg xml:id="zhr_hqg_s2c">
+            primum
+          </seg> 
+          atque <seg xml:id="tzu_f5o_iqt">ipsos</seg> 
+          <seg xml:id="p1w_ktj_zwm">contractus</seg> in 
+          <seg xml:id="hwn_bdl_t2c">
+            usus
+          </seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1012" n="296">
+          <seg xml:id="f2k_qxv_a24">eligitur</seg> 
+          <seg xml:id="qnb_tal_s1u">locus</seg>; hunc <seg xml:id="qvc_a7i_zq9">angustique</seg> 
+          <seg xml:id="h8w_adj_mnu">imbrice</seg> 
+          <seg xml:id="teb_ohj_bob">tecti</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1015" n="297">
+          <seg xml:id="b7b_z5u_ysv">parietibusque</seg> 
+          <seg xml:id="a33_e5w_h42">premunt</seg> 
+          <seg xml:id="jqi_a28_rn4">artis</seg> et <seg xml:id="qin_hmv_f3q">quattuor</seg> 
+          <seg xml:id="gc3_vzf_s2c">
+            addunt
+          </seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1018" n="298">
+          <seg xml:id="wlf_z4h_u9v">quattuor</seg> 
+          <seg xml:id="ekp_wxf_s2c">
+            a
+          </seg>
+          <seg xml:id="udj_woo_bcd">ventis</seg> 
+          <seg xml:id="kb0_csq_vt8">obliqua</seg> 
+          <seg xml:id="dwp_jof_z4g">luce</seg> 
+          <seg xml:id="xog_lds_aox">fenestras</seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1022" n="299">
+          <seg xml:id="o4m_xzf_s2c">
+            Tum
+          </seg>
+          <seg xml:id="k6h_ih6_dsx">vitulus</seg> 
+          <seg xml:id="gsn_sbc_cx4">bima</seg> 
+          <seg xml:id="b99_y5x_lrq">curvans</seg> 
+          <seg xml:id="l79_nwo_xct">iam</seg> 
+          <seg xml:id="uqi_z66_bgp">cornua</seg> 
+          <seg xml:id="spz_rlx_ge3">fronte</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1025" n="300">
+          <seg xml:id="dvj_ifm_wnf">quaeritur</seg>; huic <seg xml:id="s7q_zf8_fw7">geminae</seg> 
+          <seg xml:id="lz8_fan_mxn">nares</seg> et 
+          <seg xml:id="d4s_msg_s2c">
+            spiritus
+          </seg> 
+          <seg xml:id="ahc_gp7_av9">oris</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1028" n="301">
+          <seg xml:id="wzp_fi2_gq0">multă</seg> 
+          <seg xml:id="kcp_p45_e7s">reluctanti</seg> 
+          <seg xml:id="yop_m1l_qpq">obstruitur</seg>, 
+          <seg xml:id="wkm_nta_lw6">plagisque</seg> 
+          <seg xml:id="qvs_jng_ofx">perempto</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1031" n="302">
+          <seg xml:id="xuc_e78_ptb">tunsa</seg> per 
+          <seg xml:id="h23_xsg_s2c">
+            integram
+          </seg> 
+          <seg xml:id="rrd_yee_h2r">solvuntur</seg> 
+          <seg xml:id="gqq_ctg_s2c">
+            viscera
+          </seg> 
+          <seg xml:id="vco_vm9_zzm">pellem</seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1034" n="303">
+          Sic <seg xml:id="gm9_bnk_g0q">positum</seg> in <seg xml:id="dni_yrp_s85">clauso</seg> 
+          <seg xml:id="ar9_q65_j07">linquunt</seg>
+          et <seg xml:id="j8w_sbx_ba8">ramea</seg> 
+          <seg xml:id="l9k_wpw_hwu">costis</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1037" n="304">
+          <seg xml:id="cd5_p2n_ozb">subiciunt</seg> 
+          <seg xml:id="yon_kq9_qyt">fragmenta</seg>, <seg xml:id="cga_ku5_uul">thymum</seg> 
+          <seg xml:id="dyq_z2g_s2c">casias</seg>que 
+          <seg xml:id="mzn_rzh_i3y">recentes</seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1041" n="305">
+          <seg xml:id="ln9_emi_ta3">Hoc</seg> 
+          <seg xml:id="mgy_ych_kep">geritur</seg> 
+          <seg xml:id="lgo_hu1_gnf">Zephyris</seg>
+          <seg xml:id="dh4_3lb_s2c">
+            primum
+          </seg> 
+          <seg xml:id="xc6_ehz_ojj">impellentibus</seg> 
+          <seg xml:id="xu2_y2p_qw9">undas</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1044" n="306">
+          ante <seg xml:id="i2d_oct_im9">novis</seg> 
+          <seg xml:id="od2_ezl_jr2">rubeant</seg> quam <seg xml:id="b2k_vtp_coh">prata</seg> 
+          <seg xml:id="oht_f95_mhg">coloribus</seg>, 
+          ante
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1047" n="307">
+          <seg xml:id="ni1_sqx_s39">garrula</seg> quam <seg xml:id="fmv_wgc_mx0">tignis</seg> 
+          <seg xml:id="aw6_u2m_fwm">nidum</seg> 
+          <seg xml:id="rpi_up4_mkx">suspendat</seg> 
+          <seg xml:id="ibw_zxh_ocl">hirundo</seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1050" n="308">
+          <seg xml:id="vt5_gvg_s2c">
+            Interea
+          </seg>
+          <seg xml:id="xja_aeq_g55">teneris</seg> 
+          <seg xml:id="y7c_r2y_kp2">tepefactus</seg>
+          in <seg xml:id="hbj_r88_i54">ossibus</seg> 
+          <seg xml:id="ne2_gpv_i46">umor</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1053" n="309">
+          <seg xml:id="xz4_sgg_s2c">
+            aestuat 
+          </seg>
+          et <seg xml:id="lji_k8c_nz9">visenda</seg> 
+          <seg xml:id="zkb_yns_af2">modis</seg> 
+          <seg xml:id="hyq_ikv_bf6">animalia</seg> 
+          <seg xml:id="emz_kmb_s2c">
+            miris
+          </seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1056" n="310">
+          <seg xml:id="c5s_m4o_uep">trunca</seg> 
+          <seg xml:id="em8_bx5_aq8">pedum</seg> 
+          <seg xml:id="bqw_l7f_mtg">primo</seg>, <seg xml:id="sr9_jnd_npx">mox</seg> et 
+          <seg xml:id="idv_nwg_s2c">
+            stridentia
+          </seg> 
+          <seg xml:id="m75_hbl_pik">pennis</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1060" n="311">
+          <seg xml:id="lg7_zlj_ce7">miscentur</seg> 
+          <seg xml:id="e2d_fkf_mni">tenuem</seg><seg xml:id="wwg_llg_s2c">que 
+            magis magis
+          </seg>
+          <seg xml:id="sr0_kgw_jgq">aera</seg> 
+          <seg xml:id="mov_ylc_m6d">carpunt</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1063" n="312">
+          <seg xml:id="a41_11d_t2c">
+            donec
+          </seg>, 
+          ut 
+          <seg xml:id="zn1_gb3_s2c">
+            aestivis
+          </seg> 
+          <seg xml:id="fo3_ry8_nig">effusus</seg> 
+          <seg xml:id="hm1_aa5_cly">nubibus</seg> 
+          <seg xml:id="l28_kz0_w74">imber</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1066" n="313">
+          <seg xml:id="hm1_eh3_irs">erupere</seg> aut ut <seg xml:id="pyg_la5_yns">nervo</seg> 
+          <seg xml:id="bri_ive_i9m">pulsante</seg> 
+          <seg xml:id="f9r_cg1_rax">sagittae</seg>,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1069" n="314">
+          <seg xml:id="q74_jn0_lqv">prima</seg> 
+          <seg xml:id="q3n_p4b_s2c">
+            leves
+          </seg> 
+          <seg xml:id="xhr_l90_xd7">ineunt</seg> si <seg xml:id="crd_w1b_tk5">quando</seg> 
+          <seg xml:id="l4r_o9t_tir">proelia</seg>
+          <seg xml:id="scw_myg_s2c">
+            Parthi
+          </seg>.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1074" n="315">
+          Quis <seg xml:id="ebp_mx9_sno">deus</seg> hanc, <seg xml:id="pdw_jpr_nmx">Musae</seg>, 
+          quis 
+          <seg xml:id="r31_lgs_v3c">
+            nobis extudit
+          </seg> 
+          <seg xml:id="b4a_d00_fut">artem</seg>?
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1078" n="316">
+          <seg xml:id="pxx_c3s_v3c">
+            Unde
+          </seg> 
+          <seg xml:id="q4h_5gs_v3c">
+            nova
+          </seg> 
+          <seg xml:id="hhn_1hs_v3c">
+            ingressus
+          </seg> 
+          <seg xml:id="ox2_kv8_t3c">hominum</seg> 
+          <seg xml:id="vsw_yhs_v3c">
+            experientia cepit?
+          </seg>
+        </l>
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        <l resp="#PVM" xml:id="d1e1081" n="317">
+          Pastor Aristaeus fugiens Peneia Tempe,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1084" n="318">
+          amissis, ut fama, apibus morboque fameque,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1087" n="319">
+          tristis ad extremi sacrum caput adstitit amnis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1090" n="320">
+          multa querens atque hac adfatus voce parentem:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1093" n="321">
+          “Mater, Cyrene mater, quae gurgitis huius
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1097" n="322">
+          ima tenes, quid me praeclara stirpe deorum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1100" n="323">
+          si modo, quem perhibes, pater est Thymbraeus Apollo,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1103" n="324">
+          invisum fatis genuisti? aut quo tibi nostri
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1106" n="325">
+          pulsus amor? quid me caelum sperare iubebas?
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1109" n="326">
+          En etiam hunc ipsum vitae mortalis honorem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1112" n="327">
+          quem mihi vix frugum et pecudum custodia sollers
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1116" n="328">
+          omnia temptanti extuderat, te matre relinquo.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1119" n="329">
+          Quin age et ipsa manu felices erue silvas,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1122" n="330">
+          fer stabulis inimicum ignem atque interfice messes,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1125" n="331">
+          ure sata et validam in vites molire bipennem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1128" n="332">
+          tanta meae si te ceperunt taedia laudis.”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1134" n="333">
+          At mater sonitum thalamo sub fluminis alti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1137" n="334">
+          sensit. Eam circum Milesia vellera Nymphae
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1140" n="335">
+          carpebant hyali saturo fucata colore,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1143" n="336">
+          drymoque Xanthoque Ligeaque Phyllodoceque,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1146" n="337">
+          caesariem effusae nitidam per candida colla,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1149" n="338">
+          Nesaee Spioque Thaliaque Cymodoceque,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1153" n="339">
+          Cydippeque et flava Lycorias, altera virgo,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1156" n="340">
+          altera tum primos Lucinae experta labores,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1159" n="341">
+          Clioque et Beroe soror, Oceanitides ambae,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1162" n="342">
+          ambae auro, pictis incinctae pellibus ambae,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1165" n="343">
+          atque Ephyre atque Opis et Asia Deiopea
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1168" n="344">
+          et tandem positis velox Arethusa sagittis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1172" n="345">
+          Inter quas curam Clymene narrabat inanem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1175" n="346">
+          Vulcani Martisque dolos et dulcia furta,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1178" n="347">
+          aque Chao densos divum numerabat amores
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1181" n="348">
+          carmine quo captae dum fusis mollia pensa
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1184" n="349">
+          devolvunt, iterum maternas impulit aures
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1187" n="350">
+          luctus Aristaei, vitreisque sedilibus omnes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1191" n="351">
+          obstipuere; sed ante alias Arethusa sorores
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1194" n="352">
+          prospiciens summa flavum caput extulit unda
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1197" n="353">
+          et procul: “O gemitu non frustra exterrita tanto,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1200" n="354">
+          Cyrene soror, ipse tibi, tua maxima cura,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1203" n="355">
+          tristis Aristaeus Penei genitoris ad undam
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1206" n="356">
+          stat lacrimans et te crudelem nomine dicit.”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1210" n="357">
+          Huic percussa nova mentem formidine mater,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1213" n="358">
+          “duc, age, duc ad nos; fas illi limina divum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1216" n="359">
+          tangere,” ait. Simul alta iubet discedere late
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1219" n="360">
+          flumina, qua iuvenis gressus inferret. At illum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1222" n="361">
+          curvata in montis faciem circumstetit unda
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1225" n="362">
+          accepitque sinu vasto misitque sub amnem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1229" n="363">
+          Iamque domum mirans genetricis et umida regna
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1232" n="364">
+          speluncisque lacus clausos lucosque sonantes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1235" n="365">
+          ibat et ingenti motu stupefactus aquarum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1238" n="366">
+          omnia sub magna labentia flumina terra
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1241" n="367">
+          spectabat diversa locis, Phasimque Lycumque
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1244" n="368">
+          et caput, unde altus primum se erumpit Enipeus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1248" n="369">
+          unde pater Tiberinus et unde Aniena fluenta
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1251" n="370">
+          saxosusque sonans Hypanis Mysusque Caicus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1254" n="371">
+          et gemina auratus taurino cornua vultu
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1257" n="372">
+          Eridanus, quo non alius per pinguia culta
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1260" n="373">
+          in mare purpureum violentior effluit amnis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1263" n="374">
+          Postquam est in thalami pendentia pumice tecta
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1267" n="375">
+          perventum et nati fletus cognovit inanes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1270" n="376">
+          Cyrene, manibus liquidos dant ordine fontes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1273" n="377">
+          germanae tonsisque ferunt mantelia villis;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1276" n="378">
+          pars epulis onerant mensas et plena reponunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1279" n="379">
+          pocula, Panchaeis adolescunt ignibus arae;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1282" n="380">
+          et mater, “Cape Maeonii carchesia Bacchi:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1286" n="381">
+          Oceano libemus,” ait. Simul ipsa precatur
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1289" n="382">
+          Oceanumque patrem rerum Nymphasque sorores
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1292" n="383">
+          centum quae silvas, centum quae flumina servant.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1295" n="384">
+          Ter liquido ardentem perfundit nectare Vestam,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1298" n="385">
+          ter flamma ad summum tecti subiecta reluxit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1301" n="386">
+          Omine quo firmans animum sic incipit ipsa:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1307" n="387">
+          “Est in Carphatio Neptuni gurgite vates
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1310" n="388">
+          caeruleus Proteus, magnum qui piscibus aequor
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1313" n="389">
+          et iuncto bipedum curru metitur equorum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1316" n="390">
+          Hic nunc Emathiae portus patriamque revisit
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1319" n="391">
+          Pallenen, hunc et Nymphae veneramur et ipse
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1323" n="392">
+          grandaevus Nereus; novit namque omnia vates,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1326" n="393">
+          quae sint, quae fuerint, quae mox ventura trahantur;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1329" n="394">
+          quippe ita Neptuno visum est, immania cuius
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1332" n="395">
+          armenta et turpes pascit sub gurgite phocas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1335" n="396">
+          Hic tibi, nate, prius vinclis capiendus, ut omnem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1338" n="397">
+          expediat morbi causam eventusque secundet.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1342" n="398">
+          Nam sine vi non ulla dabit praecepta, neque illum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1345" n="399">
+          orando flectes; vim duram et vincula capto
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1348" n="400">
+          tende; doli circum haec demum frangentur inanes.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1351" n="401">
+          Ipsa ego, te, medios cum sol accenderit aestus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1354" n="402">
+          cum sitiunt herbae et pecori iam gratior umbra est,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1357" n="403">
+          in secreta senis ducam, quo fessus ab undis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1361" n="404">
+          se recipit, facile ut somno adgrediare iacentem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1364" n="405">
+          Verum ubi correptum manibus vinclisque tenebis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1367" n="406">
+          tum variae eludent species atque ora ferarum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1370" n="407">
+          Fiet enim subito sus horridus atraque tigris
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1373" n="408">
+          squamosusque draco et fulva cervice leaena,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1376" n="409">
+          aut acrem flammae sonitum dabit atque ita vinclis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1380" n="410">
+          excidet, aut in aquas tenues dilapsus abibit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1383" n="411">
+          Sed quanto ille magis formas se vertet in omnes,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1386" n="412">
+          tanto, nate, magis contende tenacia vincla,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1389" n="413">
+          donec talis erit mutato corpore, qualem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1392" n="414">
+          videris, incepto tegeret cum lumina somno.”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1398" n="415">
+          Haec ait et liquidum ambrosiae defundit odorem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1401" n="416">
+          quo totum nati corpus perduxit; at illi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1404" n="417">
+          dulcis compositis spiravit crinibus aura
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1407" n="418">
+          atque habilis membris venit vigor. Est specus ingens
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1410" n="419">
+          exesi latere in montis, quo plurima vento
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1413" n="420">
+          cogitur inque sinus scindit sese unda reductos,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1417" n="421">
+          deprensis olim statio tutissima nautis;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1420" n="422">
+          intus se vasti Proteus tegit obice saxi.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1423" n="423">
+          Hic iuvenem in latebris aversum a lumine Nympha
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1426" n="424">
+          collocat; ipsa procul nebulis obscura resistit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1429" n="425">
+          Iam rapidus torrens sitientes Sirius Indos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1432" n="426">
+          ardebat, caelo et medium sol igneus orbem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1436" n="427">
+          hauserat; arebant herbae et cava flumina siccis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1439" n="428">
+          faucibus ad limum radii tepefacta coquebant:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1442" n="429">
+          cum Proteus consueta petens e fluctibus antra
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1445" n="430">
+          ibat; eum vasti circum gens umida ponti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1448" n="431">
+          exsultans rorem late dispergit amarum.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1451" n="432">
+          Sternunt se somno diversae in litore phocae.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1455" n="433">
+          Ipse, velut stabuli custos in montibus olim,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1458" n="434">
+          vesper ubi e pastu vitulos ad tecta reducit,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1461" n="435">
+          auditisque lupos acuunt balatibus agni,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1464" n="436">
+          considit scopulo medius numerumque recenset.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1467" n="437">
+          Cuius Aristaeo quoniam est oblata facultas,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1470" n="438">
+          vix defessa senem passus componere membra
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1474" n="439">
+          cum clamore ruit magno manicisque iacentem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1477" n="440">
+          occupat. Ille suae contra non immemor artis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1480" n="441">
+          omnia transformat sese in miracula rerum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1483" n="442">
+          ignemque horribilemque feram fluviumque liquentem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1486" n="443">
+          Verum ubi nulla fugam reperit fallacia, victus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1489" n="444">
+          in sese redit atque hominis tandem ore locutus:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1493" n="445">
+          “Nam quis te, iuvenum confidentissime, nostras
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1496" n="446">
+          iussit adire domos? Quidve hinc petis?” inquit. At ille:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1499" n="447">
+          “Scis, Proteu, scis ipse; neque est te fallere quicquam
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1502" n="448">
+          sed tu desine velle. Deum praecepta secuti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1505" n="449">
+          venimus hinc lapsis quaesitum oracula rebus.”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1508" n="450">
+          Tantum effatus. Ad haec vates vi denique multa
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1512" n="451">
+          ardentes oculos intorsit lumine glauco
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1515" n="452">
+          et graviter frendens sic fatis ora resolvit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1520" n="453">
+          “Non te nullius exercent numinis irae;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1523" n="454">
+          magna luis commissa: tibi has miserabilis Orpheus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1526" n="455">
+          haudquaquam ob meritum poenas, ni fata resistant,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1530" n="456">
+          suscitat et rapta graviter pro coniuge saevit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1533" n="457">
+          Illa quidem, dum te fugeret per flumina praeceps,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1536" n="458">
+          immanem ante pedes hydrum moritura puella
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1539" n="459">
+          servantem ripas alta non vidit in herba.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1542" n="460">
+          At chorus aequalis Dryadum clamore supremos
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1545" n="461">
+          implerunt montes; flerunt Rhodopeiae arces
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1549" n="462">
+          altaque Pangaea et Rhesi mavortia tellus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1552" n="463">
+          atque Getae atque Hebrus et Actias Orithyia.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1555" n="464">
+          Ipse cava solans aegrum testudine amorem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1558" n="465">
+          te, dulcis coniunx, te solo in litore secum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1561" n="466">
+          te veniente die, te decedente canebat.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1564" n="467">
+          Taenarias etiam fauces, alta ostia Ditis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1568" n="468">
+          et caligantem nigra formidine lucum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1571" n="469">
+          ingressus manesque adiit regemque tremendum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1574" n="470">
+          nesciaque humanis precibus mansuescere corda.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1577" n="471">
+          At cantu commotae Erebi de sedibus imis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1580" n="472">
+          umbrae ibant tenues simulacraque luce carentum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1583" n="473">
+          quam multa in foliis avium se milia condunt
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1587" n="474">
+          vesper ubi aut hibernus agit de montibus imber,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1590" n="475">
+          matres atque viri defunctaque corpora vita
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1593" n="476">
+          magnanimum heroum, pueri innuptaeque puellae,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1596" n="477">
+          impositique rogis iuvenes ante ora parentum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1599" n="478">
+          quos circum limus niger et deformis harundo
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1602" n="479">
+          Cocyti tardaque palus inamabilis unda
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1606" n="480">
+          alligat et noviens Styx interfusa coercet.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1609" n="481">
+          Quin ipsae stupuere domus atque intima Leti
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1612" n="482">
+          tartara caeruleosque implexae crinibus angues
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1615" n="483">
+          Eumenides, tenuitque inhians tria Cerberus ora
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1618" n="484">
+          atque Ixionii vento rota constitit orbis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1621" n="485">
+          Iamque pedem referens casus evaserat omnes;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1625" n="486">
+          redditaque Eurydice superas veniebat ad auras,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1628" n="487">
+          pone sequens, namque hanc dederat Proserpina legem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1631" n="488">
+          cum subita incautum dementia cepit amantem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1634" n="489">
+          ignoscenda quidem, scirent si ignoscere manes.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1637" n="490">
+          Restitit Eurydicenque suam iam luce sub ipsa
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1640" n="491">
+          immemor heu! victusque animi respexit. Ibi omnis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1644" n="492">
+          effusus labor atque immitis rupta tyranni
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1647" n="493">
+          foedera, terque fragor stagnis auditus Avernis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1652" n="494">
+          Illa, “Quis et me,” inquit, “miseram et te perdidit, Orpheu,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1655" n="495">
+          quis tantus furor? En iterum crudelia retro
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1658" n="496">
+          Fata vocant, conditque natantia lumina somnus.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1662" n="497">
+          Iamque vale: feror ingenti circumdata nocte
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1665" n="498">
+          invalidasque tibi tendens, heu non tua, palmas!”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1668" n="499">
+          dixit et ex oculis subito, ceu fumus in auras
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1671" n="500">
+          commixtus tenues, fugit diversa, neque illum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1674" n="501">
+          prensantem nequiquam umbras et multa volentem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1677" n="502">
+          dicere, praeterea vidit, nec portitor Orci
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1681" n="503">
+          amplius obiectam passus transire paludem.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1684" n="504">
+          Quid faceret? Quo se rapta bis coniuge ferret?
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1687" n="505">
+          Quo fletu Manis, quae numina voce moveret?
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1690" n="506">
+          Illa quidem Stygia nabat iam frigida cumba.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1693" n="507">
+          Septem illum totos perhibent ex ordine menses
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1696" n="508">
+          rupe sub aeria deserti ad Strymonis undam
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1700" n="509">
+          flesse sibi et gelidis haec evolvisse sub antris
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1703" n="510">
+          mulcentem tigres et agentem carmine quercus;
+        </l>
+        
+        
+        
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.511-515 -->
+        <l resp="#PVM" xml:id="d1e1706" n="511">
+          <seg xml:id="qh2_v2u_go7">qualis</seg>
+          <seg xml:id="rr7_hm8_ny4">populea</seg> 
+          <seg xml:id="dds_sjf_p2c">maerens</seg> 
+          <seg xml:id="l77_qjr_aq7">philomela</seg> 
+          <seg xml:id="lcb_o46_ccq">sub umbra</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1709" n="512">
+          <seg xml:id="r4f_zjf_p2c">amissos</seg> 
+          <seg xml:id="rr7_ohs_d5c">queritur</seg> 
+          <seg xml:id="kbn_i8h_vwk">fetus</seg>, 
+          quos 
+          <seg xml:id="ilh_beg_nwp">durus</seg> 
+          <seg xml:id="qcw_x8l_onc">arator</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1712" n="513">
+          <seg xml:id="szr_2pf_p2c">observans</seg> 
+          <seg xml:id="a80_z4z_cn6">nido</seg> 
+          <seg xml:id="dbg_yc0_oid">implumes</seg> 
+          <seg xml:id="icq_jhy_uj9">detraxit</seg>; 
+          at illa
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1715" n="514">
+          <seg xml:id="qyo_sg2_c49">flet</seg> 
+          <seg xml:id="l4j_gbw_koo">noctem</seg> 
+          <seg xml:id="k7r_qhe_gnp">ramoque</seg> 
+          <seg xml:id="jl3_g4f_p2c">sedens</seg> 
+          <seg xml:id="hwz_m2b_w40">miserabile</seg> 
+          <seg xml:id="r2t_m2d_e0n">carmen</seg>
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1719" n="515">
+          <seg xml:id="u3j_bpf_p2c">integrat</seg> 
+          et 
+          <seg xml:id="u37_wd0_lxj">maestis</seg> 
+          <seg xml:id="h29_r18_ex6">late</seg> 
+          <seg xml:id="uxb_ykf_p2c">loca</seg> 
+          <seg xml:id="prg_w4f_p2c">questibus</seg>
+          <seg xml:id="qd2_wkf_p2c">implet</seg>.
+        </l>
+        
+        <!-- fin fragmento -->
+        
+        
+        <l resp="#PVM" xml:id="d1e1722" n="516">
+          Nulla Venus, non ulli animum flexere hymenaei.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1725" n="517">
+          Solus Hyperboreas glacies Tanaimque nivalem
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1728" n="518">
+          arvaque Rhipaeis numquam viduata pruinis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1731" n="519">
+          lustrabat raptam Eurydicen atque inrita Ditis
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1734" n="520">
+          dona querens; spretae Ciconum quo munere matres
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1738" n="521">
+          inter sacra deum nocturnique orgia Bacchi
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1741" n="522">
+          discerptum latos iuvenem sparsere per agros.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1744" n="523">
+          Tum quoque marmorea caput a cervice revulsum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1747" n="524">
+          gurgite cum medio portans Oeagrius Hebrus
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1750" n="525">
+          volveret, Eurydicen vox ipsa et frigida lingua
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1753" n="526">
+          “ah miseram Eurydicen!” anima fugiente vocabat:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1757" n="527">
+          “Eurydicen” toto referebant flumine ripae.”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1762" n="528">
+          Haec Proteus, et se iactu dedit aequor in altum,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1765" n="529">
+          quaque dedit, spumantem undam sub vertice torsit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1768" n="530">
+          At non Cyrene; namque ultro adfata timentem:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1771" n="531">
+          “Nate, licet tristes animo deponere curas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1775" n="532">
+          Haec omnis morbi causa; hinc miserabile Nymphae,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1778" n="533">
+          cum quibus illa choros lucis agitabat in altis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1781" n="534">
+          exitium misere apibus. Tu munera supplex
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1784" n="535">
+          tende petens pacem et faciles venerare Napaeas;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1787" n="536">
+          namque dabunt veniam votis irasque remittent.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1790" n="537">
+          Sed modus orandi qui sit, prius ordine dicam.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1794" n="538">
+          Quattuor eximios praestanti corpore tauros,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1797" n="539">
+          qui tibi nunc viridis depascunt summa Lycaei,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1800" n="540">
+          delige et intacta totidem cervice iuvencas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1803" n="541">
+          Quattuor his aras alta ad delubra dearum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1806" n="542">
+          constitue et sacrum iugulis demitte cruorem,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1809" n="543">
+          corporaque ipsa boum frondoso desere luco.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1813" n="544">
+          Post, ubi nona suos Aurora ostenderit ortus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1816" n="545">
+          inferias Orphei Lethaea papavera mittes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1819" n="546">
+          et nigram mactabis ovem lucumque revises:
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1822" n="547">
+          placatam Eurydicen vitula venerabere caesa.”
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1827" n="548">
+          Haud mora; continuo matris praecepta facessit;
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1831" n="549">
+          ad delubra venit, monstratas excitat aras,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1834" n="550">
+          quattuor eximios praestanti corpore tauros
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1837" n="551">
+          ducit et intacta totidem cervice iuvencas.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1840" n="552">
+          Post, ubi nona suos Aurora induxerat ortus,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1843" n="553">
+          inferias Orphei mittit lucumque revisit.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1846" n="554">
+          Hic vero subitum ac dictu mirabile monstrum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1850" n="555">
+          adspiciunt, liquefacta boum per viscera toto
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1853" n="556">
+          stridere apes utero et ruptis effervere costis,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1856" n="557">
+          immensasque trahi nubes, iamque arbore summa
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1859" n="558">
+          confluere et lentis uvam demittere ramis.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1864" n="559">
+          Haec super arvorum cultu pecorumque canebam
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1868" n="560">
+          et super arboribus, Caesar dum magnus ad altum
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1871" n="561">
+          fulminat Euphraten bello victorque volentes
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1874" n="562">
+          per populos dat iura viamque adfectat Olympo.
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1877" n="563">
+          Illo Vergilium me tempore dulcis alebat
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1880" n="564">
+          Parthenope studiis florentem ignobilis oti,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1883" n="565">
+          carmina qui lusi pastorum audaxque iuventa,
+        </l>
+        
+        
+        <l resp="#PVM" xml:id="d1e1887" n="566">
+          Tityre, te patulae cecini sub tegmine fagi.
+        </l>
+        
+      </div>
+    </body>
+  </text>
+</TEI>

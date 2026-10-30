@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"
+  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Geórgicas</title>
+        <author>Virgilio</author>
+        <editor role="translator" xml:id="NVC">
+          Nicolás Vaughan
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <p> 
+          <date>2025</date> 
+        </p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Nacido digital.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <!--  <StandOff> -->
+  <xi:include href="atributos.xml" parse="xml" />
+  <!--  </StandOff> --> 
+  <text xml:lang="es">
+    <body>
+      <div n="4">
+        
+        <!-- inicio fragmento vv. 4.281-4.294 -->
+        <l resp="#NVC" xml:id="nd1e956" source="#d1e956"
+          corresp="281">
+          <!--Sed si quem proles subito 
+            defecerit omnis,-->
+          Pero si a alguien
+          súbitamente le faltara
+          toda la prole
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e959" source="#d1e959"
+          corresp="282">
+          <!--nec genus unde novae stirpis
+            revocetur habebit,-->
+          y no poseyera el género/linaje
+          de la nueva estirpe
+          de dónde renovarla
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e962" source="#d1e962"
+          corresp="283">
+          <!--tempus et
+            Arcadii memoranda inventa magistri-->
+          es tiempo incluso de revelar los memorables
+          inventos del maestro arcadio
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e965" source="#d1e965"
+          corresp="284">
+          <!--pandere, 
+            quoque modo caesis 
+            iam saepe iuvencis-->
+          y el modo como, con frecuencia,
+          a partir de los novillos muertos,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e968" source="#d1e968"
+          corresp="285">
+          <!--insincerus apes tulerit cruor. 
+            Altius omnem-->
+          la sangre pútrida
+          produjo abejas. |
+          Muy profundamente/completamente, 
+          toda
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e971" source="#d1e971"
+          corresp="286">
+          <!--expediam primā repetens ab origine famam.-->
+          la historia/leyenda narraré, volviendo a ella 
+          desde su primer origen.
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e975" source="#d1e975"
+          corresp="287">
+          <!--Nam qua Pellaei gens fortunata Canopi-->
+          Pues donde el afortunado pueblo de 
+          peleo Canopo
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e978" source="#d1e978"
+          corresp="288">
+          <!--accolit effuso stagnantem flumine Nilum-->
+          habita el Nilo, que
+          al desbordarse
+          cubre las tierras,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e981" source="#d1e981"
+          corresp="289">
+          <!--et circum pictis vehitur sua rura phaselis,-->
+          y en torno a sus campos se navega 
+          en barcas decoradas
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e984" source="#d1e984"
+          corresp="290">
+          <!--quaque pharetratae vicinia Persidis urget,-->
+          y donde la vecindad 
+          de la Persia de aljaba 
+          ataca
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e987" source="#d1e987"
+          corresp="291">
+          <!-- unremarkable -->
+          <!--et viridem Aegyptum nīgrā fecundat harenā,-->
+          y con su arena negra
+          fertiliza al verde Egipto
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e993" source="#d1e993"
+          corresp="292">
+          <!-- unremarkable -->
+          <!--et diversa ruens septem discurrit in ora--> 
+          y corre precipitándose
+          hacia siete bocas diferentes
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1000" source="#d1e1000"
+          corresp="293">
+          <!-- unremarkable -->
+          <!--usque coloratis amnis devexus ab Indis-->
+          el río, descendiendo continuamente
+          desde 
+          [[la tierra de]]
+          los morenos/bronceados etíopes,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1006" source="#d1e1006"
+          corresp="294">
+          <!--omnis in hac certam regio 
+            iacit arte salutem.--> 
+          toda la región establece su salvación segura
+          en este arte [sc. la apicultura].
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1009"
+          source="#d1e1009 #d1e1012"
+          corresp="295 296">
+          <!-- Exiguus primum atque ipsos contractus in usus-->
+          Primero se elige un lugar pequeño y reducido
+          para [esos] usos mismos;
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1012"
+          source="#d1e1012"
+          corresp="296">
+          <!--eligitur locus; 
+            hunc angustique imbrice tecti-->
+          tanto con teja(s) de un techo angosto 
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1015"
+          source="#d1e1015"
+          corresp="297">
+          como con paredes estrechas,
+          encierran este [lugar],
+          y le añaden cuatro
+          <!--parietibusque premunt artis 
+            et quattuor addunt -->
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1018"
+          source="#d1e1018"
+          corresp="298">
+          <!--quattuor a ventis obliqua luce fenestras.-->
+          ventanas, de luz oblicua/indirecta,
+          [lejos] de los cuatro vientos.
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1022"
+          source="#d1e1022"
+          corresp="299">
+          <!--Tum vitulus bima curvans iam cornua fronte-->
+          entonces →se busca← un ternero que curva ya
+          en su frente cuernos bienales;
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1025"
+          source="#d1e1025"
+          corresp="300">
+          <!--quaeritur; huic geminae nares et spiritus oris-->
+          a este sus dos narinas y 
+          el aliento de su boca
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1028"
+          source="#d1e1028"
+          corresp="301">
+          <!--multă reluctanti obstruitur, 
+            plagisque perempto-->
+          le son obstruidos,
+          aunque mucho se resista,
+          y, tras ser muerto a golpes,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1031"
+          source="#d1e1031"
+          corresp="302">
+          <!--tunsa per integram solvuntur viscera pellem.-->
+          sus entrañas se deshacen, maceradas
+          a través de la piel entera.
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1034"
+          source="#d1e1034"
+          corresp="303">
+          <!--Sic positum in clauso linquunt et ramea costis-->
+          Lo abandonan, dejándolo así en su encierro,
+          y bajo sus costillas 
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1037"
+          source="#d1e1037"
+          corresp="304">
+          <!--subiciunt fragmenta, thymum casiasque recentes.-->
+          arrojan trozos de ramas, tomillo
+          y casias frescas.
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1041"
+          source="#d1e1041"
+          corresp="305">
+          <!--Hoc geritur Zephyris primum impellentibus undas,-->
+          Esto ocurre cuando los céfiros 
+          primero impulsan las olas,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1044"
+          source="#d1e1044"
+          corresp="306">
+          <!--ante novis rubeant quam prata coloribus, ante-->
+          antes que los prados se enrojezcan
+          nuevos colores, antes
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1047"
+          source="#d1e1047"
+          corresp="307">
+          <!--garrula quam tignis nidum suspendat hirundo.-->
+          que la locuaz golondrina
+          suspenda su nido en las vigas.
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1050"
+          source="#d1e1050"
+          corresp="308">
+          <!--Interea teneris tepefactus in ossibus umor-->
+          Mientras tanto,
+          un líquido tibio
+          en los tiernos huesos
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1053"
+          source="#d1e1053"
+          corresp="309">
+          <!--aestuat et visenda modis animalia miris,-->
+          <seg source="#xz4_sgg_s2c">
+            hierve
+          </seg>,
+          y unos animales que han de ser contemplados
+          por sus modos admirables,
+        </l>
+        <note type="editorial">
+          Heine-Wagner (a.l.) comentan:
+          "'Aestuat', fermentescit. 
+          Rem disertius expositam vide in Florenini loco, 
+          p. 405 ext...".
+          De pronto este es el origen de la traducción
+          "fermenta" en español.
+        </note>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1056"
+          source="#d1e1056"
+          corresp="310">
+          <!--trunca pedum primo, mox et stridentia pennis,-->
+          primero truncos de patas,
+          luego con estridentes plumas también,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1060"
+          source="#d1e1060"
+          corresp="311">
+          <!--miscentur tenuemque magis magis aera carpunt,-->
+          <!-- "aera" acc.sg. m -->
+          se enjambran y más y más arrancan el tenue aire 
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1063"
+          source="#d1e1063"
+          corresp="312">
+          <!--donec, ut aestivis effusus nubibus imber,-->
+          hasta que, 
+          como la lluvia derramada 
+          por las nubes estivales,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1066"
+          source="#d1e1066"
+          corresp="313">
+          <!--erupere aut ut nervo pulsante sagittae,-->
+          <!-- ērūpērĕ: perf.ind.act.3.pl -->
+          brotan violentamente,
+          o como [lo hacen] las flechas
+          por la cuerda que las impulsa,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1069"
+          source="#d1e1069"
+          corresp="314">
+          <!--prima leves ineunt 
+            si quando proelia Parthi.-->
+          cuando los ligeros [guerreros] partos
+          avanzan a los primeros combates.
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1074"
+          source="#d1e1074"
+          corresp="315">
+          <!-- Quis deus hanc, Musae, 
+            quis nobis extudit artem?-->
+          ¿Qué dios, oh musas,
+          cuál forjó para nosotros esta arte?
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="nd1e1078" 
+          source="#d1e1078" 
+          corresp="316">
+          <!--Unde nova ingressus hominum experientia cepit?-->
+          ¿De dónde esta nueva experiencia de los hombres
+          tomó sus comienzos?
+        </l>
+        <!-- fin fragmento vv. 4.281-4.316 -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        
+        
+        
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!--  ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓ -->
+        <!-- inicio fragmento vv. 4.511-515 -->
+        <l resp="#NVC" xml:id="wj4_r52_p2c" source="#d1e1706"
+          corresp="511">
+          <!-- qualis populea maerens philomela sub umbra-->
+          cual el ruiseñor/la Filomela que, 
+          lamentándose bajo 
+          la sombra alamera,
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="ogs_r52_p2c" source="#d1e1709"
+          corresp="512">
+          <!-- amissos queritur fetus, quos durus arator-->
+          se queja de sus crías perdidas,
+          que el duro labrador,
+        </l>
+        
+        <l resp="#NVC" xml:id="k4b_s52_p2c" source="#d1e1712"
+          corresp="513">
+          <!-- observans nido implumes detraxit; at illa-->
+          vigilando,
+          las sustrajo implumes de su nido;
+          mas ella
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="sy2_s52_p2c" source="#d1e1715"
+          corresp="514">
+          <!-- flet noctem ramoque sedens miserabile carmen -->
+          llora durante la noche,
+          y sentada en una rama, 
+          su miserable canto
+        </l>
+        
+        
+        <l resp="#NVC" xml:id="apj_s52_p2c" source="#d1e1719"
+          corresp="515">
+          <!-- integrat et maestis late loca 
+            questibus implet.-->
+          renueva/reintegra, <!--integrat-->
+          y con/de sus tristes quejidos 
+          llena los lugares por doquier.
+        </l>
+        
+        
+        <!-- fin fragmento vv.4.511-4.515-->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+        <!-- ↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑↑ -->
+      </div>
+    </body>
+  </text>
+</TEI>
